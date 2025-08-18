@@ -1,0 +1,9 @@
+datum,speler1,speler2,score1,score2
+2025-08-01,Chris,Diego,2,1
+2025-08-01,Jari,Chris,0,2
+2025-08-01,Kurt,Chris,0,2
+2025-08-01,Diego,Jari,2,0
+2025-08-01,Kurt,Jari,2,1
+2025-08-01,Diego,Kurt,1,2
+2025-08-08,Hannek,Kurt,2,1
+2025-08-08,Diego,Jari,2,0
