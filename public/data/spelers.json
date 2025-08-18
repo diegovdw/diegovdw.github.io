@@ -1,0 +1,238 @@
+[
+  {
+    "naam": "Chris",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "verloren": 0,
+    "legsPlus": 6,
+    "legsMin": 1,
+    "punten": 6,
+    "matchen": [
+      {
+        "id": "2025-08-01_Chris_vs_Diego_2-1",
+        "datum": "2025-08-01",
+        "tegenstander": "Diego",
+        "uitslag": "2-1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Jari_vs_Chris_0-2",
+        "datum": "2025-08-01",
+        "tegenstander": "Jari",
+        "uitslag": "2-0",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Kurt_vs_Chris_0-2",
+        "datum": "2025-08-01",
+        "tegenstander": "Kurt",
+        "uitslag": "2-0",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-08-01_Chris_2",
+        "datum": "2025-08-01",
+        "hoeveelheid": 2
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-08-01",
+        "score": 80,
+        "hoeveelheid": 1
+      }
+    ]
+  },
+  {
+    "naam": "Diego",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "verloren": 2,
+    "legsPlus": 4,
+    "legsMin": 4,
+    "punten": 4,
+    "matchen": [
+      {
+        "id": "2025-08-01_Chris_vs_Diego_2-1",
+        "datum": "2025-08-01",
+        "tegenstander": "Chris",
+        "uitslag": "1-2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Diego_vs_Jari_2-0",
+        "datum": "2025-08-01",
+        "tegenstander": "Jari",
+        "uitslag": "2-0",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Diego_vs_Kurt_1-2",
+        "datum": "2025-08-01",
+        "tegenstander": "Kurt",
+        "uitslag": "1-2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-08_Diego_vs_Jari_2-0",
+        "datum": "2025-08-08",
+        "tegenstander": "Jari",
+        "uitslag": "2-0",
+        "puntenTellen": false
+      }
+    ],
+    "boetes": [],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-08-01",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-08-01",
+        "score": 80,
+        "hoeveelheid": 1
+      }
+    ]
+  },
+  {
+    "naam": "Jari",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "verloren": 3,
+    "legsPlus": 1,
+    "legsMin": 6,
+    "punten": 1,
+    "matchen": [
+      {
+        "id": "2025-08-01_Jari_vs_Chris_0-2",
+        "datum": "2025-08-01",
+        "tegenstander": "Chris",
+        "uitslag": "0-2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Diego_vs_Jari_2-0",
+        "datum": "2025-08-01",
+        "tegenstander": "Diego",
+        "uitslag": "0-2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Kurt_vs_Jari_2-1",
+        "datum": "2025-08-01",
+        "tegenstander": "Kurt",
+        "uitslag": "1-2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-08_Diego_vs_Jari_2-0",
+        "datum": "2025-08-08",
+        "tegenstander": "Diego",
+        "uitslag": "0-2",
+        "puntenTellen": false
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-08-01_Jari_5",
+        "datum": "2025-08-01",
+        "hoeveelheid": 5
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": []
+  },
+  {
+    "naam": "Kurt",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "verloren": 1,
+    "legsPlus": 4,
+    "legsMin": 4,
+    "punten": 4,
+    "matchen": [
+      {
+        "id": "2025-08-01_Kurt_vs_Chris_0-2",
+        "datum": "2025-08-01",
+        "tegenstander": "Chris",
+        "uitslag": "0-2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Kurt_vs_Jari_2-1",
+        "datum": "2025-08-01",
+        "tegenstander": "Jari",
+        "uitslag": "2-1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-01_Diego_vs_Kurt_1-2",
+        "datum": "2025-08-01",
+        "tegenstander": "Diego",
+        "uitslag": "2-1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-08-08_Hannek_vs_Kurt_2-1",
+        "datum": "2025-08-08",
+        "tegenstander": "Hannek",
+        "uitslag": "1-2",
+        "puntenTellen": false
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-08-01_Kurt_2",
+        "datum": "2025-08-01",
+        "hoeveelheid": 2
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-08-01",
+        "score": 140,
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteUitworpen": []
+  },
+  {
+    "naam": "Hannek",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "verloren": 0,
+    "legsPlus": 2,
+    "legsMin": 1,
+    "punten": 2,
+    "matchen": [
+      {
+        "id": "2025-08-08_Hannek_vs_Kurt_2-1",
+        "datum": "2025-08-08",
+        "tegenstander": "Kurt",
+        "uitslag": "2-1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-08-01_Hannek_1",
+        "datum": "2025-08-01",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-08-01",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": []
+  }
+]

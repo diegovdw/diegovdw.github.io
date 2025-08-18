@@ -1,0 +1,25 @@
+[
+  {
+    "datum": "2025-08-01",
+    "speler": "Jan Peeters",
+    "hoogsteWorp": 140,
+    "hoogsteUitworp": 130
+  },
+  {
+    "datum": "2025-08-01",
+    "speler": "Tom Vermeulen",
+    "hoogsteWorp": 100,
+    "hoogsteUitworp": 95
+  },
+  {
+    "datum": "2025-08-08",
+    "speler": "Piet Janssen",
+    "hoogsteWorp": 180,
+    "hoogsteUitworp": 160
+  },
+  {
+    "datum": "2025-08-01",
+    "speler": "Jan Peeters",
+    "hoogsteUitworp": 170
+  }
+]

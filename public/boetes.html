@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Dartsclub Klassement</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      padding: 0.6em;
+      border-bottom: 1px solid #ccc;
+      text-align: left;
+    }
+    .details {
+      font-size: 0.9em;
+      color: #666;
+    }
+    .hidden {
+      display: none;
+    }
+    button {
+      background: none;
+      border: none;
+      color: #007bff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>De Transpiekers</h1>
+    <nav>
+      <a href="index.html">Klassement</a> |
+      <a href="kalender.html">Kalender</a> |
+      <a href="boetes.html">Boetes</a> |
+      <a href="aanwezigheden.html">Aanwezigheden</a>
+    </nav>
+  </header>
+  <main>
+      <h1>Boete-overzicht spelers</h1>
+
+      <table id="boetetabel">
+          <thead>
+          <tr>
+              <th>#</th>
+              <th>Speler</th>
+              <th>Aantal boetes</th>
+              <th>Totaalbedrag</th>
+              <th>Details</th>
+          </tr>
+          </thead>
+          <tbody id="boetelijst"></tbody>
+      </table>
+  </main>
+  <script src="js/boetes.js"></script>
+</body>
+</html>
