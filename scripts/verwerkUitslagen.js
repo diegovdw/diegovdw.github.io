@@ -2,35 +2,41 @@ const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
 
-const uitslagenPad = path.join(__dirname, '../input/uitslagen.csv');
-const boetesPad = path.join(__dirname, '../input/boetes.csv');
-const scoresPad = path.join(__dirname, '../input/hoogste_worp.csv');
-const spelersPad = path.join(__dirname, '../public/data/spelers.json');
-const ranglijstenPad = path.join(__dirname, '../public/data/ranglijsten.json');
-const kalenderPad = path.join(__dirname, '../public/data/kalender.json');
+const uitslagenPad = path.join(__dirname, '../input/uitslagen.csv'); //datum,speler1,speler2,score1,score2
+const boetesPad = path.join(__dirname, '../input/boetes.csv');  //datum,speler,hoeveelheid
+const scoresPad = path.join(__dirname, '../input/hoogste_worp.csv');  //datum,speler,score,hoeveelheid,type
+const spelersPad = path.join(__dirname, '../docs/data/spelers.json');
+const ranglijstenPad = path.join(__dirname, '../docs/data/ranglijsten.json');
+const kalenderPad = path.join(__dirname, '../docs/data/kalender.json');
 
 const uitslagen = [];
 const spelers = [];
 const gespeeldeMatchIds = new Set();
 const ranglijsten = [];
-const speeldagTypes = {};       // Voor lookup van speeldag vs inhaal
-const puntenPerSpeeldag = {};   // Om bij te houden wie al punten kreeg op een speeldag
+const kalender = JSON.parse(fs.readFileSync(kalenderPad));
 
 function magPuntenKrijgen(speler, inhaalDatum, kalender) {
-  // Filter alle reguliere speeldagen vóór de inhaaldatum
-  const gespeeldeSpeeldagen = kalender
+  if (!speler.matchen) return false;
+
+  // 1. Speeldagen vóór inhaaldatum
+  const eerdereSpeeldagen = kalender
     .filter(d => d.type === 'speeldag' && d.datum < inhaalDatum)
     .map(d => d.datum);
 
-  // Zoek op welke speeldagen deze speler effectief een match speelde
-  const gespeeldeDatums = speler.matchen
-    .filter(m => gespeeldeSpeeldagen.includes(m.datum))
+  // 2. Op welke daarvan was de speler aanwezig?
+  const gespeeldeSpeeldagen = speler.matchen
+    .filter(m => eerdereSpeeldagen.includes(m.datum))
     .map(m => m.datum);
 
-  // Zit er een speeldag bij die hij niet gespeeld heeft? → Dan mag hij inhalen
-  const gemisteSpeeldagen = gespeeldeSpeeldagen.filter(d => !gespeeldeDatums.includes(d));
+  const gemisteSpeeldagen = eerdereSpeeldagen.filter(d => !gespeeldeSpeeldagen.includes(d)).length;
 
-  return gemisteSpeeldagen.length > 0;
+  // 3. Hoeveel inhaalmatchen speelde deze speler al vóór deze datum waar puntenTellen = true
+  const eerdereInhaalmatches = speler.matchen
+    .filter(m => m.datum < inhaalDatum && m.puntenTellen === true)
+    .length;
+
+  // 4. Speler mag punten krijgen als hij nog een gemiste speeldag moet compenseren
+  return eerdereInhaalmatches < gemisteSpeeldagen;
 }
 
 function genereerMatchID(datum, speler1, speler2, score1, score2) {
@@ -54,19 +60,32 @@ function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander,
       matchen: [],
       boetes: [],
       hoogsteWorpen: [],
-      hoogsteUitworpen: []
+      hoogsteUitworpen: [],
+      vorigeData: {
+        gespeeld: 0,
+        gewonnen: 0,
+        verloren: 0,
+        legsPlus: 0,
+        legsMin: 0,
+        punten: 0
+      }
     };
     spelers.push(speler);
   }
 
   const bestaatAl = speler.matchen.some(m => m.id === matchId);
   if (bestaatAl) return;
-
-  // const alPuntenOpDatum = puntenPerSpeeldag[datum]?.[naam] === true;
-  // const magPuntenKrijgen = !isInhaal || !alPuntenOpDatum;
-
   
   if (puntenTellen) {
+    // Update Vorige Data
+    speler.vorigeData.gespeeld = speler.gespeeld
+    speler.vorigeData.gewonnen = speler.gewonnen
+    speler.vorigeData.verloren = speler.verloren
+    speler.vorigeData.legsPlus = speler.legsPlus
+    speler.vorigeData.legsMin = speler.legsMin
+    speler.vorigeData.punten = speler.punten
+
+    // Update Current Data
     speler.gespeeld += 1;
     speler.gewonnen += gewonnen;
     speler.verloren += verloren;
@@ -106,7 +125,7 @@ function genereerRanglijstenPerSpeeldag() {
       const uitslag1 = `${score1}-${score2}`;
       const uitslag2 = `${score2}-${score1}`;
 
-      const isInhaal = speeldagTypes[datum] === 'inhaal';
+      const isInhaal = kalender.find(k => k.datum === datum)?.type === 'inhaal';
 
       const speler1Obj = spelers.find(s => s.naam === speler1) || { matchen: [] };
       const speler2Obj = spelers.find(s => s.naam === speler2) || { matchen: [] };
@@ -122,7 +141,8 @@ function genereerRanglijstenPerSpeeldag() {
     const gesorteerd = [...spelers].sort((a, b) => b.punten - a.punten);
     const klassement = gesorteerd.map((speler, index) => ({
       naam: speler.naam,
-      positie: index + 1
+      positie: index + 1,
+      punten: speler.punten
     }));
 
     ranglijsten.push({
@@ -227,13 +247,6 @@ const leesScores = () => {
       .on('error', reject);
   });
 };
-
-const kalenderData = JSON.parse(fs.readFileSync(kalenderPad));
-kalenderData.forEach(item => {
-  speeldagTypes[item.datum] = item.type; // 'speeldag' of 'inhaal'
-});
-
-const kalender = JSON.parse(fs.readFileSync(kalenderPad));
 
 fs.createReadStream(uitslagenPad)
   .pipe(csv())

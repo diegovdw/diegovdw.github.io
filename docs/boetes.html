@@ -2,60 +2,51 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Dartsclub Klassement</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1em;
-    }
-    th, td {
-      padding: 0.6em;
-      border-bottom: 1px solid #ccc;
-      text-align: left;
-    }
-    .details {
-      font-size: 0.9em;
-      color: #666;
-    }
-    .hidden {
-      display: none;
-    }
-    button {
-      background: none;
-      border: none;
-      color: #007bff;
-      cursor: pointer;
-    }
-  </style>
+  <title>Boetes</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="assets/images/logo_transpiekers.png">
 </head>
-<body>
-  <header>
-    <h1>De Transpiekers</h1>
-    <nav>
-      <a href="index.html">Klassement</a> |
-      <a href="kalender.html">Kalender</a> |
-      <a href="boetes.html">Boetes</a> |
-      <a href="aanwezigheden.html">Aanwezigheden</a>
-    </nav>
-  </header>
-  <main>
-      <h1>Boete-overzicht spelers</h1>
+<body class="bg-gray-100 flex flex-col h-screen">
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+  
+  <!-- MAIN -->
+  <main class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow">
 
-      <table id="boetetabel">
-          <thead>
+    <!-- Page Title -->
+    <div class="mb-8">
+      <h3 class="text-2xl font-semibold text-gray-900">Boetes</h3>
+    </div>
+
+    <!-- Boetes row -->
+    <div class="overflow-x-auto rounded-xl shadow-sm w-full">
+      <table class="min-w-full border-collapse" id="boetes">
+        <thead class="bg-[#76A936]">
           <tr>
-              <th>#</th>
-              <th>Speler</th>
-              <th>Aantal boetes</th>
-              <th>Totaalbedrag</th>
-              <th>Details</th>
+            <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">#</th>
+            <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900 sticky left-0 h-fit bg-[#76A936]">Speler</th>
+            <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Aantal boetes</th>
+            <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Totaalbedrag</th>
+            <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Details</th>
           </tr>
-          </thead>
-          <tbody id="boetelijst"></tbody>
+        </thead>
+        <tbody class="divide-y divide-gray-200 bg-white">
+        </tbody>
+        <tfoot class="divide-y divide-gray-200 bg-white">
+
+        </tfoot>
       </table>
+    </div>
+
   </main>
-  <script src="js/boetes.js"></script>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
