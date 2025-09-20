@@ -5,15 +5,21 @@ const csv = require('csv-parser');
 const uitslagenPad = path.join(__dirname, '../input/uitslagen.csv'); //datum,speler1,speler2,score1,score2
 const boetesPad = path.join(__dirname, '../input/boetes.csv');  //datum,speler,hoeveelheid
 const scoresPad = path.join(__dirname, '../input/hoogste_worp.csv');  //datum,speler,score,hoeveelheid,type
-const spelersPad = path.join(__dirname, '../docs/data/spelers.json');
-const ranglijstenPad = path.join(__dirname, '../docs/data/ranglijsten.json');
-const kalenderPad = path.join(__dirname, '../docs/data/kalender.json');
+const spelersPad = path.join(__dirname, '../docs/assets/data/spelers.json');
+const ranglijstenPad = path.join(__dirname, '../docs/assets/data/ranglijsten.json');
+const kalenderPad = path.join(__dirname, '../docs/assets/data/kalender.json');
 
 const uitslagen = [];
 const spelers = [];
 const gespeeldeMatchIds = new Set();
 const ranglijsten = [];
 const kalender = JSON.parse(fs.readFileSync(kalenderPad));
+
+function convertDate(dateStr) {
+  // verwacht: dd/MM/yyyy (bv. 19/09/2025)
+  const [dag, maand, jaar] = dateStr.split('/');
+  return `${jaar}-${maand.padStart(2, '0')}-${dag.padStart(2, '0')}`;
+}
 
 function magPuntenKrijgen(speler, inhaalDatum, kalender) {
   if (!speler.matchen) return false;
@@ -46,7 +52,33 @@ function genereerMatchID(datum, speler1, speler2, score1, score2) {
   return `${datum}_${speler1}_vs_${speler2}_${score1}-${score2}`;
 }
 
-function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander, uitslag, datum, matchId, puntenTellen = true) {
+function parseMatchID(matchID) {
+  // matchID = "2025-09-20_Chris_vs_Diego_2-1"
+  const eersteUnderscore = matchID.indexOf('_');
+  if (eersteUnderscore === -1) return null;
+
+  const datum = matchID.substring(0, eersteUnderscore); // "2025-09-20"
+  const rest = matchID.substring(eersteUnderscore + 1); // "Chris_vs_Diego_2-1"
+
+  const laatsteUnderscore = rest.lastIndexOf('_');
+  if (laatsteUnderscore === -1) return null;
+
+  const spelersPart = rest.substring(0, laatsteUnderscore); // "Chris_vs_Diego"
+  const scoresPart = rest.substring(laatsteUnderscore + 1); // "2-1"
+
+  const vsIndex = spelersPart.indexOf('_vs_');
+  if (vsIndex === -1) return null;
+
+  const speler1 = spelersPart.substring(0, vsIndex);
+  const speler2 = spelersPart.substring(vsIndex + 4); // "_vs_" is 4 chars
+
+  const [score1, score2] = scoresPart.split('-').map(Number);
+
+  return { datum, speler1, speler2, score1, score2 };
+}
+
+
+function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander, uitslag, datum, groep, matchId, puntenTellen = true) {
   let speler = spelers.find(s => s.naam === naam);
   if (!speler) {
     speler = {
@@ -78,12 +110,12 @@ function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander,
   
   if (puntenTellen) {
     // Update Vorige Data
-    speler.vorigeData.gespeeld = speler.gespeeld
-    speler.vorigeData.gewonnen = speler.gewonnen
-    speler.vorigeData.verloren = speler.verloren
-    speler.vorigeData.legsPlus = speler.legsPlus
-    speler.vorigeData.legsMin = speler.legsMin
-    speler.vorigeData.punten = speler.punten
+    // speler.vorigeData.gespeeld = speler.gespeeld
+    // speler.vorigeData.gewonnen = speler.gewonnen
+    // speler.vorigeData.verloren = speler.verloren
+    // speler.vorigeData.legsPlus = speler.legsPlus
+    // speler.vorigeData.legsMin = speler.legsMin
+    // speler.vorigeData.punten = speler.punten
 
     // Update Current Data
     speler.gespeeld += 1;
@@ -94,11 +126,16 @@ function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander,
     speler.punten += parseInt(legsPlus);
   }
 
+  const pulledMatch = parseMatchID(matchId)
+  const pulledUitlsag = `${pulledMatch.score1}-${pulledMatch.score2}`
+
   speler.matchen.push({
     id: matchId,
-    datum,
-    tegenstander,
-    uitslag,
+    datum: datum,
+    thuis: pulledMatch.speler1,
+    uit: pulledMatch.speler2,
+    uitslag: pulledUitlsag,
+    groep,
     puntenTellen
   });
 }
@@ -115,8 +152,19 @@ function genereerRanglijstenPerSpeeldag() {
   datumsGesorteerd.forEach(datum => {
     const dagUitslagen = uitslagenPerDatum[datum];
 
+    spelers.forEach(speler => {
+      speler.vorigeData = {
+        gespeeld: speler.gespeeld,
+        gewonnen: speler.gewonnen,
+        verloren: speler.verloren,
+        legsPlus: speler.legsPlus,
+        legsMin: speler.legsMin,
+        punten: speler.punten
+      };
+    });
+
     dagUitslagen.forEach(row => {
-      const { speler1, speler2, score1, score2 } = row;
+      const { speler1, speler2, score1, score2, groep } = row;
       const matchId = genereerMatchID(datum, speler1, speler2, score1, score2);
 
       if (gespeeldeMatchIds.has(matchId)) return;
@@ -134,9 +182,43 @@ function genereerRanglijstenPerSpeeldag() {
       const speler2MagPunten = !isInhaal || magPuntenKrijgen(speler2Obj, datum, kalender);
 
 
-      updateSpeler(speler1, score1 > score2 ? 1 : 0, score1 < score2 ? 1 : 0, score1, score2, speler2, uitslag1, datum, matchId, speler1MagPunten);
-      updateSpeler(speler2, score2 > score1 ? 1 : 0, score2 < score1 ? 1 : 0, score2, score1, speler1, uitslag2, datum, matchId, speler2MagPunten);
+      updateSpeler(speler1, score1 > score2 ? 1 : 0, score1 < score2 ? 1 : 0, score1, score2, speler2, uitslag1, datum, groep, matchId, speler1MagPunten);
+      updateSpeler(speler2, score2 > score1 ? 1 : 0, score2 < score1 ? 1 : 0, score2, score1, speler1, uitslag2, datum, groep, matchId, speler2MagPunten);
     });
+
+    //Extra logica voor oneven groepen
+    const groepenMap = {};
+    dagUitslagen.forEach(row => {
+      if (!groepenMap[row.groep]) groepenMap[row.groep] = new Set();
+      groepenMap[row.groep].add(row.speler1);
+      groepenMap[row.groep].add(row.speler2);
+    });
+
+    const grootsteGroep = Math.max(...Object.values(groepenMap).map(set => set.size));
+    // 2. Check welke groepen minder dan 4 spelers hadden
+    Object.entries(groepenMap).forEach(([groep, spelersSet]) => {
+      const verschil = grootsteGroep - spelersSet.size;
+      if (verschil > 0) {
+        spelersSet.forEach(naam => {
+          const byeId = `${datum}_${groep}_${naam}_bye_${verschil}`;
+          const speler = spelers.find(s => s.naam === naam);
+          if (speler && !speler.matchen.some(m => m.id === byeId)) {
+            speler.punten += verschil;
+            // speler.matchen.push({
+            //   id: byeId,
+            //   datum,
+            //   tegenstander: "BYE",
+            //   uitslag: `${verschil}-0`, // symbolisch
+            //   puntenTellen: false,
+            //   isBye: true,
+            //   groep,
+            //   extraPunten: verschil
+            // });
+          }
+        });
+      }
+    });
+
 
     const gesorteerd = [...spelers].sort((a, b) => b.punten - a.punten);
     const klassement = gesorteerd.map((speler, index) => ({
@@ -223,8 +305,12 @@ const leesBoetes = () => {
   return new Promise((resolve, reject) => {
     const boetes = [];
     fs.createReadStream(boetesPad)
-      .pipe(csv())
+      .pipe(csv({
+  separator: ';',
+  mapHeaders: ({ header }) => header.toLowerCase()
+}))
       .on('data', (row) => {
+        row.datum = convertDate(row.datum);
         row.hoeveelheid = parseInt(row.hoeveelheid, 10);
         boetes.push(row);
       })
@@ -237,8 +323,12 @@ const leesScores = () => {
   return new Promise((resolve, reject) => {
     const scores = [];
     fs.createReadStream(scoresPad)
-      .pipe(csv())
+      .pipe(csv({
+  separator: ';',
+  mapHeaders: ({ header }) => header.toLowerCase()
+}))
       .on('data', (row) => {
+        row.datum = convertDate(row.datum);
         row.score = parseInt(row.score, 10);
         row.hoeveelheid = parseInt(row.hoeveelheid, 10);
         scores.push(row);
@@ -249,10 +339,15 @@ const leesScores = () => {
 };
 
 fs.createReadStream(uitslagenPad)
-  .pipe(csv())
+  .pipe(csv({
+  separator: ';',
+  mapHeaders: ({ header }) => header.toLowerCase()
+}))
   .on('data', (row) => {
+    row.datum = convertDate(row.datum);
     row.score1 = parseInt(row.score1, 10);
     row.score2 = parseInt(row.score2, 10);
+    row.groep = row.groep || null;
     uitslagen.push(row);
   })
   .on('end', async () => {

@@ -1,10 +1,33 @@
-datum,speler1,speler2,score1,score2
-2025-08-01,Chris,Diego,2,1
-2025-08-01,Jari,Chris,0,2
-2025-08-01,Kurt,Chris,0,2
-2025-08-01,Diego,Jari,2,0
-2025-08-01,Kurt,Jari,2,1
-2025-08-01,Diego,Kurt,1,2
-2025-08-08,Hannek,Kurt,2,1
-2025-08-08,Diego,Jari,2,0
-2025-08-10,Hannek,Kurt,2,1
+Datum;Speler1;Score1;Score2;Speler2;Groep
+19/09/2025;Jari;2;0;Dave;Groep1
+19/09/2025;Bjorn;1;2;Hannek;Groep1
+19/09/2025;Jari;2;1;Bjorn;Groep1
+19/09/2025;Dave;0;2;Hannek;Groep1
+19/09/2025;Hannek;2;0;Jari;Groep1
+19/09/2025;Bjorn;2;0;Dave;Groep1
+19/09/2025;Kristof;2;0;Tom;Groep2
+19/09/2025;Philippe;2;0;Redgy;Groep2
+19/09/2025;Jurgen;2;0;Kristof;Groep2
+19/09/2025;Tom;2;1;Philippe;Groep2
+19/09/2025;Redgy;1;2;Kristof;Groep2
+19/09/2025;Tom;2;1;Jurgen;Groep2
+19/09/2025;Philippe;0;2;Kristof;Groep2
+19/09/2025;Redgy;1;2;Jurgen;Groep2
+19/09/2025;Tom;2;0;Redgy;Groep2
+19/09/2025;Jurgen;2;1;Philippe;Groep2
+19/09/2025;Ewoud;1;2;Cissen;Groep3
+19/09/2025;Kurt;2;0;Nico B;Groep3
+19/09/2025;Diego;0;2;Ewoud;Groep3
+19/09/2025;Cissen;0;2;Kurt;Groep3
+19/09/2025;Nico B;1;2;Ewoud;Groep3
+19/09/2025;Cissen;0;2;Diego;Groep3
+19/09/2025;Kurt;2;0;Ewoud;Groep3
+19/09/2025;Nico B;0;2;Diego;Groep3
+19/09/2025;Cissen;2;1;Nico B;Groep3
+19/09/2025;Diego;0;2;Kurt;Groep3
+19/09/2025;Milan;0;2;Kenji;Groep4
+19/09/2025;Michiel;0;2;Nico D;Groep4
+19/09/2025;Milan;2;0;Michiel;Groep4
+19/09/2025;Kenji;0;2;Nico D;Groep4
+19/09/2025;Nico D;2;1;Milan;Groep4
+19/09/2025;Michiel;0;2;Kenji;Groep4
