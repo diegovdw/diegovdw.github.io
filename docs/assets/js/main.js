@@ -590,11 +590,11 @@ function toonSpeeldagDetails(spelers, speeldagDatum) {
   let speeldagLegCount = 0
 
   speeldagMatchen.forEach(match => {
-    if(!speeldagSpelers.includes(match.speler)){
-      speeldagSpelers.push(match.speler)
+    if(!speeldagSpelers.includes(match.thuis)){
+      speeldagSpelers.push(match.thuis)
     }
-    if(!speeldagSpelers.includes(match.speler)){
-      speeldagSpelers.push(match.tegenstander)
+    if(!speeldagSpelers.includes(match.thuis)){
+      speeldagSpelers.push(match.uit)
     }
 
     speeldagLegCount += parseInt(match.uitslag.split("-")[0],10)
