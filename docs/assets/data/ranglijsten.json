@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "datum": "2025-09-19",
+    "klassement": [
+      {
+        "naam": "Kurt",
+        "positie": 1,
+        "punten": 8
+      },
+      {
+        "naam": "Hannek",
+        "positie": 2,
+        "punten": 7
+      },
+      {
+        "naam": "Jurgen",
+        "positie": 3,
+        "punten": 7
+      },
+      {
+        "naam": "Nico D",
+        "positie": 4,
+        "punten": 7
+      },
+      {
+        "naam": "Kristof",
+        "positie": 5,
+        "punten": 6
+      },
+      {
+        "naam": "Tom",
+        "positie": 6,
+        "punten": 6
+      },
+      {
+        "naam": "Jari",
+        "positie": 7,
+        "punten": 5
+      },
+      {
+        "naam": "Bjorn",
+        "positie": 8,
+        "punten": 5
+      },
+      {
+        "naam": "Ewoud",
+        "positie": 9,
+        "punten": 5
+      },
+      {
+        "naam": "Kenji",
+        "positie": 10,
+        "punten": 5
+      },
+      {
+        "naam": "Philippe",
+        "positie": 11,
+        "punten": 4
+      },
+      {
+        "naam": "Cissen",
+        "positie": 12,
+        "punten": 4
+      },
+      {
+        "naam": "Diego",
+        "positie": 13,
+        "punten": 4
+      },
+      {
+        "naam": "Milan",
+        "positie": 14,
+        "punten": 4
+      },
+      {
+        "naam": "Redgy",
+        "positie": 15,
+        "punten": 2
+      },
+      {
+        "naam": "Nico B",
+        "positie": 16,
+        "punten": 2
+      },
+      {
+        "naam": "Dave",
+        "positie": 17,
+        "punten": 1
+      },
+      {
+        "naam": "Michiel",
+        "positie": 18,
+        "punten": 1
+      }
+    ]
+  }
+]

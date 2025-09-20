@@ -1,1 +1,1250 @@
-[]
+[
+  {
+    "naam": "Jari",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "verloren": 1,
+    "legsPlus": 4,
+    "legsMin": 3,
+    "punten": 5,
+    "matchen": [
+      {
+        "id": "2025-09-19_Jari_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jari_vs_Bjorn_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Hannek_vs_Jari_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Hannek",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Dave",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "verloren": 3,
+    "legsPlus": 0,
+    "legsMin": 6,
+    "punten": 1,
+    "matchen": [
+      {
+        "id": "2025-09-19_Jari_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Dave_vs_Hannek_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Dave",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Bjorn_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Bjorn",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "verloren": 2,
+    "legsPlus": 4,
+    "legsMin": 4,
+    "punten": 5,
+    "matchen": [
+      {
+        "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Hannek",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jari_vs_Bjorn_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Bjorn_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Bjorn_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 128,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Hannek",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "verloren": 0,
+    "legsPlus": 6,
+    "legsMin": 1,
+    "punten": 7,
+    "matchen": [
+      {
+        "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Hannek",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Dave_vs_Hannek_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Dave",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Hannek_vs_Jari_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Hannek",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Hannek_2",
+        "datum": "2025-09-19",
+        "hoeveelheid": 2
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 2
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 55,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Kristof",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "verloren": 1,
+    "legsPlus": 6,
+    "legsMin": 3,
+    "punten": 6,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kristof_vs_Tom_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kristof",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jurgen_vs_Kristof_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Kristof",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Kristof_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Kristof",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Philippe_vs_Kristof_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Kristof",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Kristof_6",
+        "datum": "2025-09-19",
+        "hoeveelheid": 6
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Tom",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "verloren": 1,
+    "legsPlus": 6,
+    "legsMin": 4,
+    "punten": 6,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kristof_vs_Tom_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kristof",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Jurgen_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Jurgen",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Tom_3",
+        "datum": "2025-09-19",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Philippe",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "verloren": 3,
+    "legsPlus": 4,
+    "legsMin": 6,
+    "punten": 4,
+    "matchen": [
+      {
+        "id": "2025-09-19_Philippe_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Philippe_vs_Kristof_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Kristof",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jurgen_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Philippe_3",
+        "datum": "2025-09-19",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 116,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Redgy",
+    "gespeeld": 4,
+    "gewonnen": 0,
+    "verloren": 4,
+    "legsPlus": 2,
+    "legsMin": 8,
+    "punten": 2,
+    "matchen": [
+      {
+        "id": "2025-09-19_Philippe_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Kristof_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Kristof",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Jurgen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Jurgen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Redgy_3",
+        "datum": "2025-09-19",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 117,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 116,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Jurgen",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "verloren": 1,
+    "legsPlus": 7,
+    "legsMin": 4,
+    "punten": 7,
+    "matchen": [
+      {
+        "id": "2025-09-19_Jurgen_vs_Kristof_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Kristof",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Jurgen_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Jurgen",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Jurgen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Jurgen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jurgen_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Jurgen_5",
+        "datum": "2025-09-19",
+        "hoeveelheid": 5
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Ewoud",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "verloren": 2,
+    "legsPlus": 5,
+    "legsMin": 5,
+    "punten": 5,
+    "matchen": [
+      {
+        "id": "2025-09-19_Ewoud_vs_Cissen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Ewoud",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Diego_vs_Ewoud_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Ewoud_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kurt_vs_Ewoud_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Ewoud_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 121,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Cissen",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "verloren": 2,
+    "legsPlus": 4,
+    "legsMin": 6,
+    "punten": 4,
+    "matchen": [
+      {
+        "id": "2025-09-19_Ewoud_vs_Cissen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Ewoud",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Nico B_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Cissen_5",
+        "datum": "2025-09-19",
+        "hoeveelheid": 5
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Kurt",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "verloren": 0,
+    "legsPlus": 8,
+    "legsMin": 0,
+    "punten": 8,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kurt_vs_Nico B_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kurt_vs_Ewoud_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Diego_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Kurt_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 101,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Nico B",
+    "gespeeld": 4,
+    "gewonnen": 0,
+    "verloren": 4,
+    "legsPlus": 2,
+    "legsMin": 8,
+    "punten": 2,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kurt_vs_Nico B_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Ewoud_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Nico B_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Nico B_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 126,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 51,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Diego",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "verloren": 2,
+    "legsPlus": 4,
+    "legsMin": 4,
+    "punten": 4,
+    "matchen": [
+      {
+        "id": "2025-09-19_Diego_vs_Ewoud_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Diego_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 138,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 132,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 57,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Milan",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "verloren": 2,
+    "legsPlus": 3,
+    "legsMin": 4,
+    "punten": 4,
+    "matchen": [
+      {
+        "id": "2025-09-19_Milan_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Milan_vs_Michiel_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico D_vs_Milan_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Milan_1",
+        "datum": "2025-09-19",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 121,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Kenji",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "verloren": 1,
+    "legsPlus": 4,
+    "legsMin": 2,
+    "punten": 5,
+    "matchen": [
+      {
+        "id": "2025-09-19_Milan_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kenji_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Kenji",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Michiel_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Kenji_1",
+        "datum": "2025-09-19",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 180,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Michiel",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "verloren": 3,
+    "legsPlus": 0,
+    "legsMin": 6,
+    "punten": 1,
+    "matchen": [
+      {
+        "id": "2025-09-19_Michiel_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Milan_vs_Michiel_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Michiel_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Michiel_1",
+        "datum": "2025-09-19",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Nico D",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "verloren": 0,
+    "legsPlus": 6,
+    "legsMin": 1,
+    "punten": 7,
+    "matchen": [
+      {
+        "id": "2025-09-19_Michiel_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kenji_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Kenji",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico D_vs_Milan_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 122,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 105,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Chris",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "legsPlus": 0,
+    "legsMin": 0,
+    "punten": 0,
+    "matchen": [],
+    "boetes": [],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Dominique",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "legsPlus": 0,
+    "legsMin": 0,
+    "punten": 0,
+    "matchen": [],
+    "boetes": [],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  },
+  {
+    "naam": "Dante",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "legsPlus": 0,
+    "legsMin": 0,
+    "punten": 0,
+    "matchen": [],
+    "boetes": [],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
+  }
+]

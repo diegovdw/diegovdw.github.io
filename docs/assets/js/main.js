@@ -91,7 +91,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function toonKlassement(spelers) {
   const tbody = document.querySelector('#klassement tbody');
-  spelers.sort((a, b) => b.punten - a.punten);
+  // spelers.sort((a, b) => b.punten - a.punten);
+  spelers.sort((a, b) => {
+    // 1. Punten
+    if (b.punten !== a.punten) return b.punten - a.punten;
+
+    // 2. Legverschil
+    const legDiffA = a.legsPlus - a.legsMin;
+    const legDiffB = b.legsPlus - b.legsMin;
+    if (legDiffB !== legDiffA) return legDiffB - legDiffA;
+
+    // 3. Gewonnen wedstrijden
+    if (b.gewonnen !== a.gewonnen) return b.gewonnen - a.gewonnen;
+
+    // 4. Alfabetisch op naam als laatste tie-breaker
+    return a.naam.localeCompare(b.naam);
+  });
 
   let vorigePunten = null;
   let plaats = 0;
@@ -200,41 +215,56 @@ function toonSpelerDetails(spelers, ranglijsten, naam) {
   //#region Statistieken tonen in de cards
   //Ranking
   const currentRanking = getLatestRank(ranglijsten, speler.naam)
-  const previousRanking = getPreviousRank(ranglijsten, speler.naam)
   document.getElementById('speler-stats-rank').textContent = `${currentRanking}`;
-  toonStatsHistory(currentRanking, previousRanking, 'speler-stats-rank-previous', true, true)
   
   //Gewonnen
   const currentGewonnen = speler.gewonnen
-  const previousGewonnen = speler.vorigeData.gewonnen
   document.getElementById('speler-stats-gewonnen').textContent = `${currentGewonnen}`;
-  toonStatsHistory(currentGewonnen, previousGewonnen, 'speler-stats-gewonnen-previous')
   
   //Verloren
   const currentVerloren = speler.verloren
-  const previousVerloren = speler.vorigeData.verloren
   document.getElementById('speler-stats-verloren').textContent = `${currentVerloren}`;
-  toonStatsHistory(currentVerloren, previousVerloren, 'speler-stats-verloren-previous', true, false)
 
   //Legs +-
   const currentlegsdiff = speler.legsPlus - speler.legsMin
-  const previouslegsdiff = speler.vorigeData.legsPlus - speler.vorigeData.legsMin
   document.getElementById('speler-stats-legsdiff').textContent = `${currentlegsdiff}`;
-  toonStatsHistory(currentlegsdiff, previouslegsdiff, 'speler-stats-legsdiff-previous')
 
   //Boetes
   const currentBoetes = speler.boetes?.reduce((som, b) => som + b.hoeveelheid, 0);
-  const latestDate = speler.boetes?.reduce((latest, b) => { return new Date(b.datum) > new Date(latest) ? b.datum : latest; }, speler.boetes[0]?.datum || null);
-  const filtered = speler.boetes?.filter(b => b.datum !== latestDate);
-  const previousBoetes = filtered.reduce((sum, b) => sum + b.hoeveelheid, 0);
   document.getElementById('speler-stats-boetes').textContent = `${currentBoetes}`;
-  toonStatsHistory(currentBoetes, previousBoetes, 'speler-stats-boetes-previous', true, false)
 
   //Punten
   const currentPunten = speler.punten
-  const previousPunten = speler.vorigeData.punten
   document.getElementById('speler-stats-punten').textContent = `${currentPunten}`;
-  toonStatsHistory(currentPunten, previousPunten, 'speler-stats-punten-previous')
+
+  //Vorige speeldag statistieken
+  if(speler.vorigeData.punten){
+    //Ranking
+    const previousRanking = getPreviousRank(ranglijsten, speler.naam)
+    toonStatsHistory(currentRanking, previousRanking, 'speler-stats-rank-previous', true, true)
+
+    //Gewonnen
+    const previousGewonnen = speler.vorigeData.gewonnen
+    toonStatsHistory(currentGewonnen, previousGewonnen, 'speler-stats-gewonnen-previous')
+
+    //Verloren
+    const previousVerloren = speler.vorigeData.verloren
+    toonStatsHistory(currentVerloren, previousVerloren, 'speler-stats-verloren-previous', true, false)
+
+    //Legs +-
+    const previouslegsdiff = speler.vorigeData.legsPlus - speler.vorigeData.legsMin
+    toonStatsHistory(currentlegsdiff, previouslegsdiff, 'speler-stats-legsdiff-previous')
+
+    //Boetes
+    const latestDate = speler.boetes?.reduce((latest, b) => { return new Date(b.datum) > new Date(latest) ? b.datum : latest; }, speler.boetes[0]?.datum || null);
+    const filtered = speler.boetes?.filter(b => b.datum !== latestDate);
+    const previousBoetes = filtered.reduce((sum, b) => sum + b.hoeveelheid, 0);
+    toonStatsHistory(currentBoetes, previousBoetes, 'speler-stats-boetes-previous', true, false)
+
+    //Punten
+    const previousPunten = speler.vorigeData.punten
+    toonStatsHistory(currentPunten, previousPunten, 'speler-stats-punten-previous')
+  }
 
   //#endregion
 
@@ -260,7 +290,9 @@ function toonSpelerDetails(spelers, ranglijsten, naam) {
     headerRow.appendChild(tdDatum);
     // Lege cellen
     const tdEmpty = document.createElement('td');
-    tdEmpty.colSpan = 2
+    tdEmpty.colSpan = 3
+    tdEmpty.classList = "px-6 py-2 text-center";
+    tdEmpty.innerHTML = matchen[0].groep;
     headerRow.appendChild(tdEmpty);
     // Arrow cel
     const tdArrow = document.createElement('td');
@@ -285,20 +317,29 @@ function toonSpelerDetails(spelers, ranglijsten, naam) {
       tdEmpty.innerHTML = `${!match.puntenTellen ? 'Telt niet':''}`
       rij.appendChild(tdEmpty);
 
-      // Tegenstander
-      const tdTegenstander = document.createElement('td');
-      tdTegenstander.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer";
-      tdTegenstander.innerHTML = `${match.tegenstander}`;
-      tdTegenstander.addEventListener('click', () => {
-        location.href = `speler.html?naam=${encodeURIComponent(match.tegenstander)}`;
+      // Thuis
+      const tdThuis = document.createElement('td');
+      tdThuis.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer";
+      tdThuis.innerHTML = `${match.thuis}`;
+      tdThuis.addEventListener('click', () => {
+        location.href = `speler.html?naam=${encodeURIComponent(match.thuis)}`;
       });
-      rij.appendChild(tdTegenstander);
+      rij.appendChild(tdThuis);
 
       // Uitslag
       const tdUitslag = document.createElement('td');
       tdUitslag.classList = "px-6 py-4 whitespace-nowrap text-center";
       tdUitslag.innerHTML = `${match.uitslag}`;
       rij.appendChild(tdUitslag);
+
+      // Uit
+      const tdUit = document.createElement('td');
+      tdUit.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer";
+      tdUit.innerHTML = `${match.uit}`;
+      tdUit.addEventListener('click', () => {
+        location.href = `speler.html?naam=${encodeURIComponent(match.uit)}`;
+      });
+      rij.appendChild(tdUit);
 
       // Opnieuw lege cel
       const tdEmpty2 = document.createElement('td');
@@ -542,8 +583,7 @@ function toonKalender(kalender) {
 
 //#region uitslagen
 
-function toonSpeeldagDetails(spelers, speeldagDatum){
-
+function toonSpeeldagDetails(spelers, speeldagDatum) {
   const alleMatchen = laadAlleMatchen(spelers)
   const speeldagMatchen = alleMatchen.filter(m => m.datum === speeldagDatum);
   const speeldagSpelers = []
@@ -630,44 +670,94 @@ function toonSpeeldagDetails(spelers, speeldagDatum){
     document.getElementById('speeldag-stats-hoogsteuitworp').innerHTML = `NvT`;
   }
 
-  //Wedstrijden table
   const matchenTbody = document.querySelector('#speeldag-stats-matchen tbody');
+  matchenTbody.innerHTML = ''; // leegmaken
+
+  // Groeperen op groep
+  const matchenPerGroep = {};
   speeldagMatchen.forEach(match => {
-    const rij = document.createElement('tr');
-    // rij.className = "hover:bg-gray-200"
-    //Datum
-    const tdDatum = document.createElement('td');
-    tdDatum.classList = "px-6 py-4 whitespace-nowrap text-center"
-    tdDatum.innerHTML = `${match.datum}`
-    rij.appendChild(tdDatum)
-    //Speler
-    const tdSpeler = document.createElement('td');
-    tdSpeler.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer"
-    tdSpeler.innerHTML = `${match.speler}`
-    tdSpeler.addEventListener('click', () => {
-        location.href = `speler.html?naam=${encodeURIComponent(match.speler)}`;
-      });
-    rij.appendChild(tdSpeler)
-    //Uitslag
-    const tdUitslag = document.createElement('td');
-    tdUitslag.classList = "px-6 py-4 whitespace-nowrap text-center"
-    tdUitslag.innerHTML = `${match.uitslag}`
-    rij.appendChild(tdUitslag)
-    //Tegenstander
-    const tdTegenstander = document.createElement('td');
-    tdTegenstander.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer"
-    tdTegenstander.innerHTML = `${match.tegenstander}`
-    tdTegenstander.addEventListener('click', () => {
-        location.href = `speler.html?naam=${encodeURIComponent(match.tegenstander)}`;
-      });
-    rij.appendChild(tdTegenstander)
-    matchenTbody.appendChild(rij);
+    const groep = match.groep || 'Geen groep';
+    if (!matchenPerGroep[groep]) matchenPerGroep[groep] = [];
+    matchenPerGroep[groep].push(match);
   });
 
-  //#endregion
+  Object.entries(matchenPerGroep).forEach(([groep, matchen]) => {
+    // Header row voor de groep
+    const headerRow = document.createElement('tr');
 
+    const tdGroep = document.createElement('td');
+    // tdGroep.colSpan = 4; // past bij de originele 5 kolommen van je table
+    tdGroep.classList = "px-6 py-2 font-bold text-center";
+    tdGroep.textContent = groep;
+    headerRow.appendChild(tdGroep);
 
+    // Lege cellen
+    const tdEmpty = document.createElement('td');
+    tdEmpty.colSpan = 3
+    headerRow.appendChild(tdEmpty);
+
+    // Arrow cel
+    const tdArrow = document.createElement('td');
+    tdArrow.classList = "px-6 py-2 font-bold text-center";
+    const arrowIcon = document.createElement('i');
+    arrowIcon.classList = "fas fa-arrow-down transition-transform duration-300";
+    tdArrow.appendChild(arrowIcon);
+    headerRow.appendChild(tdArrow);
+
+    matchenTbody.appendChild(headerRow);
+
+    // Match-rijen (standaard verborgen)
+    matchen.forEach(match => {
+      const rij = document.createElement('tr');
+      rij.classList.add("hidden"); // standaard onzichtbaar
+
+      // Kolommen behouden van originele functie
+      const tdGroep = document.createElement('td');
+      tdGroep.classList = "px-6 py-4 whitespace-nowrap text-center";
+      // tdGroep.innerHTML = match.groep;
+      rij.appendChild(tdGroep);
+
+      const tdThuis = document.createElement('td');
+      tdThuis.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer";
+      tdThuis.innerHTML = match.thuis;
+      tdThuis.addEventListener('click', () => {
+        location.href = `speler.html?naam=${encodeURIComponent(match.thuis)}`;
+      });
+      rij.appendChild(tdThuis);
+
+      const tdUitslag = document.createElement('td');
+      tdUitslag.classList = "px-6 py-4 whitespace-nowrap text-center";
+      tdUitslag.innerHTML = match.uitslag;
+      rij.appendChild(tdUitslag);
+
+      const tdUit = document.createElement('td');
+      tdUit.classList = "px-6 py-4 whitespace-nowrap text-center hover:text-slate-500 cursor-pointer";
+      tdUit.innerHTML = match.uit;
+      tdUit.addEventListener('click', () => {
+        location.href = `speler.html?naam=${encodeURIComponent(match.uit)}`;
+      });
+      rij.appendChild(tdUit);
+
+      // Extra lege cel voor spacing (originele layout)
+      const tdEmpty = document.createElement('td');
+      rij.appendChild(tdEmpty);
+
+      matchenTbody.appendChild(rij);
+
+      // Toggle koppeling
+      if (!headerRow.matchRows) headerRow.matchRows = [];
+      headerRow.matchRows.push(rij);
+    });
+
+    // Klik event toggle
+    headerRow.addEventListener("click", () => {
+      headerRow.matchRows.forEach(r => r.classList.toggle("hidden"));
+      arrowIcon.classList.toggle("rotate-180");
+    });
+  });
 }
+
+
 
 //#endregion
 
@@ -939,7 +1029,7 @@ function laadAlleMatchen(spelers) {
 
     speler.matchen.forEach(match => {
       //Generate the matchid of the current match to check if it's the correct order
-      const generatedMatchid = `${match.datum}_${speler.naam}_vs_${match.tegenstander}_${match.uitslag.split("-")[0]}-${match.uitslag.split("-")[1]}`
+      const generatedMatchid = `${match.datum}_${match.thuis}_vs_${match.uit}_${match.uitslag.split("-")[0]}-${match.uitslag.split("-")[1]}`
       if (!uniekeMatchIDs.has(match.id) && generatedMatchid === match.id) {
         uniekeMatchIDs.add(match.id);
 
@@ -947,9 +1037,10 @@ function laadAlleMatchen(spelers) {
         alleMatchen.push({
           id: match.id,
           datum: match.datum,
-          speler: speler.naam,
-          tegenstander: match.tegenstander,
-          uitslag: match.uitslag
+          thuis: match.thuis,
+          uit: match.uit,
+          uitslag: match.uitslag,
+          groep: match.groep
         });
       }
     });

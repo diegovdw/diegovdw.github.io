@@ -1,6 +1,24 @@
-datum,speler,score,hoeveelheid,type
-2025-08-01,Kurt,140,3,worp
-2025-08-01,Diego,140,1,worp
-2025-08-01,Hannek,140,1,worp
-2025-08-01,Diego,80,1,uitworp
-2025-08-01,Chris,80,1,uitworp
+datum;speler;score;hoeveelheid;type
+19/09/2025;Hannek;121;1;worp
+19/09/2025;Bjorn;128;1;worp
+19/09/2025;Hannek;140;2;worp
+19/09/2025;Philippe;116;1;worp
+19/09/2025;Redgy;117;1;worp
+19/09/2025;Redgy;140;1;worp
+19/09/2025;Redgy;116;1;worp
+19/09/2025;Ewoud;105;1;worp
+19/09/2025;Ewoud;121;1;worp
+19/09/2025;Nico B;126;1;worp
+19/09/2025;Kurt;120;1;worp
+19/09/2025;Diego;140;1;worp
+19/09/2025;Diego;138;1;worp
+19/09/2025;Diego;132;1;worp
+19/09/2025;Kurt;101;1;worp
+19/09/2025;Kenji;180;2;worp
+19/09/2025;Kenji;140;1;worp
+19/09/2025;Nico D;122;1;worp
+19/09/2025;Nico D;105;1;worp
+19/09/2025;Milan;121;1;worp
+19/09/2025;Hannek;55;1;uitworp
+19/09/2025;Nico B;51;1;uitworp
+19/09/2025;Diego;57;1;uitworp
