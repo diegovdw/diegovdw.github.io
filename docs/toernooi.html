@@ -1,159 +1,205 @@
-<!DOCTYPE html>
-
-<html lang="nl">
-
-<head>
-
-  <meta charset="UTF-8">
-
-  <title>Toernooi</title>
-
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="icon" type="image/x-icon" href="assets/images/logo_transpiekers.png">
-
-</head>
-
-<body class="bg-gray-100 flex flex-col min-h-screen">
-
-  <!-- Header -->
-
-  <div id="header-placeholder"></div>
-
-
-
-  <main class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow">
-
-    <div class="mb-8">
-
-      <h1 class="text-2xl font-semibold text-gray-900">Toernooi samenstelling</h1>
-
-      <p class="text-gray-600 mt-2">Selecteer de aanwezige spelers om automatisch vier groepen te vormen op basis van het huidige klassement. Je kan het resultaat exporteren naar CSV voor verdere verwerking.</p>
-
-    </div>
-
-
-
-    <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 space-y-6">
-
-      <div class="grid gap-4 md:grid-cols-2">
-
-        <div>
-
-          <label for="toernooi-datum" class="block text-sm font-medium text-gray-700">Datum toernooi</label>
-
-          <input type="date" id="toernooi-datum" class="mt-2 block w-full rounded-lg border-gray-300 focus:border-[#76A936] focus:ring-[#76A936]" />
-
-        </div>
-
-        <div class="flex items-end gap-3">
-
-          <button id="selecteer-alle" type="button" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#76A936] rounded-lg shadow hover:bg-[#5f882b] transition-colors">Selecteer iedereen</button>
-
-          <button id="deselecteer-alle" type="button" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-[#76A936] bg-white border border-[#76A936] rounded-lg hover:bg-[#f0f9e8] transition-colors">Deselecteer iedereen</button>
-
-        </div>
-
-      </div>
-
-
-
-      <div>
-
-        <h2 class="text-lg font-semibold text-gray-900 mb-3">Beschikbare spelers</h2>
-
-        <div id="deelnemers-lijst" class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3"></div>
-
-      </div>
-
-
-
-      <div id="groep-feedback" class="text-sm text-gray-600 bg-gray-50 border border-dashed border-gray-300 rounded-lg p-4">
-
-        Selecteer minimaal vier spelers om de groepen automatisch te vormen.
-
-      </div>
-
-      <div class="rounded-lg border border-slate-200 bg-slate-50 p-4 space-y-3">
-        <h2 class="text-sm font-semibold uppercase tracking-wide text-slate-700">Instellingen</h2>
-        <div class="grid gap-3 sm:grid-cols-2">
-          <label for="gebruik-groep-4" class="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-3 py-2 shadow-sm">
-            <input type="checkbox" id="gebruik-groep-4" class="h-4 w-4 text-[#76A936] border-gray-300 rounded focus:ring-[#76A936]" checked>
-            <div class="flex flex-col">
-              <span class="text-sm font-medium text-gray-900">Gebruik groep 4</span>
-              <span class="text-xs text-gray-500">Schakel uit wanneer er weinig aanwezigen zijn.</span>
-            </div>
-          </label>
-          <label for="reverse-verdeling" class="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-3 py-2 shadow-sm">
-            <input type="checkbox" id="reverse-verdeling" class="h-4 w-4 text-[#76A936] border-gray-300 rounded focus:ring-[#76A936]">
-            <div class="flex flex-col">
-              <span class="text-sm font-medium text-gray-900">Extra spelers naar laatste groep</span>
-              <span class="text-xs text-gray-500">Activeer om overschotten toe te wijzen aan hogere groepsnummers.</span>
-            </div>
-          </label>
-        </div>
-      </div>
-
-
-
-
-      <div>
-
-        <h2 class="text-lg font-semibold text-gray-900 mb-3">Groepen</h2>
-
-        <div id="groepen-resultaten" class="grid gap-4 md:grid-cols-2 xl:grid-cols-4"></div>
-
-      </div>
-
-
-
-      <div>
-
-        <h2 class="text-lg font-semibold text-gray-900 mb-3">Wedstrijdschema</h2>
-
-        <div id="wedstrijden-visualisatie" class="space-y-4"></div>
-
-      </div>
-
-
-
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-
-        <p id="csv-feedback" class="text-sm text-gray-500">Er wordt een CSV-bestand aangemaakt met alle onderlinge wedstrijden per groep.</p>
-
-        <button id="exporteer-csv" type="button" class="inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white bg-slate-900 rounded-lg shadow hover:bg-slate-700 transition-colors disabled:opacity-60 disabled:cursor-not-allowed" disabled>
-
-          <i class="fa-solid fa-file-csv mr-2"></i>
-
-          Exporteer groepen naar CSV
-
-        </button>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-
-  <!-- Footer -->
-
-  <div id="footer-placeholder"></div>
-
-
-
-  <script src="assets/js/include.js" defer></script>
-
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
-
+<!doctype html>
+
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Toernooi</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/logo_transpiekers.png"
+    />
+  </head>
+
+  <body class="bg-gray-100 flex flex-col min-h-screen">
+    <!-- Header -->
+
+    <div id="header-placeholder"></div>
+
+    <main
+      class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow"
+    >
+      <div class="mb-8">
+        <h1 class="text-2xl font-semibold text-gray-900">
+          Toernooi samenstelling
+        </h1>
+
+        <p class="text-gray-600 mt-2">
+          Selecteer de aanwezige spelers om automatisch vier groepen te vormen
+          op basis van het huidige klassement. Je kan het resultaat exporteren
+          naar CSV voor verdere verwerking.
+        </p>
+      </div>
+
+      <section
+        class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 space-y-6"
+      >
+        <div class="grid gap-4 md:grid-cols-2">
+          <div>
+            <label
+              for="toernooi-datum"
+              class="block text-sm font-medium text-gray-700"
+              >Datum toernooi</label
+            >
+
+            <input
+              type="date"
+              id="toernooi-datum"
+              class="mt-2 block w-full rounded-lg border-gray-300 focus:border-[#76A936] focus:ring-[#76A936]"
+            />
+          </div>
+
+          <div class="flex items-end gap-3">
+            <button
+              id="selecteer-alle"
+              type="button"
+              class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#76A936] rounded-lg shadow hover:bg-[#5f882b] transition-colors"
+            >
+              Selecteer iedereen
+            </button>
+
+            <button
+              id="deselecteer-alle"
+              type="button"
+              class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-[#76A936] bg-white border border-[#76A936] rounded-lg hover:bg-[#f0f9e8] transition-colors"
+            >
+              Deselecteer iedereen
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-gray-900 mb-3">
+            Beschikbare spelers
+          </h2>
+
+          <div
+            id="deelnemers-lijst"
+            class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3"
+          ></div>
+        </div>
+
+        <div
+          id="groep-feedback"
+          class="text-sm text-gray-600 bg-gray-50 border border-dashed border-gray-300 rounded-lg p-4"
+        >
+          Selecteer minimaal vier spelers om de groepen automatisch te vormen.
+        </div>
+
+        <div
+          class="rounded-lg border border-slate-200 bg-slate-50 p-4 space-y-3"
+        >
+          <h2
+            class="text-sm font-semibold uppercase tracking-wide text-slate-700"
+          >
+            Instellingen
+          </h2>
+
+          <div class="grid gap-3 sm:grid-cols-2">
+            <label
+              for="gebruik-groep-4"
+              class="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-3 py-2 shadow-sm"
+            >
+              <input
+                type="checkbox"
+                id="gebruik-groep-4"
+                class="h-4 w-4 text-[#76A936] border-gray-300 rounded focus:ring-[#76A936]"
+                checked
+              />
+
+              <div class="flex flex-col">
+                <span class="text-sm font-medium text-gray-900"
+                  >Gebruik groep 4</span
+                >
+
+                <span class="text-xs text-gray-500"
+                  >Schakel uit wanneer er weinig aanwezigen zijn.</span
+                >
+              </div>
+            </label>
+
+            <label
+              for="reverse-verdeling"
+              class="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-3 py-2 shadow-sm"
+            >
+              <input
+                type="checkbox"
+                id="reverse-verdeling"
+                class="h-4 w-4 text-[#76A936] border-gray-300 rounded focus:ring-[#76A936]"
+              />
+
+              <div class="flex flex-col">
+                <span class="text-sm font-medium text-gray-900"
+                  >Extra spelers naar laatste groep</span
+                >
+
+                <span class="text-xs text-gray-500"
+                  >Activeer om overschotten toe te wijzen aan hogere
+                  groepsnummers.</span
+                >
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-gray-900 mb-3">Groepen</h2>
+
+          <div
+            id="groepen-resultaten"
+            class="grid gap-4 md:grid-cols-2 xl:grid-cols-4"
+          ></div>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-semibold text-gray-900 mb-3">
+            Wedstrijdschema
+          </h2>
+
+          <div id="wedstrijden-visualisatie" class="space-y-4"></div>
+        </div>
+
+        <div
+          class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
+        >
+          <p id="csv-feedback" class="text-sm text-gray-500">
+            Er wordt een CSV-bestand aangemaakt met alle onderlinge wedstrijden
+            per groep.
+          </p>
+
+          <button
+            id="exporteer-csv"
+            type="button"
+            class="inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white bg-slate-900 rounded-lg shadow hover:bg-slate-700 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+            disabled
+          >
+            <i class="fa-solid fa-file-csv mr-2"></i>
+
+            Exporteer groepen naar CSV
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <div id="footer-placeholder"></div>
+
+    <script src="assets/js/include.js" defer></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

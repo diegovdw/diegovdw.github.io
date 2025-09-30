@@ -1,157 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <title>Speler Detail</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="assets/images/logo_transpiekers.png">
-</head>
-<body class="bg-gray-100 flex flex-col h-screen">
-  <!-- Header -->
-  <div id="header-placeholder"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Speler Detail</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/logo_transpiekers.png"
+    />
+  </head>
+  <body class="bg-gray-100 flex flex-col h-screen">
+    <!-- Header -->
+    <div id="header-placeholder"></div>
 
-  <main class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow">
-    <!-- Page Title -->
-    <div class="mb-8">
-      <h3 class="text-2xl font-semibold text-slate-900" id="speler-naam">Spelerstatistieken</h3>
-    </div>
+    <main
+      class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow"
+    >
+      <!-- Page Title -->
+      <div class="mb-8">
+        <h3 class="text-2xl font-semibold text-slate-900" id="speler-naam">
+          Spelerstatistieken
+        </h3>
+      </div>
 
-    <!-- Statistieken Row -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
-      <!-- Rank Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+      <!-- Statistieken Row -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
+        <!-- Rank Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Rank</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speler-stats-rank"></p>
-                  <div class="flex items-center mt-2" id="speler-stats-rank-previous"></div>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Rank</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speler-stats-rank"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speler-stats-rank-previous"
+              ></div>
+            </div>
           </div>
-      </div>
-      
-      <!-- Gewonnen Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
-          <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Gewonnen</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speler-stats-gewonnen"></p>
-                  <div class="flex items-center mt-2" id="speler-stats-gewonnen-previous"></div>
-              </div>
-          </div>
-      </div>
+        </div>
 
-      <!-- Verloren Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Gewonnen Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Verloren</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speler-stats-verloren"></p>
-                  <div class="flex items-center mt-2" id="speler-stats-verloren-previous"></div>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Gewonnen</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speler-stats-gewonnen"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speler-stats-gewonnen-previous"
+              ></div>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Legdiff Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Verloren Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Legs +-</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speler-stats-legsdiff"></p>
-                  <div class="flex items-center mt-2" id="speler-stats-legsdiff-previous"></div>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Verloren</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speler-stats-verloren"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speler-stats-verloren-previous"
+              ></div>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Boetes Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Legdiff Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Boetes</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speler-stats-boetes"></p>
-                  <div class="flex items-center mt-2" id="speler-stats-boetes-previous"></div>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Legs +-</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speler-stats-legsdiff"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speler-stats-legsdiff-previous"
+              ></div>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Punten Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Boetes Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Punten</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speler-stats-punten"></p>
-                  <div class="flex items-center mt-2" id="speler-stats-punten-previous"></div>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Boetes</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speler-stats-boetes"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speler-stats-boetes-previous"
+              ></div>
+            </div>
           </div>
-      </div>
-    </div>
+        </div>
 
-    <!-- Wedstrijden row -->
-    <div class="px-6 py-4">
-      <h3 class="text-lg font-semibold text-slate-900">Wedstrijden</h3>
-    </div>
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 mb-8">
-      <div class="overflow-x-auto rounded-xl shadow-sm w-full">
-        <table class="min-w-full border-collapse" id="speler-stats-matchen">
-          <thead class="bg-[#76A936]">
-            <tr>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Datum</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Thuis</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Uitslag</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Uit</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900"></th>
-            </tr>
-          </thead>
-          <tbody class="bg-white divide-y divide-gray-200">
-          </tbody>
-        </table>
-      </div>
-    </div>
-    
-    <!-- Worpen row -->
-    <div class="px-6 py-4">
-      <h3 class="text-lg font-semibold text-slate-900">Hoogste worpen</h3>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-8">
-      <!-- Hoogste Worp -->
-      <div class="rounded-xl"> <!-- bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow-->
-        <div class="overflow-x-auto w-full bg-white shadow-sm border border-gray-200 transition-shadow rounded-xl"> <!-- overflow-x-auto w-full-->
-          <div class="px-6 py-4 border-b border-gray-200 bg-[#76A936]">
-            <h3 class="text-sm font-semibold text-slate-900 text-center">Hoogste Worp</h3>
-          </div>
-          <div class="border-b border-gray-200" id="speler-stats-hoogsteworp">
+        <!-- Punten Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-sm font-medium text-gray-600">Punten</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speler-stats-punten"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speler-stats-punten-previous"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Hoogste Uitworp -->
-      <div class="rounded-xl">
-        <div class="overflow-x-auto w-full bg-white shadow-sm border border-gray-200 transition-shadow rounded-xl">
-          <div class="px-6 py-4 border-b border-gray-200 bg-[#76A936]">
-            <h3 class="text-sm font-semibold text-slate-900 text-center">Hoogste Uitworp</h3>
+      <!-- Wedstrijden row -->
+      <div class="px-6 py-4">
+        <h3 class="text-lg font-semibold text-slate-900">Wedstrijden</h3>
+      </div>
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 mb-8">
+        <div class="overflow-x-auto rounded-xl shadow-sm w-full">
+          <table class="min-w-full border-collapse" id="speler-stats-matchen">
+            <thead class="bg-[#76A936]">
+              <tr>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Datum
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Thuis
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Uitslag
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Uit
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                ></th>
+              </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Worpen row -->
+      <div class="px-6 py-4">
+        <h3 class="text-lg font-semibold text-slate-900">Hoogste worpen</h3>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-8">
+        <!-- Hoogste Worp -->
+        <div class="rounded-xl">
+          <!-- bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow-->
+          <div
+            class="overflow-x-auto w-full bg-white shadow-sm border border-gray-200 transition-shadow rounded-xl"
+          >
+            <!-- overflow-x-auto w-full-->
+            <div class="px-6 py-4 border-b border-gray-200 bg-[#76A936]">
+              <h3 class="text-sm font-semibold text-slate-900 text-center">
+                Hoogste Worp
+              </h3>
+            </div>
+            <div
+              class="border-b border-gray-200"
+              id="speler-stats-hoogsteworp"
+            ></div>
           </div>
-          <div class="border-b border-gray-200" id="speler-stats-hoogsteuitworp">
+        </div>
+
+        <!-- Hoogste Uitworp -->
+        <div class="rounded-xl">
+          <div
+            class="overflow-x-auto w-full bg-white shadow-sm border border-gray-200 transition-shadow rounded-xl"
+          >
+            <div class="px-6 py-4 border-b border-gray-200 bg-[#76A936]">
+              <h3 class="text-sm font-semibold text-slate-900 text-center">
+                Hoogste Uitworp
+              </h3>
+            </div>
+            <div
+              class="border-b border-gray-200"
+              id="speler-stats-hoogsteuitworp"
+            ></div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Worpen row -->
-    <div class="px-6 py-4">
-      <h3 class="text-lg font-semibold text-slate-900">Ranking verloop</h3>
-    </div>
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-      <canvas id="rankingChart"></canvas>
-    </div>
+      <!-- Worpen row -->
+      <div class="px-6 py-4">
+        <h3 class="text-lg font-semibold text-slate-900">Ranking verloop</h3>
+      </div>
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+        <canvas id="rankingChart"></canvas>
+      </div>
+    </main>
 
-  </main>
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
 
-  <!-- Footer -->
-  <div id="footer-placeholder"></div>
-  
-  <script src="assets/js/include.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
