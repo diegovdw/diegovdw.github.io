@@ -1,13 +1,16 @@
-const fs = require('fs');
-const path = require('path');
-const csv = require('csv-parser');
+const fs = require("fs");
+const path = require("path");
+const csv = require("csv-parser");
 
-const uitslagenPad = path.join(__dirname, '../input/uitslagen.csv'); //datum,speler1,speler2,score1,score2
-const boetesPad = path.join(__dirname, '../input/boetes.csv');  //datum,speler,hoeveelheid
-const scoresPad = path.join(__dirname, '../input/hoogste_worp.csv');  //datum,speler,score,hoeveelheid,type
-const spelersPad = path.join(__dirname, '../docs/assets/data/spelers.json');
-const ranglijstenPad = path.join(__dirname, '../docs/assets/data/ranglijsten.json');
-const kalenderPad = path.join(__dirname, '../docs/assets/data/kalender.json');
+const uitslagenPad = path.join(__dirname, "../input/uitslagen.csv"); //datum,speler1,speler2,score1,score2
+const boetesPad = path.join(__dirname, "../input/boetes.csv"); //datum,speler,hoeveelheid
+const scoresPad = path.join(__dirname, "../input/hoogste_worp.csv"); //datum,speler,score,hoeveelheid,type
+const spelersPad = path.join(__dirname, "../docs/assets/data/spelers.json");
+const ranglijstenPad = path.join(
+  __dirname,
+  "../docs/assets/data/ranglijsten.json",
+);
+const kalenderPad = path.join(__dirname, "../docs/assets/data/kalender.json");
 
 const uitslagen = [];
 const spelers = [];
@@ -17,8 +20,8 @@ const kalender = JSON.parse(fs.readFileSync(kalenderPad));
 
 function convertDate(dateStr) {
   // verwacht: dd/MM/yyyy (bv. 19/09/2025)
-  const [dag, maand, jaar] = dateStr.split('/');
-  return `${jaar}-${maand.padStart(2, '0')}-${dag.padStart(2, '0')}`;
+  const [dag, maand, jaar] = dateStr.split("/");
+  return `${jaar}-${maand.padStart(2, "0")}-${dag.padStart(2, "0")}`;
 }
 
 function magPuntenKrijgen(speler, inhaalDatum, kalender) {
@@ -26,20 +29,22 @@ function magPuntenKrijgen(speler, inhaalDatum, kalender) {
 
   // 1. Speeldagen vóór inhaaldatum
   const eerdereSpeeldagen = kalender
-    .filter(d => d.type === 'speeldag' && d.datum < inhaalDatum)
-    .map(d => d.datum);
+    .filter((d) => d.type === "speeldag" && d.datum < inhaalDatum)
+    .map((d) => d.datum);
 
   // 2. Op welke daarvan was de speler aanwezig?
   const gespeeldeSpeeldagen = speler.matchen
-    .filter(m => eerdereSpeeldagen.includes(m.datum))
-    .map(m => m.datum);
+    .filter((m) => eerdereSpeeldagen.includes(m.datum))
+    .map((m) => m.datum);
 
-  const gemisteSpeeldagen = eerdereSpeeldagen.filter(d => !gespeeldeSpeeldagen.includes(d)).length;
+  const gemisteSpeeldagen = eerdereSpeeldagen.filter(
+    (d) => !gespeeldeSpeeldagen.includes(d),
+  ).length;
 
   // 3. Hoeveel inhaalmatchen speelde deze speler al vóór deze datum waar puntenTellen = true
-  const eerdereInhaalmatches = speler.matchen
-    .filter(m => m.datum < inhaalDatum && m.puntenTellen === true)
-    .length;
+  const eerdereInhaalmatches = speler.matchen.filter(
+    (m) => m.datum < inhaalDatum && m.puntenTellen === true,
+  ).length;
 
   // 4. Speler mag punten krijgen als hij nog een gemiste speeldag moet compenseren
   return eerdereInhaalmatches < gemisteSpeeldagen;
@@ -47,39 +52,51 @@ function magPuntenKrijgen(speler, inhaalDatum, kalender) {
 
 function genereerMatchID(datum, speler1, speler2, score1, score2) {
   const spelersSorted = [speler1, speler2].sort();
-  const scores = speler1 < speler2 ? `${score1}-${score2}` : `${score2}-${score1}`;
+  const scores =
+    speler1 < speler2 ? `${score1}-${score2}` : `${score2}-${score1}`;
   // return `${datum}_${spelersSorted[0]}_vs_${spelersSorted[1]}_${scores}`;
   return `${datum}_${speler1}_vs_${speler2}_${score1}-${score2}`;
 }
 
 function parseMatchID(matchID) {
   // matchID = "2025-09-20_Chris_vs_Diego_2-1"
-  const eersteUnderscore = matchID.indexOf('_');
+  const eersteUnderscore = matchID.indexOf("_");
   if (eersteUnderscore === -1) return null;
 
   const datum = matchID.substring(0, eersteUnderscore); // "2025-09-20"
   const rest = matchID.substring(eersteUnderscore + 1); // "Chris_vs_Diego_2-1"
 
-  const laatsteUnderscore = rest.lastIndexOf('_');
+  const laatsteUnderscore = rest.lastIndexOf("_");
   if (laatsteUnderscore === -1) return null;
 
   const spelersPart = rest.substring(0, laatsteUnderscore); // "Chris_vs_Diego"
   const scoresPart = rest.substring(laatsteUnderscore + 1); // "2-1"
 
-  const vsIndex = spelersPart.indexOf('_vs_');
+  const vsIndex = spelersPart.indexOf("_vs_");
   if (vsIndex === -1) return null;
 
   const speler1 = spelersPart.substring(0, vsIndex);
   const speler2 = spelersPart.substring(vsIndex + 4); // "_vs_" is 4 chars
 
-  const [score1, score2] = scoresPart.split('-').map(Number);
+  const [score1, score2] = scoresPart.split("-").map(Number);
 
   return { datum, speler1, speler2, score1, score2 };
 }
 
-
-function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander, uitslag, datum, groep, matchId, puntenTellen = true) {
-  let speler = spelers.find(s => s.naam === naam);
+function updateSpeler(
+  naam,
+  gewonnen,
+  verloren,
+  legsPlus,
+  legsMin,
+  tegenstander,
+  uitslag,
+  datum,
+  groep,
+  matchId,
+  puntenTellen = true,
+) {
+  let speler = spelers.find((s) => s.naam === naam);
   if (!speler) {
     speler = {
       naam,
@@ -99,15 +116,15 @@ function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander,
         verloren: 0,
         legsPlus: 0,
         legsMin: 0,
-        punten: 0
-      }
+        punten: 0,
+      },
     };
     spelers.push(speler);
   }
 
-  const bestaatAl = speler.matchen.some(m => m.id === matchId);
+  const bestaatAl = speler.matchen.some((m) => m.id === matchId);
   if (bestaatAl) return;
-  
+
   if (puntenTellen) {
     // Update Vorige Data
     // speler.vorigeData.gespeeld = speler.gespeeld
@@ -126,8 +143,8 @@ function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander,
     speler.punten += parseInt(legsPlus);
   }
 
-  const pulledMatch = parseMatchID(matchId)
-  const pulledUitlsag = `${pulledMatch.score1}-${pulledMatch.score2}`
+  const pulledMatch = parseMatchID(matchId);
+  const pulledUitlsag = `${pulledMatch.score1}-${pulledMatch.score2}`;
 
   speler.matchen.push({
     id: matchId,
@@ -136,7 +153,7 @@ function updateSpeler(naam, gewonnen, verloren, legsPlus, legsMin, tegenstander,
     uit: pulledMatch.speler2,
     uitslag: pulledUitlsag,
     groep,
-    puntenTellen
+    puntenTellen,
   });
 }
 
@@ -149,21 +166,21 @@ function genereerRanglijstenPerSpeeldag() {
 
   const datumsGesorteerd = Object.keys(uitslagenPerDatum).sort();
 
-  datumsGesorteerd.forEach(datum => {
+  datumsGesorteerd.forEach((datum) => {
     const dagUitslagen = uitslagenPerDatum[datum];
 
-    spelers.forEach(speler => {
+    spelers.forEach((speler) => {
       speler.vorigeData = {
         gespeeld: speler.gespeeld,
         gewonnen: speler.gewonnen,
         verloren: speler.verloren,
         legsPlus: speler.legsPlus,
         legsMin: speler.legsMin,
-        punten: speler.punten
+        punten: speler.punten,
       };
     });
 
-    dagUitslagen.forEach(row => {
+    dagUitslagen.forEach((row) => {
       const { speler1, speler2, score1, score2, groep } = row;
       const matchId = genereerMatchID(datum, speler1, speler2, score1, score2);
 
@@ -173,36 +190,68 @@ function genereerRanglijstenPerSpeeldag() {
       const uitslag1 = `${score1}-${score2}`;
       const uitslag2 = `${score2}-${score1}`;
 
-      const isInhaal = kalender.find(k => k.datum === datum)?.type === 'inhaal';
+      const isInhaal =
+        kalender.find((k) => k.datum === datum)?.type === "inhaal";
 
-      const speler1Obj = spelers.find(s => s.naam === speler1) || { matchen: [] };
-      const speler2Obj = spelers.find(s => s.naam === speler2) || { matchen: [] };
+      const speler1Obj = spelers.find((s) => s.naam === speler1) || {
+        matchen: [],
+      };
+      const speler2Obj = spelers.find((s) => s.naam === speler2) || {
+        matchen: [],
+      };
 
-      const speler1MagPunten = !isInhaal || magPuntenKrijgen(speler1Obj, datum, kalender);
-      const speler2MagPunten = !isInhaal || magPuntenKrijgen(speler2Obj, datum, kalender);
+      const speler1MagPunten =
+        !isInhaal || magPuntenKrijgen(speler1Obj, datum, kalender);
+      const speler2MagPunten =
+        !isInhaal || magPuntenKrijgen(speler2Obj, datum, kalender);
 
-
-      updateSpeler(speler1, score1 > score2 ? 1 : 0, score1 < score2 ? 1 : 0, score1, score2, speler2, uitslag1, datum, groep, matchId, speler1MagPunten);
-      updateSpeler(speler2, score2 > score1 ? 1 : 0, score2 < score1 ? 1 : 0, score2, score1, speler1, uitslag2, datum, groep, matchId, speler2MagPunten);
+      updateSpeler(
+        speler1,
+        score1 > score2 ? 1 : 0,
+        score1 < score2 ? 1 : 0,
+        score1,
+        score2,
+        speler2,
+        uitslag1,
+        datum,
+        groep,
+        matchId,
+        speler1MagPunten,
+      );
+      updateSpeler(
+        speler2,
+        score2 > score1 ? 1 : 0,
+        score2 < score1 ? 1 : 0,
+        score2,
+        score1,
+        speler1,
+        uitslag2,
+        datum,
+        groep,
+        matchId,
+        speler2MagPunten,
+      );
     });
 
     //Extra logica voor oneven groepen
     const groepenMap = {};
-    dagUitslagen.forEach(row => {
+    dagUitslagen.forEach((row) => {
       if (!groepenMap[row.groep]) groepenMap[row.groep] = new Set();
       groepenMap[row.groep].add(row.speler1);
       groepenMap[row.groep].add(row.speler2);
     });
 
-    const grootsteGroep = Math.max(...Object.values(groepenMap).map(set => set.size));
+    const grootsteGroep = Math.max(
+      ...Object.values(groepenMap).map((set) => set.size),
+    );
     // 2. Check welke groepen minder dan 4 spelers hadden
     Object.entries(groepenMap).forEach(([groep, spelersSet]) => {
       const verschil = grootsteGroep - spelersSet.size;
       if (verschil > 0) {
-        spelersSet.forEach(naam => {
+        spelersSet.forEach((naam) => {
           const byeId = `${datum}_${groep}_${naam}_bye_${verschil}`;
-          const speler = spelers.find(s => s.naam === naam);
-          if (speler && !speler.matchen.some(m => m.id === byeId)) {
+          const speler = spelers.find((s) => s.naam === naam);
+          if (speler && !speler.matchen.some((m) => m.id === byeId)) {
             speler.punten += verschil;
             // speler.matchen.push({
             //   id: byeId,
@@ -219,23 +268,22 @@ function genereerRanglijstenPerSpeeldag() {
       }
     });
 
-
     const gesorteerd = [...spelers].sort((a, b) => b.punten - a.punten);
     const klassement = gesorteerd.map((speler, index) => ({
       naam: speler.naam,
       positie: index + 1,
-      punten: speler.punten
+      punten: speler.punten,
     }));
 
     ranglijsten.push({
       datum,
-      klassement
+      klassement,
     });
   });
 }
 
 function updateBoete(naam, datum, hoeveelheid, boeteId, spelers) {
-  let speler = spelers.find(s => s.naam === naam);
+  let speler = spelers.find((s) => s.naam === naam);
   if (!speler) {
     // speler = {
     //   naam,
@@ -251,24 +299,24 @@ function updateBoete(naam, datum, hoeveelheid, boeteId, spelers) {
     //   hoogsteUitworpen: []
     // };
     // spelers.push(speler);
-    console.log('Speler niet gevonden:', naam);
+    console.log("Speler niet gevonden:", naam);
   }
 
   // if (!speler.boetes) speler.boetes = [];
 
-  const bestaatAl = speler.boetes.some(b => b.id === boeteId);
+  const bestaatAl = speler.boetes.some((b) => b.id === boeteId);
   if (bestaatAl) return;
 
   speler.boetes.push({
     id: boeteId,
     datum,
-    hoeveelheid: parseInt(hoeveelheid, 10)
+    hoeveelheid: parseInt(hoeveelheid, 10),
   });
 }
 
 function updateHoogsteScores(scoreData, spelers) {
   scoreData.forEach(({ datum, speler, score, type, hoeveelheid }) => {
-    let spelerObj = spelers.find(s => s.naam === speler);
+    let spelerObj = spelers.find((s) => s.naam === speler);
     if (!spelerObj) {
       spelerObj = {
         naam: speler,
@@ -281,16 +329,21 @@ function updateHoogsteScores(scoreData, spelers) {
         matchen: [],
         boetes: [],
         hoogsteWorpen: [],
-        hoogsteUitworpen: []
+        hoogsteUitworpen: [],
       };
       spelers.push(spelerObj);
     }
 
-    const targetList = type === 'worp' ? 'hoogsteWorpen' : 'hoogsteUitworpen';
+    const targetList = type === "worp" ? "hoogsteWorpen" : "hoogsteUitworpen";
 
     if (!spelerObj[targetList]) spelerObj[targetList] = [];
 
-    const bestaat = spelerObj[targetList].some(entry => entry.datum === datum && entry.score === score && entry.hoeveelheid === hoeveelheid);
+    const bestaat = spelerObj[targetList].some(
+      (entry) =>
+        entry.datum === datum &&
+        entry.score === score &&
+        entry.hoeveelheid === hoeveelheid,
+    );
     if (!bestaat) {
       spelerObj[targetList].push({ datum, score, hoeveelheid });
     }
@@ -305,17 +358,19 @@ const leesBoetes = () => {
   return new Promise((resolve, reject) => {
     const boetes = [];
     fs.createReadStream(boetesPad)
-      .pipe(csv({
-  separator: ';',
-  mapHeaders: ({ header }) => header.toLowerCase()
-}))
-      .on('data', (row) => {
+      .pipe(
+        csv({
+          separator: ";",
+          mapHeaders: ({ header }) => header.toLowerCase(),
+        }),
+      )
+      .on("data", (row) => {
         row.datum = convertDate(row.datum);
         row.hoeveelheid = parseInt(row.hoeveelheid, 10);
         boetes.push(row);
       })
-      .on('end', () => resolve(boetes))
-      .on('error', reject);
+      .on("end", () => resolve(boetes))
+      .on("error", reject);
   });
 };
 
@@ -323,39 +378,43 @@ const leesScores = () => {
   return new Promise((resolve, reject) => {
     const scores = [];
     fs.createReadStream(scoresPad)
-      .pipe(csv({
-  separator: ';',
-  mapHeaders: ({ header }) => header.toLowerCase()
-}))
-      .on('data', (row) => {
+      .pipe(
+        csv({
+          separator: ";",
+          mapHeaders: ({ header }) => header.toLowerCase(),
+        }),
+      )
+      .on("data", (row) => {
         row.datum = convertDate(row.datum);
         row.score = parseInt(row.score, 10);
         row.hoeveelheid = parseInt(row.hoeveelheid, 10);
         scores.push(row);
       })
-      .on('end', () => resolve(scores))
-      .on('error', reject);
+      .on("end", () => resolve(scores))
+      .on("error", reject);
   });
 };
 
 fs.createReadStream(uitslagenPad)
-  .pipe(csv({
-  separator: ';',
-  mapHeaders: ({ header }) => header.toLowerCase()
-}))
-  .on('data', (row) => {
+  .pipe(
+    csv({
+      separator: ";",
+      mapHeaders: ({ header }) => header.toLowerCase(),
+    }),
+  )
+  .on("data", (row) => {
     row.datum = convertDate(row.datum);
     row.score1 = parseInt(row.score1, 10);
     row.score2 = parseInt(row.score2, 10);
     row.groep = row.groep || null;
     uitslagen.push(row);
   })
-  .on('end', async () => {
+  .on("end", async () => {
     try {
       genereerRanglijstenPerSpeeldag();
 
       const boetes = await leesBoetes();
-      boetes.forEach(b => {
+      boetes.forEach((b) => {
         const boeteId = `${b.datum}_${b.speler}_${b.hoeveelheid}`;
         updateBoete(b.speler, b.datum, b.hoeveelheid, boeteId, spelers);
       });
@@ -366,8 +425,10 @@ fs.createReadStream(uitslagenPad)
       fs.writeFileSync(spelersPad, JSON.stringify(spelers, null, 2));
       fs.writeFileSync(ranglijstenPad, JSON.stringify(ranglijsten, null, 2));
 
-      console.log('✔ spelers.json & ranglijsten.json bijgewerkt met uitslagen, boetes en scores');
+      console.log(
+        "✔ spelers.json & ranglijsten.json bijgewerkt met uitslagen, boetes en scores",
+      );
     } catch (err) {
-      console.error('❌ Fout bij verwerken gegevens:', err);
+      console.error("❌ Fout bij verwerken gegevens:", err);
     }
   });

@@ -1,120 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <title>Uitslagen</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="assets/images/logo_transpiekers.png">
-</head>
-<body class="bg-gray-100 flex flex-col h-screen">
-  <!-- Header -->
-  <div id="header-placeholder"></div>
-  
-  <!-- MAIN -->
-  <main class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Uitslagen</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/logo_transpiekers.png"
+    />
+  </head>
+  <body class="bg-gray-100 flex flex-col h-screen">
+    <!-- Header -->
+    <div id="header-placeholder"></div>
 
-    <!-- Page Title -->
-    <div class="mb-8">
-      <h3 class="text-2xl font-semibold text-gray-900" id="speeldag-datum">Uitslagen</h3>
-    </div>
+    <!-- MAIN -->
+    <main
+      class="p-6 xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-xs mx-auto px-6 md:px-12 xl:px-6 flex-grow"
+    >
+      <!-- Page Title -->
+      <div class="mb-8">
+        <h3 class="text-2xl font-semibold text-gray-900" id="speeldag-datum">
+          Uitslagen
+        </h3>
+      </div>
 
-    <!-- Statistieken Row -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
-      
-      <!-- Spelers aanwezig Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+      <!-- Statistieken Row -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
+        <!-- Spelers aanwezig Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Spelers aanwezig</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speeldag-stats-aanwezig"></p>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Spelers aanwezig</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speeldag-stats-aanwezig"
+              ></p>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Gespeelde legs Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Gespeelde legs Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Gespeelde Matchen</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speeldag-stats-gespeeld"></p>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Gespeelde Matchen</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speeldag-stats-gespeeld"
+              ></p>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Gespeelde legs Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Gespeelde legs Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Gespeelde Legs</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speeldag-stats-legs"></p>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Gespeelde Legs</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speeldag-stats-legs"
+              ></p>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Boetes Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Boetes Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Boetes</p>
-                  <p class="text-3xl font-bold text-slate-900 mt-2" id="speeldag-stats-boetes"></p>
-              </div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Boetes</p>
+              <p
+                class="text-3xl font-bold text-slate-900 mt-2"
+                id="speeldag-stats-boetes"
+              ></p>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Hoogste Worp Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Hoogste Worp Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Hoogste Worp</p>
-                  <p class="text-3xl text-slate-900 mt-2" id="speeldag-stats-hoogsteworp"></p>
-                  <div class="flex items-center mt-2" id="speeldag-stats-hoogsteworp-speler"><span class="text-sm font-medium flex items-center"></span></div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Hoogste Worp</p>
+              <p
+                class="text-3xl text-slate-900 mt-2"
+                id="speeldag-stats-hoogsteworp"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speeldag-stats-hoogsteworp-speler"
+              >
+                <span class="text-sm font-medium flex items-center"></span>
               </div>
+            </div>
           </div>
-      </div>
+        </div>
 
-      <!-- Hoogste Uitworp Card -->
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow">
+        <!-- Hoogste Uitworp Card -->
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+        >
           <div class="flex items-center justify-between">
-              <div>
-                  <p class="text-sm font-medium text-gray-600">Hoogste Uitworp</p>
-                  <p class="text-3xl text-slate-900 mt-2" id="speeldag-stats-hoogsteuitworp"></p>
-                  <div class="flex items-center mt-2" id="speeldag-stats-hoogsteuitworp-speler"><span class="text-sm font-medium flex items-center"></span></div>
+            <div>
+              <p class="text-sm font-medium text-gray-600">Hoogste Uitworp</p>
+              <p
+                class="text-3xl text-slate-900 mt-2"
+                id="speeldag-stats-hoogsteuitworp"
+              ></p>
+              <div
+                class="flex items-center mt-2"
+                id="speeldag-stats-hoogsteuitworp-speler"
+              >
+                <span class="text-sm font-medium flex items-center"></span>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-    </div>
 
-    <!-- Wedstrijden row -->
-    <div class="px-6 py-4">
-      <h3 class="text-lg font-semibold text-slate-900">Wedstrijden</h3>
-    </div>
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 mb-8">               
-      <div class="overflow-x-auto rounded-xl shadow-sm w-full">
-        <table class="min-w-full border-collapse" id="speeldag-stats-matchen">
-          <thead class="bg-[#76A936]">
-            <tr>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Groep</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Thuis</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Uitslag</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900">Uit</th>
-              <th class="px-6 py-3 text-center text-sm font-semibold text-slate-900"></th>
-            </tr>
-          </thead>
-          <tbody class="bg-white divide-y divide-gray-200">
-          </tbody>
-        </table>
+      <!-- Wedstrijden row -->
+      <div class="px-6 py-4">
+        <h3 class="text-lg font-semibold text-slate-900">Wedstrijden</h3>
       </div>
-    </div>
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 mb-8">
+        <div class="overflow-x-auto rounded-xl shadow-sm w-full">
+          <table class="min-w-full border-collapse" id="speeldag-stats-matchen">
+            <thead class="bg-[#76A936]">
+              <tr>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Groep
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Thuis
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Uitslag
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                >
+                  Uit
+                </th>
+                <th
+                  class="px-6 py-3 text-center text-sm font-semibold text-slate-900"
+                ></th>
+              </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
 
-  </main>
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
 
-  <!-- Footer -->
-  <div id="footer-placeholder"></div>
-  
-  <script src="assets/js/include.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
