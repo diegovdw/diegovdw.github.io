@@ -930,7 +930,7 @@ function toonSpeeldagDetails(spelers, speeldagDatum) {
       speeldagSpelers.push(match.thuis);
     }
 
-    if (!speeldagSpelers.includes(match.thuis)) {
+    if (!speeldagSpelers.includes(match.uit)) {
       speeldagSpelers.push(match.uit);
     }
 
@@ -1236,7 +1236,7 @@ function toonToernooiGroepen(spelers, kalender = []) {
     gebruikGroepVier: gebruikGroepVierToggle
       ? gebruikGroepVierToggle.checked
       : true,
-    reverse: reverseVerdelingToggle ? reverseVerdelingToggle.checked : false,
+    reverse: reverseVerdelingToggle ? reverseVerdelingToggle.checked : true,
   });
 
   let laatsteWedstrijden = [];
@@ -1375,9 +1375,10 @@ function toonToernooiGroepen(spelers, kalender = []) {
     const formatSpeler = (speler) => {
       if (!speler) return "";
 
-      const rang = rangIndex.get(speler.naam);
+      // const rang = rangIndex.get(speler.naam);
 
-      return rang ? `#${rang} ${speler.naam}` : speler.naam;
+      // return rang ? `#${rang} ${speler.naam}` : speler.naam;
+      return speler.naam
     };
 
     const heeftWedstrijden =
@@ -1474,24 +1475,40 @@ function toonToernooiGroepen(spelers, kalender = []) {
             const item = document.createElement("li");
 
             item.className =
-              "flex items-center justify-between gap-3 rounded-md border border-white bg-white px-3 py-2 shadow-sm";
+              "flex items-center justify-between gap-3 rounded-md border border-white bg-white px-3 py-2 shadow-sm grid md:grid-cols-1 xl:grid-cols-3"; //grid md:grid-cols-1 xl:grid-cols-3
 
-            const spelersLabel = document.createElement("span");
+            const spelersLabel1 = document.createElement("span");
 
-            spelersLabel.className = "text-sm font-medium text-gray-900";
+            spelersLabel1.className = "text-sm text-center font-medium text-gray-900";
 
-            spelersLabel.textContent = `${formatSpeler(wedstrijd.speler1)} vs ${formatSpeler(wedstrijd.speler2)}`;
+            spelersLabel1.textContent = `${formatSpeler(wedstrijd.speler1)}`;
 
-            item.appendChild(spelersLabel);
+            item.appendChild(spelersLabel1);
 
-            const tag = document.createElement("span");
+            const spelersLabel2 = document.createElement("span");
 
-            tag.className =
-              "text-xs font-semibold uppercase tracking-wide text-slate-400";
+            spelersLabel2.className = "text-sm text-center font-medium text-gray-900";
 
-            tag.textContent = "Round Robin";
+            spelersLabel2.textContent = `vs`;
 
-            item.appendChild(tag);
+            item.appendChild(spelersLabel2);
+
+            const spelersLabel3 = document.createElement("span");
+
+            spelersLabel3.className = "text-sm text-center font-medium text-gray-900";
+
+            spelersLabel3.textContent = `${formatSpeler(wedstrijd.speler2)}`;
+
+            item.appendChild(spelersLabel3);
+
+            // const tag = document.createElement("span");
+
+            // tag.className =
+            //   "text-xs font-semibold uppercase tracking-wide text-slate-400";
+
+            // tag.textContent = "Round Robin";
+
+            // item.appendChild(tag);
 
             lijst.appendChild(item);
           });

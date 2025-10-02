@@ -300,6 +300,7 @@ function updateBoete(naam, datum, hoeveelheid, boeteId, spelers) {
     // };
     // spelers.push(speler);
     console.log("Speler niet gevonden:", naam);
+    return
   }
 
   // if (!speler.boetes) speler.boetes = [];
