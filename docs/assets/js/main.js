@@ -1372,15 +1372,6 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
     wedstrijdenContainer.innerHTML = "";
 
-    const formatSpeler = (speler) => {
-      if (!speler) return "";
-
-      // const rang = rangIndex.get(speler.naam);
-
-      // return rang ? `#${rang} ${speler.naam}` : speler.naam;
-      return speler.naam
-    };
-
     const heeftWedstrijden =
       Array.isArray(schemaPerGroep) &&
       schemaPerGroep.some(
@@ -1481,7 +1472,7 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
             spelersLabel1.className = "text-sm text-center font-medium text-gray-900";
 
-            spelersLabel1.textContent = `${formatSpeler(wedstrijd.speler1)}`;
+            spelersLabel1.textContent = `${wedstrijd.speler1.naam}`;
 
             item.appendChild(spelersLabel1);
 
@@ -1497,7 +1488,7 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
             spelersLabel3.className = "text-sm text-center font-medium text-gray-900";
 
-            spelersLabel3.textContent = `${formatSpeler(wedstrijd.speler2)}`;
+            spelersLabel3.textContent = `${wedstrijd.speler2.naam}`;
 
             item.appendChild(spelersLabel3);
 
