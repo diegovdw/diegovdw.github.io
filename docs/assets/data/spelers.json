@@ -2177,5 +2177,26 @@
       "legsMin": 0,
       "punten": 0
     }
+  },
+  {
+    "naam": "Dennis",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "legsPlus": 0,
+    "legsMin": 0,
+    "punten": 0,
+    "matchen": [],
+    "boetes": [],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 0,
+      "gewonnen": 0,
+      "verloren": 0,
+      "legsPlus": 0,
+      "legsMin": 0,
+      "punten": 0
+    }
   }
 ]

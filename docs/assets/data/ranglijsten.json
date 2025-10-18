@@ -206,6 +206,11 @@
         "naam": "Dominique",
         "positie": 22,
         "punten": 1
+      },
+      {
+        "naam": "Dennis",
+        "positie": 23,
+        "punten": 0
       }
     ]
   }
