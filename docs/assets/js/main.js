@@ -1066,7 +1066,28 @@ function toonSpeeldagDetails(spelers, speeldagDatum) {
     matchenPerGroep[groep].push(match);
   });
 
-  Object.entries(matchenPerGroep).forEach(([groep, matchen]) => {
+  const gesorteerdeGroepsNamen = Object.keys(matchenPerGroep).sort((a, b) => {
+    // Zorg ervoor dat "Geen groep" achteraan komt
+    if (a === "Geen groep") return 1;
+    if (b === "Geen groep") return -1;
+    
+    // Extraheer de nummers uit de groepsnamen ("Groep1" -> 1)
+    const nummerA = parseInt(a.replace('Groep', ''), 10);
+    const nummerB = parseInt(b.replace('Groep', ''), 10);
+    
+    // Sorteer op nummer: a - b geeft oplopend (1, 2, 3...)
+    // De !isNaN controle zorgt ervoor dat niet-numerieke groepen (indien aanwezig) op hun plaats blijven
+    if (!isNaN(nummerA) && !isNaN(nummerB)) {
+      return nummerA - nummerB;
+    }
+    
+    // Standaard alfabetische sortering voor de rest
+    return a.localeCompare(b);
+  });
+
+  gesorteerdeGroepsNamen.forEach((groep) => {
+
+    const matchen = matchenPerGroep[groep];
     // Header row voor de groep
 
     const headerRow = document.createElement("tr");

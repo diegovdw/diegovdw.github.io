@@ -93,5 +93,120 @@
         "punten": 1
       }
     ]
+  },
+  {
+    "datum": "2025-10-17",
+    "klassement": [
+      {
+        "naam": "Kurt",
+        "positie": 1,
+        "punten": 16
+      },
+      {
+        "naam": "Hannek",
+        "positie": 2,
+        "punten": 14
+      },
+      {
+        "naam": "Jurgen",
+        "positie": 3,
+        "punten": 12
+      },
+      {
+        "naam": "Jari",
+        "positie": 4,
+        "punten": 11
+      },
+      {
+        "naam": "Kenji",
+        "positie": 5,
+        "punten": 11
+      },
+      {
+        "naam": "Bjorn",
+        "positie": 6,
+        "punten": 10
+      },
+      {
+        "naam": "Kristof",
+        "positie": 7,
+        "punten": 10
+      },
+      {
+        "naam": "Diego",
+        "positie": 8,
+        "punten": 9
+      },
+      {
+        "naam": "Milan",
+        "positie": 9,
+        "punten": 9
+      },
+      {
+        "naam": "Philippe",
+        "positie": 10,
+        "punten": 8
+      },
+      {
+        "naam": "Nico B",
+        "positie": 11,
+        "punten": 8
+      },
+      {
+        "naam": "Tom",
+        "positie": 12,
+        "punten": 7
+      },
+      {
+        "naam": "Redgy",
+        "positie": 13,
+        "punten": 7
+      },
+      {
+        "naam": "Nico D",
+        "positie": 14,
+        "punten": 7
+      },
+      {
+        "naam": "Chris",
+        "positie": 15,
+        "punten": 7
+      },
+      {
+        "naam": "Dave",
+        "positie": 16,
+        "punten": 6
+      },
+      {
+        "naam": "Ewoud",
+        "positie": 17,
+        "punten": 6
+      },
+      {
+        "naam": "Bram",
+        "positie": 18,
+        "punten": 5
+      },
+      {
+        "naam": "Cissen",
+        "positie": 19,
+        "punten": 4
+      },
+      {
+        "naam": "Dante",
+        "positie": 20,
+        "punten": 4
+      },
+      {
+        "naam": "Michiel",
+        "positie": 21,
+        "punten": 1
+      },
+      {
+        "naam": "Dominique",
+        "positie": 22,
+        "punten": 1
+      }
+    ]
   }
 ]

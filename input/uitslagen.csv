@@ -31,3 +31,39 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 19/09/2025;Kenji;0;2;Nico D;Groep4
 19/09/2025;Nico D;2;1;Milan;Groep4
 19/09/2025;Michiel;0;2;Kenji;Groep4
+17/10/2025;Hannek;2;0;Tom;Groep1
+17/10/2025;Jurgen;2;1;Kristof;Groep1
+17/10/2025;Kurt;2;1;Hannek;Groep1
+17/10/2025;Kristof;2;1;Tom;Groep1
+17/10/2025;Kurt;2;0;Jurgen;Groep1
+17/10/2025;Kristof;1;2;Hannek;Groep1
+17/10/2025;Kurt;2;0;Kristof;Groep1
+17/10/2025;Tom;0;2;Jurgen;Groep1
+17/10/2025;Kurt;2;0;Tom;Groep1
+17/10/2025;Hannek;2;1;Jurgen;Groep1
+17/10/2025;Jari;2;1;Diego;Groep2
+17/10/2025;Ewoud;0;2;Bjorn;Groep2
+17/10/2025;Kenji;2;0;Jari;Groep2
+17/10/2025;Bjorn;2;0;Diego;Groep2
+17/10/2025;Kenji;2;0;Ewoud;Groep2
+17/10/2025;Bjorn;0;2;Jari;Groep2
+17/10/2025;Kenji;2;1;Bjorn;Groep2
+17/10/2025;Diego;2;0;Ewoud;Groep2
+17/10/2025;Kenji;0;2;Diego;Groep2
+17/10/2025;Jari;2;1;Ewoud;Groep2
+17/10/2025;Philippe;2;1;Dave;Groep3
+17/10/2025;Nico B;2;1;Redgy;Groep3
+17/10/2025;Milan;2;0;Philippe;Groep3
+17/10/2025;Redgy;1;2;Dave;Groep3
+17/10/2025;Milan;2;0;Nico B;Groep3
+17/10/2025;Redgy;1;2;Philippe;Groep3
+17/10/2025;Milan;1;2;Redgy;Groep3
+17/10/2025;Dave;0;2;Nico B;Groep3
+17/10/2025;Milan;0;2;Dave;Groep3
+17/10/2025;Philippe;0;2;Nico B;Groep3
+17/10/2025;Bram;2;0;Dominique;Groep4
+17/10/2025;Chris;2;1;Dante;Groep4
+17/10/2025;Bram;0;2;Chris;Groep4
+17/10/2025;Dante;2;0;Dominique;Groep4
+17/10/2025;Bram;2;0;Dante;Groep4
+17/10/2025;Dominique;0;2;Chris;Groep4
