@@ -5,13 +5,13 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 19/09/2025;Dave;0;2;Hannek;Groep1
 19/09/2025;Hannek;2;0;Jari;Groep1
 19/09/2025;Bjorn;2;0;Dave;Groep1
-19/09/2025;Kristof;2;0;Tom;Groep2
+19/09/2025;Kristof T;2;0;Tom;Groep2
 19/09/2025;Philippe;2;0;Redgy;Groep2
-19/09/2025;Jurgen;2;0;Kristof;Groep2
+19/09/2025;Jurgen;2;0;Kristof T;Groep2
 19/09/2025;Tom;2;1;Philippe;Groep2
-19/09/2025;Redgy;1;2;Kristof;Groep2
+19/09/2025;Redgy;1;2;Kristof T;Groep2
 19/09/2025;Tom;2;1;Jurgen;Groep2
-19/09/2025;Philippe;0;2;Kristof;Groep2
+19/09/2025;Philippe;0;2;Kristof T;Groep2
 19/09/2025;Redgy;1;2;Jurgen;Groep2
 19/09/2025;Tom;2;0;Redgy;Groep2
 19/09/2025;Jurgen;2;1;Philippe;Groep2
@@ -32,12 +32,12 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 19/09/2025;Nico D;2;1;Milan;Groep4
 19/09/2025;Michiel;0;2;Kenji;Groep4
 17/10/2025;Hannek;2;0;Tom;Groep1
-17/10/2025;Jurgen;2;1;Kristof;Groep1
+17/10/2025;Jurgen;2;1;Kristof T;Groep1
 17/10/2025;Kurt;2;1;Hannek;Groep1
-17/10/2025;Kristof;2;1;Tom;Groep1
+17/10/2025;Kristof T;2;1;Tom;Groep1
 17/10/2025;Kurt;2;0;Jurgen;Groep1
-17/10/2025;Kristof;1;2;Hannek;Groep1
-17/10/2025;Kurt;2;0;Kristof;Groep1
+17/10/2025;Kristof T;1;2;Hannek;Groep1
+17/10/2025;Kurt;2;0;Kristof T;Groep1
 17/10/2025;Tom;0;2;Jurgen;Groep1
 17/10/2025;Kurt;2;0;Tom;Groep1
 17/10/2025;Hannek;2;1;Jurgen;Groep1
@@ -67,3 +67,31 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 17/10/2025;Dante;2;0;Dominique;Groep4
 17/10/2025;Bram;2;0;Dante;Groep4
 17/10/2025;Dominique;0;2;Chris;Groep4
+21/11/2025;Jurgen;2;0;Bjorn;Groep1
+21/11/2025;Kenji;2;0;Jari;Groep1
+21/11/2025;Jurgen;0;2;Kenji;Groep1
+21/11/2025;Jari;2;1;Bjorn;Groep1
+21/11/2025;Jurgen;2;1;Jari;Groep1
+21/11/2025;Bjorn;1;2;Kenji;Groep1
+21/11/2025;Kristof T;1;2;Philippe;Groep2
+21/11/2025;Diego;2;0;Milan;Groep2
+21/11/2025;Kristof T;0;2;Diego;Groep2
+21/11/2025;Milan;1;2;Philippe;Groep2
+21/11/2025;Kristof T;0;2;Milan;Groep2
+21/11/2025;Philippe;0;2;Diego;Groep2
+21/11/2025;Chris;2;1;Ewoud;Groep3
+21/11/2025;Redgy;2;0;Dave;Groep3
+21/11/2025;Chris;2;0;Redgy;Groep3
+21/11/2025;Dave;1;2;Ewoud;Groep3
+21/11/2025;Chris;2;0;Dave;Groep3
+21/11/2025;Ewoud;1;2;Redgy;Groep3
+21/11/2025;Cissen;2;0;Kristof M;Groep4
+21/11/2025;Dominique;2;0;Michiel;Groep4
+21/11/2025;Dante;2;1;Cissen;Groep4
+21/11/2025;Michiel;0;2;Kristof M;Groep4
+21/11/2025;Dante;2;0;Dominique;Groep4
+21/11/2025;Michiel;0;2;Cissen;Groep4
+21/11/2025;Dante;2;0;Michiel;Groep4
+21/11/2025;Kristof M;2;0;Dominique;Groep4
+21/11/2025;Dante;1;2;Kristof M;Groep4
+21/11/2025;Cissen;2;0;Dominique;Groep4
