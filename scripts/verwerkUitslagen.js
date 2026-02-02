@@ -25,30 +25,40 @@ function convertDate(dateStr) {
 }
 
 function magPuntenKrijgen(speler, inhaalDatum, kalender) {
-  if (!speler.matchen) return false;
+  if (!speler.matchen || speler.matchen.length === 0) return false;
 
-  // 1. Speeldagen vóór inhaaldatum
+  // Alle speeldagen vóór de inhaaldatum
   const eerdereSpeeldagen = kalender
-    .filter((d) => d.type === "speeldag" && d.datum < inhaalDatum)
-    .map((d) => d.datum);
+    .filter(k => k.type === "speeldag" && k.datum < inhaalDatum)
+    .map(k => k.datum);
 
-  // 2. Op welke daarvan was de speler aanwezig?
-  const gespeeldeSpeeldagen = speler.matchen
-    .filter((m) => eerdereSpeeldagen.includes(m.datum))
-    .map((m) => m.datum);
+  // Op welke speeldagen was de speler aanwezig?
+  // (minstens 1 match op die speeldag)
+  const aanwezigeSpeeldagen = new Set(
+    speler.matchen
+      .filter(m =>
+        kalender.find(k => k.datum === m.datum)?.type === "speeldag"
+      )
+      .map(m => m.datum)
+  );
 
+  // Speeldagen waarop de speler volledig afwezig was
   const gemisteSpeeldagen = eerdereSpeeldagen.filter(
-    (d) => !gespeeldeSpeeldagen.includes(d),
+    d => !aanwezigeSpeeldagen.has(d)
   ).length;
 
-  // 3. Hoeveel inhaalmatchen speelde deze speler al vóór deze datum waar puntenTellen = true
-  const eerdereInhaalmatches = speler.matchen.filter(
-    (m) => m.datum < inhaalDatum && m.puntenTellen === true,
+  // Hoeveel inhaalmatches telden al mee als compensatie?
+  const gebruikteInhaalMatches = speler.matchen.filter(
+    m =>
+      m.datum < inhaalDatum &&
+      m.puntenTellen === true &&
+      kalender.find(k => k.datum === m.datum)?.type === "inhaal"
   ).length;
 
-  // 4. Speler mag punten krijgen als hij nog een gemiste speeldag moet compenseren
-  return eerdereInhaalmatches < gemisteSpeeldagen;
+  // Mag punten krijgen zolang er nog gemiste speeldagen te compenseren zijn
+  return gebruikteInhaalMatches < gemisteSpeeldagen;
 }
+
 
 function genereerMatchID(datum, speler1, speler2, score1, score2) {
   const spelersSorted = [speler1, speler2].sort();

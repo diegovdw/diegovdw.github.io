@@ -123,3 +123,27 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 16/01/2026;Michiel;2;1;Dennis;Groep4
 16/01/2026;Kristof M;2;1;Michiel;Groep4
 16/01/2026;Dennis;2;0;Dominique;Groep4
+30/01/2026;Kenji;2;1;Milan;Groep1
+30/01/2026;Chris;2;1;Hannek;Groep1
+30/01/2026;Kenji;1;2;Chris;Groep1
+30/01/2026;Hannek;2;0;Milan;Groep1
+30/01/2026;Kenji;2;0;Hannek;Groep1
+30/01/2026;Milan;1;2;Chris;Groep1
+30/01/2026;Ewoud;1;2;Cissen;Groep2
+30/01/2026;Kurt;1;2;Dante;Groep2
+30/01/2026;Ewoud;2;0;Kurt;Groep2
+30/01/2026;Dante;0;2;Cissen;Groep2
+30/01/2026;Ewoud;0;2;Dante;Groep2
+30/01/2026;Cissen;2;0;Kurt;Groep2
+30/01/2026;Kristof T;0;2;Bjorn;Groep3
+30/01/2026;Kristof M;2;0;Nico B;Groep3
+30/01/2026;Kristof T;2;1;Kristof M;Groep3
+30/01/2026;Nico B;2;1;Bjorn;Groep3
+30/01/2026;Kristof T;2;1;Nico B;Groep3
+30/01/2026;Bjorn;2;0;Kristof M;Groep3
+30/01/2026;Redgy;0;2;Dennis;Groep4
+30/01/2026;Nico D;2;1;Michiel;Groep4
+30/01/2026;Redgy;1;2;Nico D;Groep4
+30/01/2026;Michiel;0;2;Dennis;Groep4
+30/01/2026;Redgy;2;1;Michiel;Groep4
+30/01/2026;Dennis;1;2;Nico D;Groep4
