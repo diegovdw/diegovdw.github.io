@@ -703,5 +703,130 @@
         "punten": 5
       }
     ]
+  },
+  {
+    "datum": "2026-03-13",
+    "klassement": [
+      {
+        "naam": "Kenji",
+        "positie": 1,
+        "punten": 39
+      },
+      {
+        "naam": "Chris",
+        "positie": 2,
+        "punten": 38
+      },
+      {
+        "naam": "Dante",
+        "positie": 3,
+        "punten": 30
+      },
+      {
+        "naam": "Nico D",
+        "positie": 4,
+        "punten": 28
+      },
+      {
+        "naam": "Kristof M",
+        "positie": 5,
+        "punten": 28
+      },
+      {
+        "naam": "Bjorn",
+        "positie": 6,
+        "punten": 27
+      },
+      {
+        "naam": "Diego",
+        "positie": 7,
+        "punten": 27
+      },
+      {
+        "naam": "Hannek",
+        "positie": 8,
+        "punten": 26
+      },
+      {
+        "naam": "Philippe",
+        "positie": 9,
+        "punten": 26
+      },
+      {
+        "naam": "Milan",
+        "positie": 10,
+        "punten": 26
+      },
+      {
+        "naam": "Ewoud",
+        "positie": 11,
+        "punten": 25
+      },
+      {
+        "naam": "Cissen",
+        "positie": 12,
+        "punten": 23
+      },
+      {
+        "naam": "Kurt",
+        "positie": 13,
+        "punten": 23
+      },
+      {
+        "naam": "Jari",
+        "positie": 14,
+        "punten": 21
+      },
+      {
+        "naam": "Kristof T",
+        "positie": 15,
+        "punten": 21
+      },
+      {
+        "naam": "Jurgen",
+        "positie": 16,
+        "punten": 21
+      },
+      {
+        "naam": "Nico B",
+        "positie": 17,
+        "punten": 20
+      },
+      {
+        "naam": "Dave",
+        "positie": 18,
+        "punten": 19
+      },
+      {
+        "naam": "Redgy",
+        "positie": 19,
+        "punten": 18
+      },
+      {
+        "naam": "Dennis",
+        "positie": 20,
+        "punten": 16
+      },
+      {
+        "naam": "Michiel",
+        "positie": 21,
+        "punten": 14
+      },
+      {
+        "naam": "Dominique",
+        "positie": 22,
+        "punten": 13
+      },
+      {
+        "naam": "Tom",
+        "positie": 23,
+        "punten": 7
+      },
+      {
+        "naam": "Bram",
+        "positie": 24,
+        "punten": 5
+      }
+    ]
   }
 ]
