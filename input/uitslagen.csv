@@ -207,3 +207,27 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 13/03/2026;Bram;0;2;Dennis;Groep4
 13/03/2026;Dave;2;0;Bram;Groep4
 13/03/2026;Michiel;0;2;Dennis;Groep4
+10/04/2026;Kenji;2;0;Bjorn;Groep1
+10/04/2026;Chris;2;0;Dante;Groep1
+10/04/2026;Kenji;2;0;Chris;Groep1
+10/04/2026;Dante;1;2;Bjorn;Groep1
+10/04/2026;Kenji;2;0;Dante;Groep1
+10/04/2026;Bjorn;0;2;Chris;Groep1
+10/04/2026;Hannek;2;1;Kurt;Groep2
+10/04/2026;Philippe;2;0;Ewoud;Groep2
+10/04/2026;Hannek;2;0;Philippe;Groep2
+10/04/2026;Ewoud;0;2;Kurt;Groep2
+10/04/2026;Hannek;2;0;Ewoud;Groep2
+10/04/2026;Kurt;2;0;Philippe;Groep2
+10/04/2026;Cissen;2;0;Dave;Groep3
+10/04/2026;Jari;2;0;Nico B;Groep3
+10/04/2026;Cissen;2;1;Jari;Groep3
+10/04/2026;Nico B;2;0;Dave;Groep3
+10/04/2026;Cissen;2;1;Nico B;Groep3
+10/04/2026;Dave;0;2;Jari;Groep3
+10/04/2026;Redgy;2;0;Dominique;Groep4
+10/04/2026;Dennis;2;1;Michiel;Groep4
+10/04/2026;Redgy;2;0;Dennis;Groep4
+10/04/2026;Michiel;1;2;Dominique;Groep4
+10/04/2026;Redgy;2;0;Michiel;Groep4
+10/04/2026;Dominique;1;2;Dennis;Groep4
