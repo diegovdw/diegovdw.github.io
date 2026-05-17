@@ -219,22 +219,22 @@
       }
     ],
     "vorigeData": {
-      "gespeeld": 14,
-      "gewonnen": 9,
-      "verloren": 5,
-      "legsPlus": 19,
-      "legsMin": 14,
-      "punten": 21
+      "gespeeld": 17,
+      "gewonnen": 11,
+      "verloren": 6,
+      "legsPlus": 24,
+      "legsMin": 16,
+      "punten": 26
     }
   },
   {
     "naam": "Dave",
-    "gespeeld": 21,
-    "gewonnen": 7,
-    "verloren": 14,
-    "legsPlus": 17,
-    "legsMin": 31,
-    "punten": 19,
+    "gespeeld": 25,
+    "gewonnen": 9,
+    "verloren": 16,
+    "legsPlus": 22,
+    "legsMin": 36,
+    "punten": 24,
     "matchen": [
       {
         "id": "2025-09-19_Jari_vs_Dave_2-0",
@@ -424,6 +424,42 @@
         "uitslag": "0-2",
         "groep": "Groep3",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof T_vs_Dave_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Nico B_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dave_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -441,6 +477,11 @@
         "id": "2026-02-20_Dave_1",
         "datum": "2026-02-20",
         "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-15_Dave_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
       }
     ],
     "hoogsteWorpen": [
@@ -452,11 +493,11 @@
     ],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 18,
+      "gespeeld": 21,
       "gewonnen": 7,
-      "verloren": 11,
+      "verloren": 14,
       "legsPlus": 17,
-      "legsMin": 25,
+      "legsMin": 31,
       "punten": 19
     }
   },
@@ -789,22 +830,22 @@
       }
     ],
     "vorigeData": {
-      "gespeeld": 20,
-      "gewonnen": 8,
-      "verloren": 12,
-      "legsPlus": 24,
-      "legsMin": 24,
-      "punten": 27
+      "gespeeld": 23,
+      "gewonnen": 9,
+      "verloren": 14,
+      "legsPlus": 26,
+      "legsMin": 29,
+      "punten": 29
     }
   },
   {
     "naam": "Hannek",
-    "gespeeld": 20,
-    "gewonnen": 13,
-    "verloren": 7,
-    "legsPlus": 30,
-    "legsMin": 18,
-    "punten": 32,
+    "gespeeld": 24,
+    "gewonnen": 16,
+    "verloren": 8,
+    "legsPlus": 36,
+    "legsMin": 21,
+    "punten": 38,
     "matchen": [
       {
         "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
@@ -985,6 +1026,42 @@
         "uitslag": "2-0",
         "groep": "Groep2",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Hannek_vs_Cissen_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Hannek",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kurt_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kurt",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Hannek_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -1012,6 +1089,11 @@
         "id": "2026-02-20_Hannek_1",
         "datum": "2026-02-20",
         "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-15_Hannek_2",
+        "datum": "2026-05-15",
+        "hoeveelheid": 2
       }
     ],
     "hoogsteWorpen": [
@@ -1069,6 +1151,16 @@
         "datum": "2026-04-10",
         "score": 121,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 120,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
@@ -1081,25 +1173,30 @@
         "datum": "2026-01-16",
         "score": 107,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 70,
+        "hoeveelheid": 1
       }
     ],
     "vorigeData": {
-      "gespeeld": 17,
-      "gewonnen": 10,
+      "gespeeld": 20,
+      "gewonnen": 13,
       "verloren": 7,
-      "legsPlus": 24,
-      "legsMin": 17,
-      "punten": 26
+      "legsPlus": 30,
+      "legsMin": 18,
+      "punten": 32
     }
   },
   {
     "naam": "Kristof T",
-    "gespeeld": 18,
-    "gewonnen": 7,
-    "verloren": 11,
-    "legsPlus": 19,
-    "legsMin": 24,
-    "punten": 21,
+    "gespeeld": 22,
+    "gewonnen": 9,
+    "verloren": 13,
+    "legsPlus": 24,
+    "legsMin": 28,
+    "punten": 26,
     "matchen": [
       {
         "id": "2025-09-19_Kristof T_vs_Tom_2-0",
@@ -1289,6 +1386,42 @@
         "uitslag": "0-2",
         "groep": "Groep4",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof T_vs_Dave_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Kristof T_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dominique_vs_Kristof T_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Dominique",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Kristof T_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -1316,6 +1449,11 @@
         "id": "2026-02-20_Kristof T_3",
         "datum": "2026-02-20",
         "hoeveelheid": 3
+      },
+      {
+        "id": "2026-05-15_Kristof T_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
       }
     ],
     "hoogsteWorpen": [
@@ -1357,6 +1495,11 @@
       {
         "datum": "2026-02-20",
         "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 122,
         "hoeveelheid": 1
       }
     ],
@@ -1477,12 +1620,12 @@
   },
   {
     "naam": "Philippe",
-    "gespeeld": 20,
-    "gewonnen": 11,
-    "verloren": 9,
-    "legsPlus": 25,
-    "legsMin": 24,
-    "punten": 28,
+    "gespeeld": 24,
+    "gewonnen": 14,
+    "verloren": 10,
+    "legsPlus": 32,
+    "legsMin": 26,
+    "punten": 35,
     "matchen": [
       {
         "id": "2025-09-19_Philippe_vs_Redgy_2-0",
@@ -1663,6 +1806,42 @@
         "uitslag": "2-0",
         "groep": "Groep2",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Philippe_vs_Diego_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Philippe",
+        "uit": "Diego",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Milan_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -1695,6 +1874,11 @@
         "id": "2026-04-10_Philippe_2",
         "datum": "2026-04-10",
         "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Philippe_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
       }
     ],
     "hoogsteWorpen": [
@@ -1732,6 +1916,11 @@
         "datum": "2026-04-10",
         "score": 112,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 116,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
@@ -1749,15 +1938,20 @@
         "datum": "2026-04-10",
         "score": 55,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 59,
+        "hoeveelheid": 1
       }
     ],
     "vorigeData": {
-      "gespeeld": 17,
-      "gewonnen": 10,
-      "verloren": 7,
-      "legsPlus": 23,
-      "legsMin": 20,
-      "punten": 26
+      "gespeeld": 20,
+      "gewonnen": 11,
+      "verloren": 9,
+      "legsPlus": 25,
+      "legsMin": 24,
+      "punten": 28
     }
   },
   {
@@ -2001,12 +2195,12 @@
     ],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 17,
-      "gewonnen": 4,
+      "gespeeld": 20,
+      "gewonnen": 7,
       "verloren": 13,
-      "legsPlus": 16,
+      "legsPlus": 22,
       "legsMin": 29,
-      "punten": 18
+      "punten": 24
     }
   },
   {
@@ -2283,11 +2477,11 @@
   },
   {
     "naam": "Ewoud",
-    "gespeeld": 24,
+    "gespeeld": 28,
     "gewonnen": 8,
-    "verloren": 16,
+    "verloren": 20,
     "legsPlus": 22,
-    "legsMin": 36,
+    "legsMin": 44,
     "punten": 25,
     "matchen": [
       {
@@ -2532,6 +2726,42 @@
         "uitslag": "2-0",
         "groep": "Groep2",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Nico B_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Kristof T_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dave_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dominique_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dominique",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -2574,6 +2804,11 @@
         "id": "2026-04-10_Ewoud_4",
         "datum": "2026-04-10",
         "hoeveelheid": 4
+      },
+      {
+        "id": "2026-05-15_Ewoud_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
       }
     ],
     "hoogsteWorpen": [
@@ -2635,22 +2870,22 @@
     ],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 21,
+      "gespeeld": 24,
       "gewonnen": 8,
-      "verloren": 13,
+      "verloren": 16,
       "legsPlus": 22,
-      "legsMin": 30,
+      "legsMin": 36,
       "punten": 25
     }
   },
   {
     "naam": "Cissen",
-    "gespeeld": 20,
+    "gespeeld": 24,
     "gewonnen": 12,
-    "verloren": 8,
-    "legsPlus": 27,
-    "legsMin": 22,
-    "punten": 29,
+    "verloren": 12,
+    "legsPlus": 29,
+    "legsMin": 30,
+    "punten": 31,
     "matchen": [
       {
         "id": "2025-09-19_Ewoud_vs_Cissen_1-2",
@@ -2831,6 +3066,42 @@
         "uitslag": "2-1",
         "groep": "Groep3",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Hannek_vs_Cissen_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Hannek",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Cissen_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Cissen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -2858,6 +3129,11 @@
         "id": "2026-04-10_Cissen_3",
         "datum": "2026-04-10",
         "hoeveelheid": 3
+      },
+      {
+        "id": "2026-05-15_Cissen_9",
+        "datum": "2026-05-15",
+        "hoeveelheid": 9
       }
     ],
     "hoogsteWorpen": [
@@ -2900,26 +3176,31 @@
         "datum": "2026-04-10",
         "score": 140,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 138,
+        "hoeveelheid": null
       }
     ],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 17,
-      "gewonnen": 9,
+      "gespeeld": 20,
+      "gewonnen": 12,
       "verloren": 8,
-      "legsPlus": 21,
-      "legsMin": 20,
-      "punten": 23
+      "legsPlus": 27,
+      "legsMin": 22,
+      "punten": 29
     }
   },
   {
     "naam": "Kurt",
-    "gespeeld": 17,
-    "gewonnen": 12,
-    "verloren": 5,
-    "legsPlus": 27,
-    "legsMin": 11,
-    "punten": 28,
+    "gespeeld": 21,
+    "gewonnen": 14,
+    "verloren": 7,
+    "legsPlus": 31,
+    "legsMin": 15,
+    "punten": 32,
     "matchen": [
       {
         "id": "2025-09-19_Kurt_vs_Nico B_2-0",
@@ -3073,6 +3354,42 @@
         "uitslag": "2-0",
         "groep": "Groep2",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Kurt_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kurt_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kurt",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -3100,6 +3417,11 @@
         "id": "2026-04-10_Kurt_2",
         "datum": "2026-04-10",
         "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Kurt_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
       }
     ],
     "hoogsteWorpen": [
@@ -3132,6 +3454,16 @@
         "datum": "2026-04-10",
         "score": 138,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 132,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 121,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
@@ -3142,22 +3474,22 @@
       }
     ],
     "vorigeData": {
-      "gespeeld": 14,
-      "gewonnen": 10,
-      "verloren": 4,
-      "legsPlus": 22,
-      "legsMin": 9,
-      "punten": 23
+      "gespeeld": 17,
+      "gewonnen": 12,
+      "verloren": 5,
+      "legsPlus": 27,
+      "legsMin": 11,
+      "punten": 28
     }
   },
   {
     "naam": "Nico B",
-    "gespeeld": 24,
-    "gewonnen": 7,
-    "verloren": 17,
-    "legsPlus": 21,
-    "legsMin": 37,
-    "punten": 23,
+    "gespeeld": 28,
+    "gewonnen": 9,
+    "verloren": 19,
+    "legsPlus": 27,
+    "legsMin": 42,
+    "punten": 29,
     "matchen": [
       {
         "id": "2025-09-19_Kurt_vs_Nico B_2-0",
@@ -3374,6 +3706,42 @@
         "uitslag": "2-1",
         "groep": "Groep3",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Nico B_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Nico B_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Kristof T_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -3411,6 +3779,11 @@
         "id": "2026-04-10_Nico B_2",
         "datum": "2026-04-10",
         "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Nico B_7",
+        "datum": "2026-05-15",
+        "hoeveelheid": 7
       }
     ],
     "hoogsteWorpen": [
@@ -3438,6 +3811,11 @@
         "datum": "2026-04-10",
         "score": 120,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 120,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
@@ -3448,22 +3826,22 @@
       }
     ],
     "vorigeData": {
-      "gespeeld": 21,
-      "gewonnen": 6,
-      "verloren": 15,
-      "legsPlus": 18,
-      "legsMin": 33,
-      "punten": 20
+      "gespeeld": 24,
+      "gewonnen": 7,
+      "verloren": 17,
+      "legsPlus": 21,
+      "legsMin": 37,
+      "punten": 23
     }
   },
   {
     "naam": "Diego",
-    "gespeeld": 18,
-    "gewonnen": 11,
-    "verloren": 7,
-    "legsPlus": 25,
-    "legsMin": 17,
-    "punten": 27,
+    "gespeeld": 22,
+    "gewonnen": 12,
+    "verloren": 10,
+    "legsPlus": 27,
+    "legsMin": 24,
+    "punten": 29,
     "matchen": [
       {
         "id": "2025-09-19_Diego_vs_Ewoud_0-2",
@@ -3626,6 +4004,42 @@
         "uitslag": "2-1",
         "groep": "Groep3",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Philippe_vs_Diego_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Philippe",
+        "uit": "Diego",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Milan_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Milan",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Nico D_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Diego_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
       }
     ],
     "boetes": [],
@@ -3694,12 +4108,22 @@
         "datum": "2026-03-13",
         "score": 125,
         "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
       {
         "datum": "2025-09-19",
         "score": 57,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 125,
         "hoeveelheid": 1
       }
     ],
@@ -3714,12 +4138,12 @@
   },
   {
     "naam": "Milan",
-    "gespeeld": 19,
-    "gewonnen": 8,
-    "verloren": 11,
-    "legsPlus": 21,
-    "legsMin": 25,
-    "punten": 26,
+    "gespeeld": 23,
+    "gewonnen": 9,
+    "verloren": 14,
+    "legsPlus": 25,
+    "legsMin": 31,
+    "punten": 30,
     "matchen": [
       {
         "id": "2025-09-19_Milan_vs_Kenji_0-2",
@@ -3918,6 +4342,42 @@
         "uitslag": "1-2",
         "groep": "Groep1",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Milan_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Milan",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Milan_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -3955,6 +4415,11 @@
         "id": "2026-03-13_Milan_4",
         "datum": "2026-03-13",
         "hoeveelheid": 4
+      },
+      {
+        "id": "2026-05-15_Milan_2",
+        "datum": "2026-05-15",
+        "hoeveelheid": 2
       }
     ],
     "hoogsteWorpen": [
@@ -3987,6 +4452,11 @@
         "datum": "2026-02-20",
         "score": 122,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 111,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
@@ -4007,12 +4477,12 @@
   },
   {
     "naam": "Kenji",
-    "gespeeld": 23,
-    "gewonnen": 20,
-    "verloren": 3,
-    "legsPlus": 41,
-    "legsMin": 13,
-    "punten": 45,
+    "gespeeld": 27,
+    "gewonnen": 21,
+    "verloren": 6,
+    "legsPlus": 44,
+    "legsMin": 19,
+    "punten": 48,
     "matchen": [
       {
         "id": "2025-09-19_Milan_vs_Kenji_0-2",
@@ -4247,6 +4717,42 @@
         "uitslag": "2-0",
         "groep": "Groep1",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Cissen_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Cissen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -4273,6 +4779,11 @@
       {
         "id": "2026-03-13_Kenji_1",
         "datum": "2026-03-13",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-15_Kenji_1",
+        "datum": "2026-05-15",
         "hoeveelheid": 1
       }
     ],
@@ -4371,6 +4882,16 @@
         "datum": "2026-04-10",
         "score": 180,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 121,
+        "hoeveelheid": 1
       }
     ],
     "hoogsteUitworpen": [
@@ -4381,12 +4902,12 @@
       }
     ],
     "vorigeData": {
-      "gespeeld": 20,
-      "gewonnen": 17,
+      "gespeeld": 23,
+      "gewonnen": 20,
       "verloren": 3,
-      "legsPlus": 35,
+      "legsPlus": 41,
       "legsMin": 13,
-      "punten": 39
+      "punten": 45
     }
   },
   {
@@ -4661,22 +5182,22 @@
     ],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 21,
+      "gespeeld": 24,
       "gewonnen": 4,
-      "verloren": 17,
-      "legsPlus": 12,
-      "legsMin": 36,
-      "punten": 14
+      "verloren": 20,
+      "legsPlus": 14,
+      "legsMin": 42,
+      "punten": 16
     }
   },
   {
     "naam": "Nico D",
-    "gespeeld": 16,
-    "gewonnen": 12,
-    "verloren": 4,
-    "legsPlus": 25,
-    "legsMin": 14,
-    "punten": 28,
+    "gespeeld": 20,
+    "gewonnen": 15,
+    "verloren": 5,
+    "legsPlus": 31,
+    "legsMin": 18,
+    "punten": 34,
     "matchen": [
       {
         "id": "2025-09-19_Michiel_vs_Nico D_0-2",
@@ -4821,6 +5342,42 @@
         "uitslag": "2-0",
         "groep": "Groep2",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Nico D_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Nico D_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -4838,6 +5395,11 @@
         "id": "2026-03-13_Nico D_2",
         "datum": "2026-03-13",
         "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Nico D_4",
+        "datum": "2026-05-15",
+        "hoeveelheid": 4
       }
     ],
     "hoogsteWorpen": [
@@ -4854,6 +5416,16 @@
       {
         "datum": "2026-01-30",
         "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 120,
         "hoeveelheid": 1
       }
     ],
@@ -4960,12 +5532,12 @@
   },
   {
     "naam": "Dominique",
-    "gespeeld": 21,
-    "gewonnen": 6,
+    "gespeeld": 25,
+    "gewonnen": 10,
     "verloren": 15,
-    "legsPlus": 14,
-    "legsMin": 31,
-    "punten": 16,
+    "legsPlus": 22,
+    "legsMin": 33,
+    "punten": 24,
     "matchen": [
       {
         "id": "2025-10-17_Bram_vs_Dominique_2-0",
@@ -5155,6 +5727,42 @@
         "uitslag": "1-2",
         "groep": "Groep4",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dominique_vs_Kristof T_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Dominique",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dominique_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dominique",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -5182,6 +5790,11 @@
         "id": "2026-04-10_Dominique_5",
         "datum": "2026-04-10",
         "hoeveelheid": 5
+      },
+      {
+        "id": "2026-05-15_Dominique_4",
+        "datum": "2026-05-15",
+        "hoeveelheid": 4
       }
     ],
     "hoogsteWorpen": [
@@ -5193,22 +5806,22 @@
     ],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 18,
-      "gewonnen": 5,
-      "verloren": 13,
-      "legsPlus": 11,
-      "legsMin": 26,
-      "punten": 13
+      "gespeeld": 21,
+      "gewonnen": 6,
+      "verloren": 15,
+      "legsPlus": 14,
+      "legsMin": 31,
+      "punten": 16
     }
   },
   {
     "naam": "Chris",
-    "gespeeld": 22,
-    "gewonnen": 18,
+    "gespeeld": 26,
+    "gewonnen": 22,
     "verloren": 4,
-    "legsPlus": 38,
-    "legsMin": 17,
-    "punten": 42,
+    "legsPlus": 46,
+    "legsMin": 19,
+    "punten": 50,
     "matchen": [
       {
         "id": "2025-10-17_Chris_vs_Dante_2-1",
@@ -5407,6 +6020,42 @@
         "uitslag": "0-2",
         "groep": "Groep1",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Kurt_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Hannek_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -5501,6 +6150,11 @@
         "datum": "2026-04-10",
         "score": 140,
         "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 121,
+        "hoeveelheid": 2
       }
     ],
     "hoogsteUitworpen": [
@@ -5518,15 +6172,20 @@
         "datum": "2026-03-13",
         "score": 70,
         "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 80,
+        "hoeveelheid": 1
       }
     ],
     "vorigeData": {
-      "gespeeld": 19,
-      "gewonnen": 16,
-      "verloren": 3,
-      "legsPlus": 34,
-      "legsMin": 15,
-      "punten": 38
+      "gespeeld": 22,
+      "gewonnen": 18,
+      "verloren": 4,
+      "legsPlus": 38,
+      "legsMin": 17,
+      "punten": 42
     }
   },
   {
@@ -5814,22 +6473,22 @@
       }
     ],
     "vorigeData": {
-      "gespeeld": 19,
+      "gespeeld": 22,
       "gewonnen": 11,
-      "verloren": 8,
-      "legsPlus": 26,
-      "legsMin": 21,
-      "punten": 30
+      "verloren": 11,
+      "legsPlus": 27,
+      "legsMin": 27,
+      "punten": 31
     }
   },
   {
     "naam": "Kristof M",
-    "gespeeld": 17,
-    "gewonnen": 12,
-    "verloren": 5,
-    "legsPlus": 26,
-    "legsMin": 14,
-    "punten": 28,
+    "gespeeld": 21,
+    "gewonnen": 14,
+    "verloren": 7,
+    "legsPlus": 31,
+    "legsMin": 19,
+    "punten": 33,
     "matchen": [
       {
         "id": "2025-11-21_Cissen_vs_Kristof M_2-0",
@@ -5983,6 +6642,42 @@
         "uitslag": "2-1",
         "groep": "Groep2",
         "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Nico D_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Diego_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -6006,6 +6701,11 @@
       {
         "datum": "2026-01-16",
         "score": 102,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
         "hoeveelheid": 1
       }
     ],
@@ -6161,12 +6861,12 @@
     "hoogsteWorpen": [],
     "hoogsteUitworpen": [],
     "vorigeData": {
-      "gespeeld": 10,
-      "gewonnen": 6,
-      "verloren": 4,
-      "legsPlus": 15,
-      "legsMin": 9,
-      "punten": 16
+      "gespeeld": 13,
+      "gewonnen": 8,
+      "verloren": 5,
+      "legsPlus": 19,
+      "legsMin": 13,
+      "punten": 20
     }
   }
 ]
