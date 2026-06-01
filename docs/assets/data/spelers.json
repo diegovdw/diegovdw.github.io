@@ -572,12 +572,12 @@
   },
   {
     "naam": "Bjorn",
-    "gespeeld": 23,
-    "gewonnen": 9,
-    "verloren": 14,
-    "legsPlus": 26,
-    "legsMin": 29,
-    "punten": 29,
+    "gespeeld": 26,
+    "gewonnen": 11,
+    "verloren": 15,
+    "legsPlus": 30,
+    "legsMin": 33,
+    "punten": 33,
     "matchen": [
       {
         "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
@@ -793,7 +793,7 @@
         "uit": "Nico B",
         "uitslag": "2-1",
         "groep": "Groep3",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Diego_vs_Bjorn_2-0",
@@ -802,7 +802,7 @@
         "uit": "Bjorn",
         "uitslag": "2-0",
         "groep": "Groep3",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Jari_vs_Bjorn_1-2",
@@ -811,7 +811,7 @@
         "uit": "Bjorn",
         "uitslag": "1-2",
         "groep": "Groep3",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -956,12 +956,12 @@
   },
   {
     "naam": "Hannek",
-    "gespeeld": 24,
-    "gewonnen": 16,
-    "verloren": 8,
-    "legsPlus": 36,
-    "legsMin": 21,
-    "punten": 38,
+    "gespeeld": 27,
+    "gewonnen": 17,
+    "verloren": 10,
+    "legsPlus": 39,
+    "legsMin": 26,
+    "punten": 41,
     "matchen": [
       {
         "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
@@ -1186,7 +1186,7 @@
         "uit": "Philippe",
         "uitslag": "2-1",
         "groep": "Groep1",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Chris_vs_Hannek_2-0",
@@ -1195,7 +1195,7 @@
         "uit": "Hannek",
         "uitslag": "2-0",
         "groep": "Groep1",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Nico D_vs_Hannek_2-1",
@@ -1204,7 +1204,7 @@
         "uit": "Hannek",
         "uitslag": "2-1",
         "groep": "Groep1",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -3459,12 +3459,12 @@
   },
   {
     "naam": "Kurt",
-    "gespeeld": 21,
-    "gewonnen": 14,
-    "verloren": 7,
-    "legsPlus": 31,
-    "legsMin": 15,
-    "punten": 32,
+    "gespeeld": 24,
+    "gewonnen": 16,
+    "verloren": 8,
+    "legsPlus": 35,
+    "legsMin": 17,
+    "punten": 36,
     "matchen": [
       {
         "id": "2025-09-19_Kurt_vs_Nico B_2-0",
@@ -3662,7 +3662,7 @@
         "uit": "Dante",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Kristof M_vs_Kurt_0-2",
@@ -3671,7 +3671,7 @@
         "uit": "Kurt",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Milan_vs_Kurt_0-2",
@@ -3680,7 +3680,7 @@
         "uit": "Kurt",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -5324,12 +5324,12 @@
   },
   {
     "naam": "Michiel",
-    "gespeeld": 24,
-    "gewonnen": 4,
-    "verloren": 20,
-    "legsPlus": 14,
-    "legsMin": 42,
-    "punten": 16,
+    "gespeeld": 27,
+    "gewonnen": 6,
+    "verloren": 21,
+    "legsPlus": 18,
+    "legsMin": 46,
+    "punten": 20,
     "matchen": [
       {
         "id": "2025-09-19_Michiel_vs_Nico D_0-2",
@@ -5554,7 +5554,7 @@
         "uit": "Michiel",
         "uitslag": "1-2",
         "groep": "Groep4",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Jurgen_vs_Michiel_2-0",
@@ -5563,7 +5563,7 @@
         "uit": "Michiel",
         "uitslag": "2-0",
         "groep": "Groep4",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Michiel_vs_Dave_2-1",
@@ -5572,7 +5572,7 @@
         "uit": "Dave",
         "uitslag": "2-1",
         "groep": "Groep4",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -5636,12 +5636,12 @@
   },
   {
     "naam": "Nico D",
-    "gespeeld": 20,
-    "gewonnen": 15,
-    "verloren": 5,
-    "legsPlus": 31,
-    "legsMin": 18,
-    "punten": 34,
+    "gespeeld": 23,
+    "gewonnen": 17,
+    "verloren": 6,
+    "legsPlus": 36,
+    "legsMin": 21,
+    "punten": 39,
     "matchen": [
       {
         "id": "2025-09-19_Michiel_vs_Nico D_0-2",
@@ -5830,7 +5830,7 @@
         "uit": "Nico D",
         "uitslag": "2-1",
         "groep": "Groep1",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Philippe_vs_Nico D_0-2",
@@ -5839,7 +5839,7 @@
         "uit": "Nico D",
         "uitslag": "0-2",
         "groep": "Groep1",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Nico D_vs_Hannek_2-1",
@@ -5848,7 +5848,7 @@
         "uit": "Hannek",
         "uitslag": "2-1",
         "groep": "Groep1",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -6728,12 +6728,12 @@
   },
   {
     "naam": "Dante",
-    "gespeeld": 22,
-    "gewonnen": 11,
+    "gespeeld": 25,
+    "gewonnen": 14,
     "verloren": 11,
-    "legsPlus": 27,
+    "legsPlus": 33,
     "legsMin": 27,
-    "punten": 31,
+    "punten": 37,
     "matchen": [
       {
         "id": "2025-10-17_Chris_vs_Dante_2-1",
@@ -6940,7 +6940,7 @@
         "uit": "Dante",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Dante_vs_Milan_2-0",
@@ -6949,7 +6949,7 @@
         "uit": "Milan",
         "uitslag": "2-0",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Kristof M_vs_Dante_0-2",
@@ -6958,7 +6958,7 @@
         "uit": "Dante",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [
@@ -7053,12 +7053,12 @@
   },
   {
     "naam": "Kristof M",
-    "gespeeld": 21,
-    "gewonnen": 14,
-    "verloren": 7,
-    "legsPlus": 31,
-    "legsMin": 19,
-    "punten": 33,
+    "gespeeld": 24,
+    "gewonnen": 15,
+    "verloren": 9,
+    "legsPlus": 33,
+    "legsMin": 23,
+    "punten": 35,
     "matchen": [
       {
         "id": "2025-11-21_Cissen_vs_Kristof M_2-0",
@@ -7256,7 +7256,7 @@
         "uit": "Milan",
         "uitslag": "2-0",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Kristof M_vs_Kurt_0-2",
@@ -7265,7 +7265,7 @@
         "uit": "Kurt",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       },
       {
         "id": "2026-05-29_Kristof M_vs_Dante_0-2",
@@ -7274,7 +7274,7 @@
         "uit": "Dante",
         "uitslag": "0-2",
         "groep": "Groep2",
-        "puntenTellen": false
+        "puntenTellen": true
       }
     ],
     "boetes": [

@@ -48,15 +48,26 @@ function magPuntenKrijgen(speler, inhaalDatum, kalender) {
   ).length;
 
   // Hoeveel inhaalmatches telden al mee als compensatie?
-  const gebruikteInhaalMatches = speler.matchen.filter(
-    m =>
-      m.datum < inhaalDatum &&
-      m.puntenTellen === true &&
-      kalender.find(k => k.datum === m.datum)?.type === "inhaal"
-  ).length;
+  // const gebruikteInhaalMatches = speler.matchen.filter(
+  //   m =>
+  //     m.datum < inhaalDatum &&
+  //     m.puntenTellen === true &&
+  //     kalender.find(k => k.datum === m.datum)?.type === "inhaal"
+  // ).length;
+  const gebruikteInhaaldagen = new Set(
+  speler.matchen
+    .filter(
+      m =>
+        m.puntenTellen &&
+        kalender.find(k => k.datum === m.datum)?.type === "inhaal" &&
+        m.datum < inhaalDatum
+    )
+    .map(m => m.datum)
+).size;
 
   // Mag punten krijgen zolang er nog gemiste speeldagen te compenseren zijn
-  return gebruikteInhaalMatches < gemisteSpeeldagen;
+  // return gebruikteInhaalMatches < gemisteSpeeldagen;
+  return gebruikteInhaaldagen < gemisteSpeeldagen;
 }
 
 
