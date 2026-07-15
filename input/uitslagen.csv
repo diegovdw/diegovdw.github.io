@@ -285,3 +285,24 @@ Datum;Speler1;Score1;Score2;Speler2;Groep
 29/05/2026;Jurgen;2;0;Michiel;Groep4
 29/05/2026;Kristof T;0;2;Jurgen;Groep4
 29/05/2026;Michiel;2;1;Dave;Groep4
+26/06/2026;Chris;2;0;Nico D;Groep1
+26/06/2026;Kenji;2;0;Hannek;Groep1
+26/06/2026;Chris;0;2;Kenji;Groep1
+26/06/2026;Hannek;1;2;Nico D;Groep1
+26/06/2026;Chris;2;0;Hannek;Groep1
+26/06/2026;Nico D;2;1;Kenji;Groep1
+26/06/2026;Dante;2;1;Diego;Groep2
+26/06/2026;Kurt;2;1;Kristof M;Groep2
+26/06/2026;Dante;1;2;Kurt;Groep2
+26/06/2026;Kristof M;1;2;Diego;Groep2
+26/06/2026;Dante;2;0;Kristof M;Groep2
+26/06/2026;Diego;2;0;Kurt;Groep2
+26/06/2026;Bjorn;2;0;Nico B;Groep3
+26/06/2026;Milan;2;0;Kristof T;Groep3
+26/06/2026;Bjorn;2;1;Milan;Groep3
+26/06/2026;Kristof T;1;2;Nico B;Groep3
+26/06/2026;Bjorn;2;0;Kristof T;Groep3
+26/06/2026;Nico B;2;1;Milan;Groep3
+26/06/2026;Ewoud;2;0;Michiel;Groep4
+26/06/2026;Dave;0;2;Ewoud;Groep4
+26/06/2026;Dave;1;2;Michiel;Groep4

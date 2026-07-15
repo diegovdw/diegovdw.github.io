@@ -266,7 +266,13 @@ function genereerRanglijstenPerSpeeldag() {
       ...Object.values(groepenMap).map((set) => set.size),
     );
     // 2. Check welke groepen minder dan 4 spelers hadden
+    console.log("DATUM", datum);
     Object.entries(groepenMap).forEach(([groep, spelersSet]) => {
+      console.log(
+        groep,
+        spelersSet.size,
+        [...spelersSet].sort()
+      );
       const verschil = grootsteGroep - spelersSet.size;
       if (verschil > 0) {
         spelersSet.forEach((naam) => {
@@ -274,16 +280,15 @@ function genereerRanglijstenPerSpeeldag() {
           const speler = spelers.find((s) => s.naam === naam);
           if (speler && !speler.matchen.some((m) => m.id === byeId)) {
             speler.punten += verschil;
-            // speler.matchen.push({
-            //   id: byeId,
-            //   datum,
-            //   tegenstander: "BYE",
-            //   uitslag: `${verschil}-0`, // symbolisch
-            //   puntenTellen: false,
-            //   isBye: true,
-            //   groep,
-            //   extraPunten: verschil
-            // });
+            
+            // if (naam === "Ewoud" || naam === "Nico B") {
+            //   console.log(
+            //     datum,
+            //     naam,
+            //     "bonus",
+            //     verschil
+            //   );
+            // }
           }
         });
       }
