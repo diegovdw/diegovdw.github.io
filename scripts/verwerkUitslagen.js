@@ -16,7 +16,7 @@ const uitslagen = [];
 const spelers = [];
 const gespeeldeMatchIds = new Set();
 const ranglijsten = [];
-const kalender = JSON.parse(fs.readFileSync(kalenderPad));
+const kalender = JSON.parse(fs.readFileSync(kalenderPad)).filter(item => item.seizoen === "2025-2026");
 
 function convertDate(dateStr) {
   // verwacht: dd/MM/yyyy (bv. 19/09/2025)

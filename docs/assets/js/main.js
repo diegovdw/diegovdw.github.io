@@ -1,3 +1,6 @@
+//static vars
+const currentSeason = "2026-2027";
+
 document.addEventListener("DOMContentLoaded", function () {
   // Klassemment page
 
@@ -35,7 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.title === "Kalender") {
     Promise.all([fetch("assets/data/kalender.json").then((res) => res.json())])
       .then(([kalender]) => {
-        toonKalender(kalender);
+        const gefilterdeKalender = kalender.filter(
+          (item) => item.seizoen === currentSeason
+        );
+
+        toonKalender(gefilterdeKalender);
       })
 
       .catch((error) => {
@@ -76,7 +83,9 @@ document.addEventListener("DOMContentLoaded", function () {
     Promise.all([
       fetch("assets/data/spelers.json").then((res) => res.json()),
 
-      fetch("assets/data/kalender.json").then((res) => res.json()),
+      fetch("assets/data/kalender.json")
+        .then((res) => res.json())
+        .then((kalender) => kalender.filter((item) => item.seizoen === currentSeason)),
     ])
       .then(([spelers, kalender]) => {
         toonAanwezigheden(spelers, kalender);

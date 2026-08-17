@@ -1,0 +1,7978 @@
+[
+  {
+    "naam": "Jari",
+    "gespeeld": 20,
+    "gewonnen": 13,
+    "verloren": 7,
+    "legsPlus": 29,
+    "legsMin": 20,
+    "punten": 31,
+    "matchen": [
+      {
+        "id": "2025-09-19_Jari_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jari_vs_Bjorn_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Hannek_vs_Jari_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Hannek",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Jari_vs_Diego_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Jari",
+        "uit": "Diego",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Jari_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bjorn_vs_Jari_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Bjorn",
+        "uit": "Jari",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Jari_vs_Ewoud_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Jari",
+        "uit": "Ewoud",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kenji_vs_Jari_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Kenji",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jari_vs_Bjorn_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jurgen_vs_Jari_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Jurgen",
+        "uit": "Jari",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Kristof T_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Dave_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Michiel_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Dominique_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Jari_vs_Nico B_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Jari",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Cissen_vs_Jari_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Cissen",
+        "uit": "Jari",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dave_vs_Jari_0-2",
+        "datum": "2026-04-10",
+        "thuis": "Dave",
+        "uit": "Jari",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Diego_vs_Jari_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Diego",
+        "uit": "Jari",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Nico B_vs_Jari_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Nico B",
+        "uit": "Jari",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Jari_vs_Bjorn_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2026-02-20_Jari_2",
+        "datum": "2026-02-20",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-04-10_Jari_1",
+        "datum": "2026-04-10",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Jari_3",
+        "datum": "2026-05-29",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 126,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 118,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 65,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 74,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 20,
+      "gewonnen": 13,
+      "verloren": 7,
+      "legsPlus": 29,
+      "legsMin": 20,
+      "punten": 31
+    }
+  },
+  {
+    "naam": "Dave",
+    "gespeeld": 30,
+    "gewonnen": 9,
+    "verloren": 21,
+    "legsPlus": 24,
+    "legsMin": 46,
+    "punten": 27,
+    "matchen": [
+      {
+        "id": "2025-09-19_Jari_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Dave_vs_Hannek_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Dave",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Bjorn_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Philippe_vs_Dave_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Philippe",
+        "uit": "Dave",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Redgy_vs_Dave_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Redgy",
+        "uit": "Dave",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Dave_vs_Nico B_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Dave",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Dave_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Redgy_vs_Dave_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Redgy",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dave_vs_Ewoud_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Dave",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Chris_vs_Dave_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Chris",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dave_vs_Michiel_2-1",
+        "datum": "2026-02-20",
+        "thuis": "Dave",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Dave_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dominique_vs_Dave_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Dominique",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof T_vs_Dave_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Michiel_1-2",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Michiel",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Dennis_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Dennis",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Dominique_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Bram_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Bram",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Cissen_vs_Dave_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Cissen",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Nico B_vs_Dave_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Nico B",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dave_vs_Jari_0-2",
+        "datum": "2026-04-10",
+        "thuis": "Dave",
+        "uit": "Jari",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof T_vs_Dave_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Nico B_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dave_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Dave_vs_Jurgen_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Dave",
+        "uit": "Jurgen",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof T_vs_Dave_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Michiel_vs_Dave_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Michiel",
+        "uit": "Dave",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dave_vs_Ewoud_0-2",
+        "datum": "2026-06-26",
+        "thuis": "Dave",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dave_vs_Michiel_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Dave",
+        "uit": "Michiel",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-10-17_Dave_4",
+        "datum": "2025-10-17",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2025-11-21_Dave_5",
+        "datum": "2025-11-21",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-02-20_Dave_1",
+        "datum": "2026-02-20",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-15_Dave_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Dave_1",
+        "datum": "2026-05-29",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2026-02-20",
+        "score": 106,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 28,
+      "gewonnen": 9,
+      "verloren": 19,
+      "legsPlus": 23,
+      "legsMin": 42,
+      "punten": 25
+    }
+  },
+  {
+    "naam": "Bjorn",
+    "gespeeld": 29,
+    "gewonnen": 14,
+    "verloren": 15,
+    "legsPlus": 36,
+    "legsMin": 34,
+    "punten": 39,
+    "matchen": [
+      {
+        "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Hannek",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jari_vs_Bjorn_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Bjorn_vs_Dave_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Ewoud_vs_Bjorn_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Ewoud",
+        "uit": "Bjorn",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bjorn_vs_Diego_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Bjorn",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bjorn_vs_Jari_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Bjorn",
+        "uit": "Jari",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Bjorn_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jurgen_vs_Bjorn_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Jurgen",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jari_vs_Bjorn_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Bjorn_vs_Kenji_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Bjorn",
+        "uit": "Kenji",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kristof T_vs_Bjorn_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Kristof T",
+        "uit": "Bjorn",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Nico B_vs_Bjorn_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Nico B",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Bjorn_vs_Kristof M_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Bjorn",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Nico D_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Nico D",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Ewoud_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Kristof M_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Kristof M",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Nico B_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Bjorn_vs_Ewoud_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Bjorn",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico D_vs_Bjorn_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Nico D",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kristof M_vs_Bjorn_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Kristof M",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kenji_vs_Bjorn_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kenji",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dante_vs_Bjorn_1-2",
+        "datum": "2026-04-10",
+        "thuis": "Dante",
+        "uit": "Bjorn",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Bjorn_vs_Chris_0-2",
+        "datum": "2026-04-10",
+        "thuis": "Bjorn",
+        "uit": "Chris",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Bjorn_vs_Nico B_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Bjorn",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Diego_vs_Bjorn_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Diego",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Jari_vs_Bjorn_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Jari",
+        "uit": "Bjorn",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Bjorn_vs_Nico B_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Bjorn",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Bjorn_vs_Milan_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Bjorn",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Bjorn_vs_Kristof T_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Bjorn",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Bjorn_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2025-10-17_Bjorn_2",
+        "datum": "2025-10-17",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2025-11-21_Bjorn_4",
+        "datum": "2025-11-21",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-01-30_Bjorn_3",
+        "datum": "2026-01-30",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-02-20_Bjorn_2",
+        "datum": "2026-02-20",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-03-13_Bjorn_5",
+        "datum": "2026-03-13",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-04-10_Bjorn_2",
+        "datum": "2026-04-10",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-29_Bjorn_3",
+        "datum": "2026-05-29",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 128,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 117,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 123,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 171,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 120,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 81,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 110,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 77,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 56,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 26,
+      "gewonnen": 11,
+      "verloren": 15,
+      "legsPlus": 30,
+      "legsMin": 33,
+      "punten": 33
+    }
+  },
+  {
+    "naam": "Hannek",
+    "gespeeld": 30,
+    "gewonnen": 17,
+    "verloren": 13,
+    "legsPlus": 40,
+    "legsMin": 32,
+    "punten": 42,
+    "matchen": [
+      {
+        "id": "2025-09-19_Bjorn_vs_Hannek_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Bjorn",
+        "uit": "Hannek",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Dave_vs_Hannek_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Dave",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Hannek_vs_Jari_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Hannek",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Hannek_vs_Tom_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Hannek",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Hannek_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kristof T_vs_Hannek_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Kristof T",
+        "uit": "Hannek",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Hannek_vs_Jurgen_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Hannek",
+        "uit": "Jurgen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Jurgen_vs_Hannek_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Jurgen",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Chris_vs_Hannek_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Hannek_vs_Diego_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Hannek",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Hannek_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Chris_vs_Hannek_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Hannek_vs_Milan_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Hannek",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kenji_vs_Hannek_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kenji_vs_Hannek_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Hannek_vs_Cissen_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Hannek",
+        "uit": "Cissen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Chris_vs_Hannek_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Hannek_vs_Kurt_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Hannek",
+        "uit": "Kurt",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Hannek_vs_Philippe_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Hannek",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Hannek_vs_Ewoud_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Hannek",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Hannek_vs_Cissen_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Hannek",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kurt_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kurt",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Hannek_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Hannek_vs_Philippe_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Hannek",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Chris_vs_Hannek_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Nico D_vs_Hannek_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Nico D",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kenji_vs_Hannek_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Hannek_vs_Nico D_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Hannek",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Chris_vs_Hannek_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Hannek_2",
+        "datum": "2025-09-19",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2025-10-17_Hannek_3",
+        "datum": "2025-10-17",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-01-16_Hannek_4",
+        "datum": "2026-01-16",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-01-30_Hannek_1",
+        "datum": "2026-01-30",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-02-20_Hannek_1",
+        "datum": "2026-02-20",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-15_Hannek_2",
+        "datum": "2026-05-15",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-29_Hannek_6",
+        "datum": "2026-05-29",
+        "hoeveelheid": 6
+      },
+      {
+        "id": "2026-06-26_Hannek_2",
+        "datum": "2026-06-26",
+        "hoeveelheid": 2
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 121,
+        "hoeveelheid": 3
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 111,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 101,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 55,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 107,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 70,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 27,
+      "gewonnen": 17,
+      "verloren": 10,
+      "legsPlus": 39,
+      "legsMin": 26,
+      "punten": 41
+    }
+  },
+  {
+    "naam": "Kristof T",
+    "gespeeld": 28,
+    "gewonnen": 10,
+    "verloren": 18,
+    "legsPlus": 28,
+    "legsMin": 38,
+    "punten": 30,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kristof T_vs_Tom_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kristof T",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jurgen_vs_Kristof T_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Kristof T_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Kristof T",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Philippe_vs_Kristof T_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Jurgen_vs_Kristof T_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Jurgen",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kristof T_vs_Tom_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Kristof T",
+        "uit": "Tom",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kristof T_vs_Hannek_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Kristof T",
+        "uit": "Hannek",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Kristof T_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof T_vs_Philippe_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Kristof T",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof T_vs_Diego_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Kristof T",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof T_vs_Milan_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Kristof T",
+        "uit": "Milan",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Philippe_vs_Kristof T_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Philippe",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof T_vs_Cissen_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Kristof T",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Milan_vs_Kristof T_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Milan",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kristof T_vs_Bjorn_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Kristof T",
+        "uit": "Bjorn",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Kristof T_vs_Kristof M_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Kristof T",
+        "uit": "Kristof M",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Kristof T_vs_Nico B_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Kristof T",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-02-20_Kristof T_vs_Dominique_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Kristof T",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Kristof T_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Michiel_vs_Kristof T_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Michiel",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof T_vs_Dave_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof T_vs_Dave_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Kristof T_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dominique_vs_Kristof T_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Dominique",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Kristof T_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof T_vs_Michiel_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof T",
+        "uit": "Michiel",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof T_vs_Dave_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Kristof T",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof T_vs_Jurgen_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof T",
+        "uit": "Jurgen",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Milan_vs_Kristof T_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Milan",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kristof T_vs_Nico B_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Kristof T",
+        "uit": "Nico B",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Bjorn_vs_Kristof T_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Bjorn",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Kristof T_6",
+        "datum": "2025-09-19",
+        "hoeveelheid": 6
+      },
+      {
+        "id": "2025-10-17_Kristof T_5",
+        "datum": "2025-10-17",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2025-11-21_Kristof T_5",
+        "datum": "2025-11-21",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-01-16_Kristof T_4",
+        "datum": "2026-01-16",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-02-20_Kristof T_3",
+        "datum": "2026-02-20",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-05-15_Kristof T_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Kristof T_4",
+        "datum": "2026-05-29",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-06-26_Kristof T_1",
+        "datum": "2026-06-26",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 134,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 115,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 118,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 102,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 130,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 122,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 25,
+      "gewonnen": 10,
+      "verloren": 15,
+      "legsPlus": 27,
+      "legsMin": 32,
+      "punten": 29
+    }
+  },
+  {
+    "naam": "Tom",
+    "gespeeld": 8,
+    "gewonnen": 3,
+    "verloren": 5,
+    "legsPlus": 7,
+    "legsMin": 12,
+    "punten": 7,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kristof T_vs_Tom_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kristof T",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Jurgen_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Jurgen",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Hannek_vs_Tom_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Hannek",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kristof T_vs_Tom_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Kristof T",
+        "uit": "Tom",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Tom_vs_Jurgen_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Tom",
+        "uit": "Jurgen",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Tom_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Tom_3",
+        "datum": "2025-09-19",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2025-10-17_Tom_6",
+        "datum": "2025-10-17",
+        "hoeveelheid": 6
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 8,
+      "gewonnen": 3,
+      "verloren": 5,
+      "legsPlus": 7,
+      "legsMin": 12,
+      "punten": 7
+    }
+  },
+  {
+    "naam": "Philippe",
+    "gespeeld": 27,
+    "gewonnen": 14,
+    "verloren": 13,
+    "legsPlus": 33,
+    "legsMin": 32,
+    "punten": 36,
+    "matchen": [
+      {
+        "id": "2025-09-19_Philippe_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Philippe_vs_Kristof T_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jurgen_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Philippe_vs_Dave_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Philippe",
+        "uit": "Dave",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Philippe_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Redgy_vs_Philippe_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Redgy",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Philippe_vs_Nico B_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Philippe",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof T_vs_Philippe_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Kristof T",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Milan_vs_Philippe_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Philippe_vs_Diego_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Philippe",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Philippe_vs_Kristof T_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Philippe",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Milan_vs_Philippe_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Cissen_vs_Philippe_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Cissen",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Philippe_vs_Milan_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Philippe",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dante_vs_Philippe_2-1",
+        "datum": "2026-02-20",
+        "thuis": "Dante",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jurgen_vs_Philippe_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Jurgen",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Philippe_vs_Ewoud_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Philippe",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Hannek_vs_Philippe_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Hannek",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kurt_vs_Philippe_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kurt",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Philippe_vs_Diego_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Philippe",
+        "uit": "Diego",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Milan_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Hannek_vs_Philippe_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Hannek",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Philippe_vs_Nico D_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Philippe",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Chris_vs_Philippe_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Chris",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Philippe_3",
+        "datum": "2025-09-19",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2025-10-17_Philippe_5",
+        "datum": "2025-10-17",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2025-11-21_Philippe_2",
+        "datum": "2025-11-21",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-01-16_Philippe_1",
+        "datum": "2026-01-16",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-02-20_Philippe_3",
+        "datum": "2026-02-20",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-04-10_Philippe_2",
+        "datum": "2026-04-10",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Philippe_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Philippe_1",
+        "datum": "2026-05-29",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 116,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 110,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 115,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 112,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 116,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 121,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-11-21",
+        "score": 56,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 61,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 55,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 59,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 27,
+      "gewonnen": 14,
+      "verloren": 13,
+      "legsPlus": 33,
+      "legsMin": 32,
+      "punten": 36
+    }
+  },
+  {
+    "naam": "Redgy",
+    "gespeeld": 20,
+    "gewonnen": 7,
+    "verloren": 13,
+    "legsPlus": 22,
+    "legsMin": 29,
+    "punten": 24,
+    "matchen": [
+      {
+        "id": "2025-09-19_Philippe_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Philippe",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Kristof T_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Kristof T",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Jurgen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Jurgen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Redgy_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Nico B_vs_Redgy_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Nico B",
+        "uit": "Redgy",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Redgy_vs_Dave_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Redgy",
+        "uit": "Dave",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Redgy_vs_Philippe_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Redgy",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Redgy_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Redgy",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Redgy_vs_Dave_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Redgy",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Chris_vs_Redgy_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Chris",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Ewoud_vs_Redgy_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Ewoud",
+        "uit": "Redgy",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Redgy_vs_Dennis_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Redgy",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Redgy_vs_Nico D_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Redgy",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Redgy_vs_Michiel_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Redgy",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Diego_vs_Redgy_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Diego",
+        "uit": "Redgy",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico B_vs_Redgy_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Nico B",
+        "uit": "Redgy",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Redgy_vs_Kurt_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Redgy",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Redgy_vs_Dominique_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Redgy",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Redgy_vs_Dennis_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Redgy",
+        "uit": "Dennis",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Redgy_vs_Michiel_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Redgy",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Redgy_3",
+        "datum": "2025-09-19",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2025-10-17_Redgy_5",
+        "datum": "2025-10-17",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2025-11-21_Redgy_2",
+        "datum": "2025-11-21",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-03-13_Redgy_3",
+        "datum": "2026-03-13",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-04-10_Redgy_6",
+        "datum": "2026-04-10",
+        "hoeveelheid": 6
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 117,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 116,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 125,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 20,
+      "gewonnen": 7,
+      "verloren": 13,
+      "legsPlus": 22,
+      "legsMin": 29,
+      "punten": 24
+    }
+  },
+  {
+    "naam": "Jurgen",
+    "gespeeld": 21,
+    "gewonnen": 11,
+    "verloren": 10,
+    "legsPlus": 25,
+    "legsMin": 25,
+    "punten": 27,
+    "matchen": [
+      {
+        "id": "2025-09-19_Jurgen_vs_Kristof T_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Tom_vs_Jurgen_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Tom",
+        "uit": "Jurgen",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Redgy_vs_Jurgen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Redgy",
+        "uit": "Jurgen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Jurgen_vs_Philippe_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Jurgen",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Jurgen_vs_Kristof T_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Jurgen",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Jurgen_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Tom_vs_Jurgen_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Tom",
+        "uit": "Jurgen",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Hannek_vs_Jurgen_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Hannek",
+        "uit": "Jurgen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jurgen_vs_Bjorn_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Jurgen",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jurgen_vs_Kenji_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Jurgen",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jurgen_vs_Jari_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Jurgen",
+        "uit": "Jari",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Jurgen_vs_Hannek_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Jurgen",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Jurgen_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Chris_vs_Jurgen_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Chris",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Jurgen_vs_Diego_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Jurgen",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dante_vs_Jurgen_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Dante",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Milan_vs_Jurgen_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Milan",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jurgen_vs_Philippe_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Jurgen",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Dave_vs_Jurgen_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Dave",
+        "uit": "Jurgen",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Jurgen_vs_Michiel_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Jurgen",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof T_vs_Jurgen_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof T",
+        "uit": "Jurgen",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Jurgen_5",
+        "datum": "2025-09-19",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2025-10-17_Jurgen_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2025-11-21_Jurgen_1",
+        "datum": "2025-11-21",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-16_Jurgen_2",
+        "datum": "2026-01-16",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-02-20_Jurgen_1",
+        "datum": "2026-02-20",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 115,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 121,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 116,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 138,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 180,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2026-01-16",
+        "score": 80,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 21,
+      "gewonnen": 11,
+      "verloren": 10,
+      "legsPlus": 25,
+      "legsMin": 25,
+      "punten": 27
+    }
+  },
+  {
+    "naam": "Ewoud",
+    "gespeeld": 30,
+    "gewonnen": 10,
+    "verloren": 20,
+    "legsPlus": 26,
+    "legsMin": 44,
+    "punten": 30,
+    "matchen": [
+      {
+        "id": "2025-09-19_Ewoud_vs_Cissen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Ewoud",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Diego_vs_Ewoud_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Ewoud_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kurt_vs_Ewoud_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Ewoud_vs_Bjorn_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Ewoud",
+        "uit": "Bjorn",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Ewoud_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Diego_vs_Ewoud_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Diego",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Jari_vs_Ewoud_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Jari",
+        "uit": "Ewoud",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Chris_vs_Ewoud_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Chris",
+        "uit": "Ewoud",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dave_vs_Ewoud_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Dave",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Ewoud_vs_Redgy_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Ewoud",
+        "uit": "Redgy",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Ewoud_vs_Nico B_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Ewoud",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dante_vs_Ewoud_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Dante",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Nico D_vs_Ewoud_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Nico D",
+        "uit": "Ewoud",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Ewoud_vs_Cissen_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Ewoud",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Ewoud_vs_Kurt_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Ewoud",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Ewoud_vs_Dante_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Ewoud",
+        "uit": "Dante",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-02-20_Ewoud_vs_Kristof M_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Ewoud",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Ewoud_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Nico B_vs_Ewoud_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Nico B",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Nico D_vs_Ewoud_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Nico D",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Bjorn_vs_Ewoud_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Bjorn",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Ewoud_vs_Kristof M_1-2",
+        "datum": "2026-03-13",
+        "thuis": "Ewoud",
+        "uit": "Kristof M",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico D_vs_Ewoud_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Nico D",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Philippe_vs_Ewoud_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Philippe",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Ewoud_vs_Kurt_0-2",
+        "datum": "2026-04-10",
+        "thuis": "Ewoud",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Hannek_vs_Ewoud_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Hannek",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Nico B_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Kristof T_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dave_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dominique_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dominique",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Ewoud_vs_Michiel_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Ewoud",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dave_vs_Ewoud_0-2",
+        "datum": "2026-06-26",
+        "thuis": "Dave",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Ewoud_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2025-10-17_Ewoud_2",
+        "datum": "2025-10-17",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2025-11-21_Ewoud_5",
+        "datum": "2025-11-21",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-01-16_Ewoud_4",
+        "datum": "2026-01-16",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-01-30_Ewoud_3",
+        "datum": "2026-01-30",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-02-20_Ewoud_3",
+        "datum": "2026-02-20",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-03-13_Ewoud_4",
+        "datum": "2026-03-13",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-04-10_Ewoud_4",
+        "datum": "2026-04-10",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-05-15_Ewoud_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 133,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 132,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 180,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 134,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 134,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 103,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 180,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 28,
+      "gewonnen": 8,
+      "verloren": 20,
+      "legsPlus": 22,
+      "legsMin": 44,
+      "punten": 25
+    }
+  },
+  {
+    "naam": "Cissen",
+    "gespeeld": 24,
+    "gewonnen": 12,
+    "verloren": 12,
+    "legsPlus": 29,
+    "legsMin": 30,
+    "punten": 31,
+    "matchen": [
+      {
+        "id": "2025-09-19_Ewoud_vs_Cissen_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Ewoud",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Nico B_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Cissen_vs_Kristof M_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Cissen",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Cissen_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Michiel_vs_Cissen_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Michiel",
+        "uit": "Cissen",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Cissen_vs_Dominique_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Cissen",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Milan_vs_Cissen_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Milan",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof T_vs_Cissen_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Kristof T",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Cissen_vs_Philippe_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Cissen",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Ewoud_vs_Cissen_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Ewoud",
+        "uit": "Cissen",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Dante_vs_Cissen_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Dante",
+        "uit": "Cissen",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Cissen_vs_Kurt_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Chris_vs_Cissen_2-1",
+        "datum": "2026-02-20",
+        "thuis": "Chris",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Hannek_vs_Cissen_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Hannek",
+        "uit": "Cissen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Cissen_vs_Kenji_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Cissen",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Cissen_vs_Dave_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Cissen",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Cissen_vs_Jari_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Cissen",
+        "uit": "Jari",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Cissen_vs_Nico B_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Cissen",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Hannek_vs_Cissen_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Hannek",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Cissen_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Cissen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Cissen_5",
+        "datum": "2025-09-19",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2025-11-21_Cissen_2",
+        "datum": "2025-11-21",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-01-16_Cissen_4",
+        "datum": "2026-01-16",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-02-20_Cissen_2",
+        "datum": "2026-02-20",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-04-10_Cissen_3",
+        "datum": "2026-04-10",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-05-15_Cissen_9",
+        "datum": "2026-05-15",
+        "hoeveelheid": 9
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-11-21",
+        "score": 123,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 101,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 111,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 138,
+        "hoeveelheid": null
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 24,
+      "gewonnen": 12,
+      "verloren": 12,
+      "legsPlus": 29,
+      "legsMin": 30,
+      "punten": 31
+    }
+  },
+  {
+    "naam": "Kurt",
+    "gespeeld": 27,
+    "gewonnen": 18,
+    "verloren": 9,
+    "legsPlus": 39,
+    "legsMin": 21,
+    "punten": 40,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kurt_vs_Nico B_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kurt_vs_Ewoud_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Diego_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Hannek_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Jurgen_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Kristof T_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kurt_vs_Tom_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kurt",
+        "uit": "Tom",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kurt_vs_Dante_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Kurt",
+        "uit": "Dante",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Ewoud_vs_Kurt_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Ewoud",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Cissen_vs_Kurt_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kurt_vs_Nico B_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Kurt",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Diego_vs_Kurt_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Redgy_vs_Kurt_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Redgy",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Hannek_vs_Kurt_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Hannek",
+        "uit": "Kurt",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Ewoud_vs_Kurt_0-2",
+        "datum": "2026-04-10",
+        "thuis": "Ewoud",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kurt_vs_Philippe_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kurt",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Kurt_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kurt_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kurt",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kurt_vs_Dante_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kurt",
+        "uit": "Dante",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof M_vs_Kurt_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof M",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Milan_vs_Kurt_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Milan",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kurt_vs_Kristof M_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Kurt",
+        "uit": "Kristof M",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dante_vs_Kurt_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Dante",
+        "uit": "Kurt",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Diego_vs_Kurt_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Kurt_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2025-10-17_Kurt_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-30_Kurt_2",
+        "datum": "2026-01-30",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-03-13_Kurt_1",
+        "datum": "2026-03-13",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-04-10_Kurt_2",
+        "datum": "2026-04-10",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Kurt_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Kurt_2",
+        "datum": "2026-05-29",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-06-26_Kurt_3",
+        "datum": "2026-06-26",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 101,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 140,
+        "hoeveelheid": 4
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 138,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 132,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 116,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 125,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2026-03-13",
+        "score": 61,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 24,
+      "gewonnen": 16,
+      "verloren": 8,
+      "legsPlus": 35,
+      "legsMin": 17,
+      "punten": 36
+    }
+  },
+  {
+    "naam": "Nico B",
+    "gespeeld": 31,
+    "gewonnen": 11,
+    "verloren": 20,
+    "legsPlus": 31,
+    "legsMin": 46,
+    "punten": 33,
+    "matchen": [
+      {
+        "id": "2025-09-19_Kurt_vs_Nico B_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Kurt",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Ewoud_1-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Ewoud",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Nico B_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Nico B_vs_Redgy_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Nico B",
+        "uit": "Redgy",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Nico B_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Dave_vs_Nico B_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Dave",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Philippe_vs_Nico B_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Philippe",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Ewoud_vs_Nico B_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Ewoud",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Nico B_vs_Nico D_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Nico B",
+        "uit": "Nico D",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dante_vs_Nico B_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Dante",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kristof M_vs_Nico B_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Kristof M",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Nico B_vs_Bjorn_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Nico B",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kristof T_vs_Nico B_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Kristof T",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Nico D_vs_Nico B_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Nico D",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof M_vs_Nico B_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Kristof M",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Nico B_vs_Ewoud_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Nico B",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Nico B_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kurt_vs_Nico B_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Kurt",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico B_vs_Redgy_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Nico B",
+        "uit": "Redgy",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Diego_vs_Nico B_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Diego",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Jari_vs_Nico B_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Jari",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Nico B_vs_Dave_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Nico B",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Cissen_vs_Nico B_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Cissen",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Nico B_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Nico B",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Nico B_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Kristof T_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Bjorn_vs_Nico B_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Bjorn",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-05-29_Nico B_vs_Jari_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Nico B",
+        "uit": "Jari",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-05-29_Diego_vs_Nico B_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Diego",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-06-26_Bjorn_vs_Nico B_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Bjorn",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kristof T_vs_Nico B_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Kristof T",
+        "uit": "Nico B",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Nico B_vs_Milan_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Nico B",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Nico B_4",
+        "datum": "2025-09-19",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2025-10-17_Nico B_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-16_Nico B_9",
+        "datum": "2026-01-16",
+        "hoeveelheid": 9
+      },
+      {
+        "id": "2026-01-30_Nico B_3",
+        "datum": "2026-01-30",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-02-20_Nico B_5",
+        "datum": "2026-02-20",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-03-13_Nico B_4",
+        "datum": "2026-03-13",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-04-10_Nico B_2",
+        "datum": "2026-04-10",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Nico B_7",
+        "datum": "2026-05-15",
+        "hoeveelheid": 7
+      },
+      {
+        "id": "2026-06-26_Nico B_3",
+        "datum": "2026-06-26",
+        "hoeveelheid": 3
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 126,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 117,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 138,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 51,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 74,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 28,
+      "gewonnen": 9,
+      "verloren": 19,
+      "legsPlus": 27,
+      "legsMin": 42,
+      "punten": 29
+    }
+  },
+  {
+    "naam": "Diego",
+    "gespeeld": 28,
+    "gewonnen": 16,
+    "verloren": 12,
+    "legsPlus": 37,
+    "legsMin": 29,
+    "punten": 39,
+    "matchen": [
+      {
+        "id": "2025-09-19_Diego_vs_Ewoud_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Cissen_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Cissen",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico B_vs_Diego_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Nico B",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Diego_vs_Kurt_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Jari_vs_Diego_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Jari",
+        "uit": "Diego",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bjorn_vs_Diego_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Bjorn",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Diego_vs_Ewoud_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Diego",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Diego_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Diego_vs_Milan_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Diego",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof T_vs_Diego_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Kristof T",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Philippe_vs_Diego_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Philippe",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Diego_vs_Chris_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Diego",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Diego_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Diego",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Hannek_vs_Diego_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Hannek",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Jurgen_vs_Diego_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Jurgen",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Diego_vs_Redgy_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Diego",
+        "uit": "Redgy",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Diego_vs_Kurt_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Diego_vs_Nico B_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Diego",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Philippe_vs_Diego_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Philippe",
+        "uit": "Diego",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Milan_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Milan",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Nico D_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Diego_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Diego_vs_Jari_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Diego",
+        "uit": "Jari",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Diego_vs_Bjorn_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Diego",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Diego_vs_Nico B_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Diego",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dante_vs_Diego_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Dante",
+        "uit": "Diego",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kristof M_vs_Diego_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Kristof M",
+        "uit": "Diego",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Diego_vs_Kurt_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Diego",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 138,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 132,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 106,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 160,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 132,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 125,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 137,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 57,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 72,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 25,
+      "gewonnen": 14,
+      "verloren": 11,
+      "legsPlus": 32,
+      "legsMin": 26,
+      "punten": 34
+    }
+  },
+  {
+    "naam": "Milan",
+    "gespeeld": 29,
+    "gewonnen": 10,
+    "verloren": 19,
+    "legsPlus": 29,
+    "legsMin": 41,
+    "punten": 34,
+    "matchen": [
+      {
+        "id": "2025-09-19_Milan_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Milan_vs_Michiel_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico D_vs_Milan_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Philippe_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Nico B_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Redgy_1-2",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Redgy",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Milan_vs_Dave_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Milan",
+        "uit": "Dave",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Diego_vs_Milan_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Diego",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Milan_vs_Philippe_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof T_vs_Milan_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Kristof T",
+        "uit": "Milan",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Milan_vs_Cissen_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Milan",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Milan_vs_Philippe_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Milan_vs_Kristof T_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Milan",
+        "uit": "Kristof T",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kenji_vs_Milan_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Kenji",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Hannek_vs_Milan_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Hannek",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Milan_vs_Chris_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Milan",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-02-20_Philippe_vs_Milan_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Philippe",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Milan_vs_Jurgen_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Milan",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dante_vs_Milan_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Dante",
+        "uit": "Milan",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kenji_vs_Milan_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Kenji",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dante_vs_Milan_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dante",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Milan_vs_Chris_1-2",
+        "datum": "2026-03-13",
+        "thuis": "Milan",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Milan_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Milan",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Milan_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Milan",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof M_vs_Milan_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Kristof M",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Dante_vs_Milan_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Dante",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Milan_vs_Kurt_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Milan",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Milan_vs_Kristof T_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Milan",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Bjorn_vs_Milan_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Bjorn",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Nico B_vs_Milan_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Nico B",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Milan_1",
+        "datum": "2025-09-19",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2025-10-17_Milan_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2025-11-21_Milan_1",
+        "datum": "2025-11-21",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-16_Milan_4",
+        "datum": "2026-01-16",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-01-30_Milan_5",
+        "datum": "2026-01-30",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-02-20_Milan_3",
+        "datum": "2026-02-20",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-03-13_Milan_4",
+        "datum": "2026-03-13",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-05-15_Milan_2",
+        "datum": "2026-05-15",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-29_Milan_2",
+        "datum": "2026-05-29",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-06-26_Milan_1",
+        "datum": "2026-06-26",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 110,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 108,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 122,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 111,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2026-01-16",
+        "score": 52,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 26,
+      "gewonnen": 9,
+      "verloren": 17,
+      "legsPlus": 25,
+      "legsMin": 37,
+      "punten": 30
+    }
+  },
+  {
+    "naam": "Kenji",
+    "gespeeld": 30,
+    "gewonnen": 23,
+    "verloren": 7,
+    "legsPlus": 49,
+    "legsMin": 21,
+    "punten": 53,
+    "matchen": [
+      {
+        "id": "2025-09-19_Milan_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kenji_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Kenji",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Michiel_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Jari_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Ewoud_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Bjorn_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Kenji_vs_Diego_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Kenji",
+        "uit": "Diego",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kenji_vs_Jari_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Kenji",
+        "uit": "Jari",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Jurgen_vs_Kenji_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Jurgen",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Bjorn_vs_Kenji_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Bjorn",
+        "uit": "Kenji",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Jurgen_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Diego_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Diego",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Chris_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Hannek_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kenji_vs_Milan_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Kenji",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Kenji_vs_Chris_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-01-30_Kenji_vs_Hannek_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-02-20_Kenji_vs_Hannek_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Chris_vs_Kenji_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Chris",
+        "uit": "Kenji",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Cissen_vs_Kenji_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Cissen",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kenji_vs_Milan_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Kenji",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kenji_vs_Chris_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kenji_vs_Dante_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Kenji",
+        "uit": "Dante",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kenji_vs_Bjorn_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kenji",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kenji_vs_Chris_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kenji_vs_Dante_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kenji",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Hannek_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Cissen_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Cissen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Kurt_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kenji_vs_Hannek_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Kenji",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Chris_vs_Kenji_0-2",
+        "datum": "2026-06-26",
+        "thuis": "Chris",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Nico D_vs_Kenji_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Nico D",
+        "uit": "Kenji",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Kenji_1",
+        "datum": "2025-09-19",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2025-10-17_Kenji_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-16_Kenji_1",
+        "datum": "2026-01-16",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-30_Kenji_1",
+        "datum": "2026-01-30",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-03-13_Kenji_1",
+        "datum": "2026-03-13",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-15_Kenji_1",
+        "datum": "2026-05-15",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 180,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 140,
+        "hoeveelheid": 4
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-10-17",
+        "score": 117,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 137,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 135,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 107,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 125,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 180,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 121,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 104,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 86,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 89,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 27,
+      "gewonnen": 21,
+      "verloren": 6,
+      "legsPlus": 44,
+      "legsMin": 19,
+      "punten": 48
+    }
+  },
+  {
+    "naam": "Michiel",
+    "gespeeld": 29,
+    "gewonnen": 7,
+    "verloren": 22,
+    "legsPlus": 20,
+    "legsMin": 49,
+    "punten": 23,
+    "matchen": [
+      {
+        "id": "2025-09-19_Michiel_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Milan_vs_Michiel_2-0",
+        "datum": "2025-09-19",
+        "thuis": "Milan",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Michiel_vs_Kenji_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dominique_vs_Michiel_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Dominique",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Michiel_vs_Kristof M_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Michiel",
+        "uit": "Kristof M",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Michiel_vs_Cissen_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Michiel",
+        "uit": "Cissen",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Michiel_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dominique_vs_Michiel_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Dominique",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Michiel_vs_Dennis_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Michiel",
+        "uit": "Dennis",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof M_vs_Michiel_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Kristof M",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Nico D_vs_Michiel_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Nico D",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Michiel_vs_Dennis_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Michiel",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Redgy_vs_Michiel_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Redgy",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dave_vs_Michiel_2-1",
+        "datum": "2026-02-20",
+        "thuis": "Dave",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Michiel_vs_Dominique_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Michiel",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Michiel_vs_Kristof T_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Michiel",
+        "uit": "Kristof T",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Michiel_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Michiel_vs_Bram_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Michiel",
+        "uit": "Bram",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Michiel_1-2",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Michiel",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dominique_vs_Michiel_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dominique",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Michiel_vs_Dennis_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Michiel",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dennis_vs_Michiel_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Dennis",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Michiel_vs_Dominique_1-2",
+        "datum": "2026-04-10",
+        "thuis": "Michiel",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Redgy_vs_Michiel_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Redgy",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof T_vs_Michiel_1-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof T",
+        "uit": "Michiel",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Jurgen_vs_Michiel_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Jurgen",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Michiel_vs_Dave_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Michiel",
+        "uit": "Dave",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Ewoud_vs_Michiel_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Ewoud",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dave_vs_Michiel_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Dave",
+        "uit": "Michiel",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-09-19_Michiel_1",
+        "datum": "2025-09-19",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2025-11-21_Michiel_5",
+        "datum": "2025-11-21",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-01-16_Michiel_5",
+        "datum": "2026-01-16",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-01-30_Michiel_3",
+        "datum": "2026-01-30",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-02-20_Michiel_3",
+        "datum": "2026-02-20",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-04-10_Michiel_1",
+        "datum": "2026-04-10",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Michiel_3",
+        "datum": "2026-05-29",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-06-26_Michiel_1",
+        "datum": "2026-06-26",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-11-21",
+        "score": 180,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 125,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 27,
+      "gewonnen": 6,
+      "verloren": 21,
+      "legsPlus": 18,
+      "legsMin": 46,
+      "punten": 20
+    }
+  },
+  {
+    "naam": "Nico D",
+    "gespeeld": 26,
+    "gewonnen": 19,
+    "verloren": 7,
+    "legsPlus": 40,
+    "legsMin": 25,
+    "punten": 43,
+    "matchen": [
+      {
+        "id": "2025-09-19_Michiel_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Michiel",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Kenji_vs_Nico D_0-2",
+        "datum": "2025-09-19",
+        "thuis": "Kenji",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-09-19_Nico D_vs_Milan_2-1",
+        "datum": "2025-09-19",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dante_vs_Nico D_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Dante",
+        "uit": "Nico D",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Nico B_vs_Nico D_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Nico B",
+        "uit": "Nico D",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Nico D_vs_Ewoud_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Nico D",
+        "uit": "Ewoud",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Nico D_vs_Michiel_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Nico D",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Redgy_vs_Nico D_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Redgy",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Dennis_vs_Nico D_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Dennis",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Nico D_vs_Nico B_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Nico D",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Nico D_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Nico D",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof M_vs_Nico D_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Kristof M",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Nico D_vs_Ewoud_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Nico D",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico D_vs_Kristof M_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Nico D",
+        "uit": "Kristof M",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico D_vs_Bjorn_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Nico D",
+        "uit": "Bjorn",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico D_vs_Ewoud_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Nico D",
+        "uit": "Ewoud",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Nico D_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Diego_vs_Nico D_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Diego",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico D_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico D",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Chris_vs_Nico D_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Chris",
+        "uit": "Nico D",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Philippe_vs_Nico D_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Philippe",
+        "uit": "Nico D",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Nico D_vs_Hannek_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Nico D",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Chris_vs_Nico D_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Chris",
+        "uit": "Nico D",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Hannek_vs_Nico D_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Hannek",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Nico D_vs_Kenji_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Nico D",
+        "uit": "Kenji",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2026-01-30_Nico D_8",
+        "datum": "2026-01-30",
+        "hoeveelheid": 8
+      },
+      {
+        "id": "2026-02-20_Nico D_4",
+        "datum": "2026-02-20",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-03-13_Nico D_2",
+        "datum": "2026-03-13",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-05-15_Nico D_4",
+        "datum": "2026-05-15",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-05-29_Nico D_1",
+        "datum": "2026-05-29",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-09-19",
+        "score": 122,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-09-19",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 135,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 120,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 105,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 101,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 125,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2026-06-26",
+        "score": 100,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 23,
+      "gewonnen": 17,
+      "verloren": 6,
+      "legsPlus": 36,
+      "legsMin": 21,
+      "punten": 39
+    }
+  },
+  {
+    "naam": "Bram",
+    "gespeeld": 7,
+    "gewonnen": 2,
+    "verloren": 5,
+    "legsPlus": 4,
+    "legsMin": 10,
+    "punten": 5,
+    "matchen": [
+      {
+        "id": "2025-10-17_Bram_vs_Dominique_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Bram",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bram_vs_Chris_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Bram",
+        "uit": "Chris",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bram_vs_Dante_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Bram",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Michiel_vs_Bram_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Michiel",
+        "uit": "Bram",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dominique_vs_Bram_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dominique",
+        "uit": "Bram",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Bram_vs_Dennis_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Bram",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Bram_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Bram",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-10-17_Bram_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 7,
+      "gewonnen": 2,
+      "verloren": 5,
+      "legsPlus": 4,
+      "legsMin": 10,
+      "punten": 5
+    }
+  },
+  {
+    "naam": "Dominique",
+    "gespeeld": 25,
+    "gewonnen": 10,
+    "verloren": 15,
+    "legsPlus": 22,
+    "legsMin": 33,
+    "punten": 24,
+    "matchen": [
+      {
+        "id": "2025-10-17_Bram_vs_Dominique_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Bram",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Dante_vs_Dominique_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Dante",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Dominique_vs_Chris_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Dominique",
+        "uit": "Chris",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dominique_vs_Michiel_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Dominique",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Dominique_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof M_vs_Dominique_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Kristof M",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Cissen_vs_Dominique_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Cissen",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dominique_vs_Michiel_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Dominique",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof M_vs_Dominique_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Kristof M",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dennis_vs_Dominique_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Dennis",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof T_vs_Dominique_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Kristof T",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Michiel_vs_Dominique_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Michiel",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dominique_vs_Dave_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Dominique",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Jari_vs_Dominique_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Jari",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dennis_vs_Dominique_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Dennis",
+        "uit": "Dominique",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dominique_vs_Bram_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dominique",
+        "uit": "Bram",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dominique_vs_Michiel_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dominique",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Dominique_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Redgy_vs_Dominique_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Redgy",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Michiel_vs_Dominique_1-2",
+        "datum": "2026-04-10",
+        "thuis": "Michiel",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dominique_vs_Dennis_1-2",
+        "datum": "2026-04-10",
+        "thuis": "Dominique",
+        "uit": "Dennis",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Nico B_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Nico B",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dave_vs_Dominique_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Dave",
+        "uit": "Dominique",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Dominique_vs_Kristof T_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Dominique",
+        "uit": "Kristof T",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Ewoud_vs_Dominique_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Ewoud",
+        "uit": "Dominique",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-10-17_Dominique_6",
+        "datum": "2025-10-17",
+        "hoeveelheid": 6
+      },
+      {
+        "id": "2025-11-21_Dominique_4",
+        "datum": "2025-11-21",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-01-16_Dominique_2",
+        "datum": "2026-01-16",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-02-20_Dominique_6",
+        "datum": "2026-02-20",
+        "hoeveelheid": 6
+      },
+      {
+        "id": "2026-04-10_Dominique_5",
+        "datum": "2026-04-10",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-05-15_Dominique_4",
+        "datum": "2026-05-15",
+        "hoeveelheid": 4
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2026-04-10",
+        "score": 109,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 25,
+      "gewonnen": 10,
+      "verloren": 15,
+      "legsPlus": 22,
+      "legsMin": 33,
+      "punten": 24
+    }
+  },
+  {
+    "naam": "Chris",
+    "gespeeld": 29,
+    "gewonnen": 24,
+    "verloren": 5,
+    "legsPlus": 50,
+    "legsMin": 21,
+    "punten": 54,
+    "matchen": [
+      {
+        "id": "2025-10-17_Chris_vs_Dante_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Chris",
+        "uit": "Dante",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bram_vs_Chris_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Bram",
+        "uit": "Chris",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Dominique_vs_Chris_0-2",
+        "datum": "2025-10-17",
+        "thuis": "Dominique",
+        "uit": "Chris",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Chris_vs_Ewoud_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Chris",
+        "uit": "Ewoud",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Chris_vs_Redgy_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Chris",
+        "uit": "Redgy",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Chris_vs_Dave_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Chris",
+        "uit": "Dave",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Diego_vs_Chris_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Diego",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Chris_vs_Hannek_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Chris_vs_Jurgen_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Chris",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kenji_vs_Chris_1-2",
+        "datum": "2026-01-16",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Chris_vs_Hannek_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kenji_vs_Chris_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Milan_vs_Chris_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Milan",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Chris_vs_Cissen_2-1",
+        "datum": "2026-02-20",
+        "thuis": "Chris",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Chris_vs_Kenji_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Chris",
+        "uit": "Kenji",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Chris_vs_Hannek_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Chris_vs_Dante_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Chris",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kenji_vs_Chris_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Milan_vs_Chris_1-2",
+        "datum": "2026-03-13",
+        "thuis": "Milan",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Chris_vs_Dante_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Chris",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kenji_vs_Chris_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Bjorn_vs_Chris_0-2",
+        "datum": "2026-04-10",
+        "thuis": "Bjorn",
+        "uit": "Chris",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Kurt_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Kurt",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kenji_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kenji",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Cissen_vs_Chris_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Cissen",
+        "uit": "Chris",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Chris_vs_Hannek_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Chris_vs_Nico D_2-1",
+        "datum": "2026-05-29",
+        "thuis": "Chris",
+        "uit": "Nico D",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-05-29_Chris_vs_Hannek_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-05-29_Chris_vs_Philippe_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Chris",
+        "uit": "Philippe",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": false
+      },
+      {
+        "id": "2026-06-26_Chris_vs_Nico D_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Chris",
+        "uit": "Nico D",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Chris_vs_Kenji_0-2",
+        "datum": "2026-06-26",
+        "thuis": "Chris",
+        "uit": "Kenji",
+        "uitslag": "0-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Chris_vs_Hannek_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Chris",
+        "uit": "Hannek",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2026-02-20_Chris_1",
+        "datum": "2026-02-20",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Chris_1",
+        "datum": "2026-05-29",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 123,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2025-11-21",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 180,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 123,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 101,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 136,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 117,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 140,
+        "hoeveelheid": 4
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 116,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 121,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 132,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 106,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 125,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 121,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 127,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 180,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2026-01-30",
+        "score": 52,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 65,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 70,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 80,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 127,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 60,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 26,
+      "gewonnen": 22,
+      "verloren": 4,
+      "legsPlus": 46,
+      "legsMin": 19,
+      "punten": 50
+    }
+  },
+  {
+    "naam": "Dante",
+    "gespeeld": 28,
+    "gewonnen": 16,
+    "verloren": 12,
+    "legsPlus": 38,
+    "legsMin": 30,
+    "punten": 42,
+    "matchen": [
+      {
+        "id": "2025-10-17_Chris_vs_Dante_2-1",
+        "datum": "2025-10-17",
+        "thuis": "Chris",
+        "uit": "Dante",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Dante_vs_Dominique_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Dante",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-10-17_Bram_vs_Dante_2-0",
+        "datum": "2025-10-17",
+        "thuis": "Bram",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Cissen_2-1",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Cissen",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Dominique_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Michiel_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Michiel",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Kristof M_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Kristof M",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dante_vs_Nico D_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Dante",
+        "uit": "Nico D",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dante_vs_Ewoud_0-2",
+        "datum": "2026-01-16",
+        "thuis": "Dante",
+        "uit": "Ewoud",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dante_vs_Nico B_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Dante",
+        "uit": "Nico B",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kurt_vs_Dante_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Kurt",
+        "uit": "Dante",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Dante_vs_Cissen_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Dante",
+        "uit": "Cissen",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Ewoud_vs_Dante_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Ewoud",
+        "uit": "Dante",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dante_vs_Jurgen_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Dante",
+        "uit": "Jurgen",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dante_vs_Philippe_2-1",
+        "datum": "2026-02-20",
+        "thuis": "Dante",
+        "uit": "Philippe",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Dante_vs_Milan_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Dante",
+        "uit": "Milan",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Chris_vs_Dante_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Chris",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dante_vs_Milan_2-0",
+        "datum": "2026-03-13",
+        "thuis": "Dante",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kenji_vs_Dante_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Kenji",
+        "uit": "Dante",
+        "uitslag": "2-1",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Chris_vs_Dante_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Chris",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dante_vs_Bjorn_1-2",
+        "datum": "2026-04-10",
+        "thuis": "Dante",
+        "uit": "Bjorn",
+        "uitslag": "1-2",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Kenji_vs_Dante_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Kenji",
+        "uit": "Dante",
+        "uitslag": "2-0",
+        "groep": "Groep1",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kurt_vs_Dante_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kurt",
+        "uit": "Dante",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Dante_vs_Milan_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Dante",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof M_vs_Dante_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof M",
+        "uit": "Dante",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dante_vs_Diego_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Dante",
+        "uit": "Diego",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dante_vs_Kurt_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Dante",
+        "uit": "Kurt",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dante_vs_Kristof M_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Dante",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-10-17_Dante_1",
+        "datum": "2025-10-17",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-16_Dante_5",
+        "datum": "2026-01-16",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-01-30_Dante_4",
+        "datum": "2026-01-30",
+        "hoeveelheid": 4
+      },
+      {
+        "id": "2026-02-20_Dante_2",
+        "datum": "2026-02-20",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-03-13_Dante_2",
+        "datum": "2026-03-13",
+        "hoeveelheid": 2
+      },
+      {
+        "id": "2026-04-10_Dante_3",
+        "datum": "2026-04-10",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-06-26_Dante_1",
+        "datum": "2026-06-26",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-06-26_Dante_2",
+        "datum": "2026-06-26",
+        "hoeveelheid": 2
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 134,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-16",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-01-30",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-04-10",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 140,
+        "hoeveelheid": 2
+      },
+      {
+        "datum": "2026-06-26",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [
+      {
+        "datum": "2025-10-17",
+        "score": 110,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-02-20",
+        "score": 107,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-03-13",
+        "score": 90,
+        "hoeveelheid": 1
+      }
+    ],
+    "vorigeData": {
+      "gespeeld": 25,
+      "gewonnen": 14,
+      "verloren": 11,
+      "legsPlus": 33,
+      "legsMin": 27,
+      "punten": 37
+    }
+  },
+  {
+    "naam": "Kristof M",
+    "gespeeld": 27,
+    "gewonnen": 15,
+    "verloren": 12,
+    "legsPlus": 35,
+    "legsMin": 29,
+    "punten": 37,
+    "matchen": [
+      {
+        "id": "2025-11-21_Cissen_vs_Kristof M_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Cissen",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Michiel_vs_Kristof M_0-2",
+        "datum": "2025-11-21",
+        "thuis": "Michiel",
+        "uit": "Kristof M",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Kristof M_vs_Dominique_2-0",
+        "datum": "2025-11-21",
+        "thuis": "Kristof M",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2025-11-21_Dante_vs_Kristof M_1-2",
+        "datum": "2025-11-21",
+        "thuis": "Dante",
+        "uit": "Kristof M",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof M_vs_Dennis_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Kristof M",
+        "uit": "Dennis",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof M_vs_Dominique_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Kristof M",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Kristof M_vs_Michiel_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Kristof M",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kristof M_vs_Nico B_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Kristof M",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Kristof T_vs_Kristof M_2-1",
+        "datum": "2026-01-30",
+        "thuis": "Kristof T",
+        "uit": "Kristof M",
+        "uitslag": "2-1",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Bjorn_vs_Kristof M_2-0",
+        "datum": "2026-01-30",
+        "thuis": "Bjorn",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Ewoud_vs_Kristof M_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Ewoud",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof M_vs_Nico B_2-0",
+        "datum": "2026-02-20",
+        "thuis": "Kristof M",
+        "uit": "Nico B",
+        "uitslag": "2-0",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Kristof M_vs_Nico D_1-2",
+        "datum": "2026-02-20",
+        "thuis": "Kristof M",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-02-20_Bjorn_vs_Kristof M_0-2",
+        "datum": "2026-02-20",
+        "thuis": "Bjorn",
+        "uit": "Kristof M",
+        "uitslag": "0-2",
+        "groep": "Groep3",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Nico D_vs_Kristof M_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Nico D",
+        "uit": "Kristof M",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Ewoud_vs_Kristof M_1-2",
+        "datum": "2026-03-13",
+        "thuis": "Ewoud",
+        "uit": "Kristof M",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Kristof M_vs_Bjorn_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Kristof M",
+        "uit": "Bjorn",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Nico D_1-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Philippe_0-2",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Philippe",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Diego_2-0",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Diego",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-15_Kristof M_vs_Milan_2-1",
+        "datum": "2026-05-15",
+        "thuis": "Kristof M",
+        "uit": "Milan",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof M_vs_Milan_2-0",
+        "datum": "2026-05-29",
+        "thuis": "Kristof M",
+        "uit": "Milan",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof M_vs_Kurt_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof M",
+        "uit": "Kurt",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-05-29_Kristof M_vs_Dante_0-2",
+        "datum": "2026-05-29",
+        "thuis": "Kristof M",
+        "uit": "Dante",
+        "uitslag": "0-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kurt_vs_Kristof M_2-1",
+        "datum": "2026-06-26",
+        "thuis": "Kurt",
+        "uit": "Kristof M",
+        "uitslag": "2-1",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Kristof M_vs_Diego_1-2",
+        "datum": "2026-06-26",
+        "thuis": "Kristof M",
+        "uit": "Diego",
+        "uitslag": "1-2",
+        "groep": "Groep2",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-06-26_Dante_vs_Kristof M_2-0",
+        "datum": "2026-06-26",
+        "thuis": "Dante",
+        "uit": "Kristof M",
+        "uitslag": "2-0",
+        "groep": "Groep2",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2025-11-21_Kristof M_1",
+        "datum": "2025-11-21",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-01-16_Kristof M_3",
+        "datum": "2026-01-16",
+        "hoeveelheid": 3
+      },
+      {
+        "id": "2026-01-30_Kristof M_1",
+        "datum": "2026-01-30",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-05-29_Kristof M_1",
+        "datum": "2026-05-29",
+        "hoeveelheid": 1
+      },
+      {
+        "id": "2026-06-26_Kristof M_1",
+        "datum": "2026-06-26",
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteWorpen": [
+      {
+        "datum": "2026-01-16",
+        "score": 102,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-15",
+        "score": 140,
+        "hoeveelheid": 1
+      },
+      {
+        "datum": "2026-05-29",
+        "score": 140,
+        "hoeveelheid": 1
+      }
+    ],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 24,
+      "gewonnen": 15,
+      "verloren": 9,
+      "legsPlus": 33,
+      "legsMin": 23,
+      "punten": 35
+    }
+  },
+  {
+    "naam": "Dennis",
+    "gespeeld": 13,
+    "gewonnen": 8,
+    "verloren": 5,
+    "legsPlus": 19,
+    "legsMin": 13,
+    "punten": 20,
+    "matchen": [
+      {
+        "id": "2026-01-16_Kristof M_vs_Dennis_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Kristof M",
+        "uit": "Dennis",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Michiel_vs_Dennis_2-1",
+        "datum": "2026-01-16",
+        "thuis": "Michiel",
+        "uit": "Dennis",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-16_Dennis_vs_Dominique_2-0",
+        "datum": "2026-01-16",
+        "thuis": "Dennis",
+        "uit": "Dominique",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Redgy_vs_Dennis_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Redgy",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Michiel_vs_Dennis_0-2",
+        "datum": "2026-01-30",
+        "thuis": "Michiel",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-01-30_Dennis_vs_Nico D_1-2",
+        "datum": "2026-01-30",
+        "thuis": "Dennis",
+        "uit": "Nico D",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dennis_vs_Dominique_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Dennis",
+        "uit": "Dominique",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Dave_vs_Dennis_2-1",
+        "datum": "2026-03-13",
+        "thuis": "Dave",
+        "uit": "Dennis",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Bram_vs_Dennis_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Bram",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-03-13_Michiel_vs_Dennis_0-2",
+        "datum": "2026-03-13",
+        "thuis": "Michiel",
+        "uit": "Dennis",
+        "uitslag": "0-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dennis_vs_Michiel_2-1",
+        "datum": "2026-04-10",
+        "thuis": "Dennis",
+        "uit": "Michiel",
+        "uitslag": "2-1",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Redgy_vs_Dennis_2-0",
+        "datum": "2026-04-10",
+        "thuis": "Redgy",
+        "uit": "Dennis",
+        "uitslag": "2-0",
+        "groep": "Groep4",
+        "puntenTellen": true
+      },
+      {
+        "id": "2026-04-10_Dominique_vs_Dennis_1-2",
+        "datum": "2026-04-10",
+        "thuis": "Dominique",
+        "uit": "Dennis",
+        "uitslag": "1-2",
+        "groep": "Groep4",
+        "puntenTellen": true
+      }
+    ],
+    "boetes": [
+      {
+        "id": "2026-01-16_Dennis_5",
+        "datum": "2026-01-16",
+        "hoeveelheid": 5
+      },
+      {
+        "id": "2026-04-10_Dennis_5",
+        "datum": "2026-04-10",
+        "hoeveelheid": 5
+      }
+    ],
+    "hoogsteWorpen": [],
+    "hoogsteUitworpen": [],
+    "vorigeData": {
+      "gespeeld": 13,
+      "gewonnen": 8,
+      "verloren": 5,
+      "legsPlus": 19,
+      "legsMin": 13,
+      "punten": 20
+    }
+  }
+]

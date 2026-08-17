@@ -1,0 +1,129 @@
+[
+  {
+    "datum": "2025-09-19",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2025-10-17",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2025-11-21",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-01-16",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-01-30",
+    "type": "inhaal",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-02-20",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-03-13",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-04-10",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-05-15",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-05-29",
+    "type": "inhaal",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+  {
+    "datum": "2026-06-26",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2025-2026"
+  },
+
+  {
+    "datum": "2026-09-18",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2026-10-16",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2026-11-20",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2026-12-18",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2027-01-15",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2027-02-19",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2027-03-12",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2027-04-16",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2027-05-21",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  },
+  {
+    "datum": "2027-06-25",
+    "type": "speeldag",
+    "tijd": "19:30",
+    "seizoen": "2026-2027"
+  }
+]
