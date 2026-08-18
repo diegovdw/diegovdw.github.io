@@ -2245,36 +2245,106 @@ function genereerRoundRobinRondes(spelers) {
 
   const deelnemers = spelers.slice();
 
+  // Bij een oneven aantal spelers voegen we een bye toe.
   if (deelnemers.length % 2 !== 0) {
     deelnemers.push(null);
   }
 
   const totaal = deelnemers.length;
-
   const rondes = totaal - 1;
+  const helft = totaal / 2;
 
-  const half = totaal / 2;
+  // --------------------------------------------------
+  // 1. Eerst alle wedstrijden genereren
+  // --------------------------------------------------
 
-  const schema = [];
+  const rondesZonderStartrecht = [];
 
   for (let ronde = 0; ronde < rondes; ronde += 1) {
     const wedstrijden = [];
 
-    for (let i = 0; i < half; i += 1) {
+    for (let i = 0; i < helft; i += 1) {
       const speler1 = deelnemers[i];
-
       const speler2 = deelnemers[totaal - 1 - i];
 
       if (speler1 && speler2) {
-        wedstrijden.push({ speler1, speler2 });
+        wedstrijden.push({
+          speler1,
+          speler2
+        });
       }
     }
 
+    rondesZonderStartrecht.push(wedstrijden);
+
+    // Round-robin rotatie:
+    // speler op positie 0 blijft staan.
+    // De rest roteert.
+    const [rotatieSpeler] = deelnemers.splice(1, 1);
+    deelnemers.splice(totaal - 1, 0, rotatieSpeler);
+  }
+
+  // --------------------------------------------------
+  // 2. Startrecht zo eerlijk mogelijk verdelen
+  // --------------------------------------------------
+
+  const aantalStarts = new Map();
+
+  spelers.forEach(speler => {
+    aantalStarts.set(speler, 0);
+  });
+
+  const schema = [];
+
+  for (let ronde = 0; ronde < rondesZonderStartrecht.length; ronde += 1) {
+    const wedstrijden = [];
+
+    for (let wedstrijdIndex = 0; wedstrijdIndex < rondesZonderStartrecht[ronde].length; wedstrijdIndex += 1) {
+      let { speler1, speler2 } =
+        rondesZonderStartrecht[ronde][wedstrijdIndex];
+
+      const starts1 = aantalStarts.get(speler1);
+      const starts2 = aantalStarts.get(speler2);
+
+      // ------------------------------------------------
+      // Eerste wedstrijd:
+      // de eerste speler uit de oorspronkelijke lijst
+      // mag altijd starten.
+      // ------------------------------------------------
+
+      if (ronde === 0 && wedstrijdIndex === 0) {
+        // speler1 blijft staan
+      }
+
+      // ------------------------------------------------
+      // Daarna:
+      // degene met de minste starts krijgt voorrang.
+      // ------------------------------------------------
+
+      else if (starts2 < starts1) {
+        [speler1, speler2] = [speler2, speler1];
+      }
+
+      // Bij gelijk aantal starts wisselen we op basis
+      // van ronde + wedstrijd om patronen te voorkomen.
+      else if (starts1 === starts2) {
+        if ((ronde + wedstrijdIndex) % 2 === 1) {
+          [speler1, speler2] = [speler2, speler1];
+        }
+      }
+
+      wedstrijden.push({
+        speler1,
+        speler2
+      });
+
+      aantalStarts.set(
+        speler1,
+        aantalStarts.get(speler1) + 1
+      );
+    }
+
     schema.push(wedstrijden);
-
-    const [eersteNaKop] = deelnemers.splice(1, 1);
-
-    deelnemers.splice(totaal - 1, 0, eersteNaKop);
   }
 
   return schema;
