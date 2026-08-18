@@ -90,6 +90,38 @@
             id="deelnemers-lijst"
             class="grid gap-2 sm:grid-cols-2 xl:grid-cols-3"
           ></div>
+          <div class="mt-4 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4">
+          <h3 class="text-sm font-semibold text-gray-900">
+            Nieuwe speler toevoegen
+          </h3>
+
+          <p class="mt-1 text-xs text-gray-500">
+            Spelers die nog niet in het klassement staan, worden achteraan toegevoegd
+            met 0 punten.
+          </p>
+
+          <div class="mt-3 flex flex-col gap-2 sm:flex-row">
+            <input
+              id="nieuwe-speler-naam"
+              type="text"
+              placeholder="Naam nieuwe speler"
+              autocomplete="off"
+              class="flex-1 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm focus:border-[#76A936] focus:ring-[#76A936]"
+              style="text-transform: capitalize;"
+            />
+
+            <button
+              id="voeg-speler-toe"
+              type="button"
+              class="inline-flex items-center justify-center rounded-lg bg-[#76A936] px-4 py-2 text-sm font-medium text-white shadow hover:bg-[#5f882b] transition-colors"
+            >
+              <i class="fa-solid fa-user-plus mr-2"></i>
+              Speler toevoegen
+            </button>
+          </div>
+
+          <p id="nieuwe-speler-feedback" class="mt-2 text-sm"></p>
+        </div>
         </div>
 
         <div

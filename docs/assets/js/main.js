@@ -1217,26 +1217,34 @@ function toonSpeeldagDetails(spelers, speeldagDatum) {
 
 function toonToernooiGroepen(spelers, kalender = []) {
   const deelnemersContainer = document.getElementById("deelnemers-lijst");
-
   const feedbackElement = document.getElementById("groep-feedback");
-
   const groepenContainer = document.getElementById("groepen-resultaten");
-
   const wedstrijdenContainer = document.getElementById(
     "wedstrijden-visualisatie",
   );
 
   const exportKnop = document.getElementById("exporteer-csv");
-
   const selecteerAlleKnop = document.getElementById("selecteer-alle");
-
   const deselecteerAlleKnop = document.getElementById("deselecteer-alle");
 
   const datumInput = document.getElementById("toernooi-datum");
-
   const csvFeedback = document.getElementById("csv-feedback");
-  const gebruikGroepVierToggle = document.getElementById("gebruik-groep-4");
-  const reverseVerdelingToggle = document.getElementById("reverse-verdeling");
+
+  const gebruikGroepVierToggle =
+    document.getElementById("gebruik-groep-4");
+
+  const reverseVerdelingToggle =
+    document.getElementById("reverse-verdeling");
+
+  // Elementen voor nieuwe spelers
+  const nieuweSpelerNaamInput =
+    document.getElementById("nieuwe-speler-naam");
+
+  const voegSpelerToeKnop =
+    document.getElementById("voeg-speler-toe");
+
+  const nieuweSpelerFeedback =
+    document.getElementById("nieuwe-speler-feedback");
 
   if (
     !deelnemersContainer ||
@@ -1253,41 +1261,69 @@ function toonToernooiGroepen(spelers, kalender = []) {
     datumInput.value = toernooiDatum;
   }
 
-  const gesorteerdeSpelers = sorteerSpelersOpKlassement(spelers);
+  /*
+   * Bestaande spelers worden volgens het klassement gesorteerd.
+   *
+   * Nieuwe spelers worden later met push() toegevoegd en worden
+   * dus bewust NIET opnieuw gesorteerd.
+   */
+  let gesorteerdeSpelers = sorteerSpelersOpKlassement(spelers);
 
+  /*
+   * Rangnummer per speler.
+   */
   const rangIndex = new Map();
 
   gesorteerdeSpelers.forEach((speler, index) => {
     rangIndex.set(speler.naam, index + 1);
   });
 
-  const standaardCsvTekst = csvFeedback ? csvFeedback.textContent : "";
+  const standaardCsvTekst = csvFeedback
+    ? csvFeedback.textContent
+    : "";
+
   const haalGroepOpties = () => ({
     gebruikGroepVier: gebruikGroepVierToggle
       ? gebruikGroepVierToggle.checked
       : true,
-    reverse: reverseVerdelingToggle ? reverseVerdelingToggle.checked : true,
+
+    reverse: reverseVerdelingToggle
+      ? reverseVerdelingToggle.checked
+      : true,
   });
 
   let laatsteWedstrijden = [];
-
   let csvResetTimeout = null;
+
+  /*
+   * ------------------------------------------------------------
+   * CSV FEEDBACK
+   * ------------------------------------------------------------
+   */
 
   const resetCsvFeedback = () => {
     if (!csvFeedback) return;
 
     if (csvResetTimeout) {
       clearTimeout(csvResetTimeout);
-
       csvResetTimeout = null;
     }
 
     csvFeedback.textContent = standaardCsvTekst;
 
-    csvFeedback.classList.remove("text-green-600", "text-red-600");
+    csvFeedback.classList.remove(
+      "text-green-600",
+      "text-red-600",
+    );
 
     csvFeedback.classList.add("text-gray-500");
   };
+
+  /*
+   * ------------------------------------------------------------
+   * GROEP FEEDBACK
+   * ------------------------------------------------------------
+   */
 
   const setFeedback = (bericht, type = "info") => {
     const basisKlassen = [
@@ -1323,6 +1359,12 @@ function toonToernooiGroepen(spelers, kalender = []) {
     feedbackElement.textContent = bericht;
   };
 
+  /*
+   * ------------------------------------------------------------
+   * GROEPEN RENDEREN
+   * ------------------------------------------------------------
+   */
+
   const renderGroepen = (groepen) => {
     groepenContainer.innerHTML = "";
 
@@ -1334,7 +1376,8 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
       const titel = document.createElement("h3");
 
-      titel.className = "text-base font-semibold text-gray-900";
+      titel.className =
+        "text-base font-semibold text-gray-900";
 
       titel.textContent = groep.naam;
 
@@ -1342,18 +1385,24 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
       const subTitel = document.createElement("p");
 
-      subTitel.className = "text-xs text-gray-500 mb-3";
+      subTitel.className =
+        "text-xs text-gray-500 mb-3";
 
-      subTitel.textContent = `${groep.spelers.length} speler${groep.spelers.length === 1 ? "" : "s"}`;
+      subTitel.textContent =
+        `${groep.spelers.length} speler${
+          groep.spelers.length === 1 ? "" : "s"
+        }`;
 
       kaart.appendChild(subTitel);
 
       if (groep.spelers.length === 0) {
         const leeg = document.createElement("p");
 
-        leeg.className = "text-sm text-gray-400 italic";
+        leeg.className =
+          "text-sm text-gray-400 italic";
 
-        leeg.textContent = "Nog geen spelers geselecteerd";
+        leeg.textContent =
+          "Nog geen spelers geselecteerd";
 
         kaart.appendChild(leeg);
       } else {
@@ -1369,7 +1418,8 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
           const naamSpan = document.createElement("span");
 
-          naamSpan.className = "font-medium text-gray-900";
+          naamSpan.className =
+            "font-medium text-gray-900";
 
           naamSpan.textContent = speler.naam;
 
@@ -1377,13 +1427,17 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
           const details = document.createElement("span");
 
-          details.className = "text-xs text-gray-500";
+          details.className =
+            "text-xs text-gray-500";
 
-          const rang = rangIndex.get(speler.naam) || "";
+          const rang =
+            rangIndex.get(speler.naam) || "";
 
-          const punten = speler.punten ?? 0;
+          const punten =
+            speler.punten ?? 0;
 
-          details.textContent = `#${rang} • ${punten} ptn`;
+          details.textContent =
+            `#${rang} • ${punten} ptn`;
 
           item.appendChild(details);
 
@@ -1397,6 +1451,12 @@ function toonToernooiGroepen(spelers, kalender = []) {
     });
   };
 
+  /*
+   * ------------------------------------------------------------
+   * WEDSTRIJDEN RENDEREN
+   * ------------------------------------------------------------
+   */
+
   const renderWedstrijden = (schemaPerGroep) => {
     if (!wedstrijdenContainer) return;
 
@@ -1409,14 +1469,16 @@ function toonToernooiGroepen(spelers, kalender = []) {
           Array.isArray(groep.rondes) &&
           groep.rondes.some(
             (ronde) =>
-              Array.isArray(ronde.wedstrijden) && ronde.wedstrijden.length > 0,
+              Array.isArray(ronde.wedstrijden) &&
+              ronde.wedstrijden.length > 0,
           ),
       );
 
     if (!heeftWedstrijden) {
       const melding = document.createElement("p");
 
-      melding.className = "text-sm text-gray-500 italic";
+      melding.className =
+        "text-sm text-gray-500 italic";
 
       melding.textContent =
         "De wedstrijden verschijnen hier zodra er voldoende spelers zijn geselecteerd.";
@@ -1434,13 +1496,16 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
       const header = document.createElement("div");
 
-      header.className = "flex items-center justify-between";
+      header.className =
+        "flex items-center justify-between";
 
       const titel = document.createElement("h3");
 
-      titel.className = "text-base font-semibold text-gray-900";
+      titel.className =
+        "text-base font-semibold text-gray-900";
 
-      titel.textContent = groepSchema.naam;
+      titel.textContent =
+        groepSchema.naam;
 
       header.appendChild(titel);
 
@@ -1449,20 +1514,28 @@ function toonToernooiGroepen(spelers, kalender = []) {
       badge.className =
         "inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600";
 
-      const rondesCount = Array.isArray(groepSchema.rondes)
-        ? groepSchema.rondes.length
-        : 0;
+      const rondesCount =
+        Array.isArray(groepSchema.rondes)
+          ? groepSchema.rondes.length
+          : 0;
 
-      badge.textContent = `${rondesCount} ronde${rondesCount === 1 ? "" : "s"}`;
+      badge.textContent =
+        `${rondesCount} ronde${
+          rondesCount === 1 ? "" : "s"
+        }`;
 
       header.appendChild(badge);
 
       kaart.appendChild(header);
 
-      if (!groepSchema.rondes || groepSchema.rondes.length === 0) {
+      if (
+        !groepSchema.rondes ||
+        groepSchema.rondes.length === 0
+      ) {
         const leeg = document.createElement("p");
 
-        leeg.className = "text-sm text-gray-500";
+        leeg.className =
+          "text-sm text-gray-500";
 
         leeg.textContent =
           "Niet genoeg spelers in deze groep voor wedstrijden.";
@@ -1471,72 +1544,89 @@ function toonToernooiGroepen(spelers, kalender = []) {
       } else {
         const rondesGrid = document.createElement("div");
 
-        rondesGrid.className = "grid gap-4 md:grid-cols-2 xl:grid-cols-3";
+        rondesGrid.className =
+          "grid gap-4 md:grid-cols-2 xl:grid-cols-3";
 
         groepSchema.rondes.forEach((ronde) => {
-          const rondeKaart = document.createElement("div");
+          const rondeKaart =
+            document.createElement("div");
 
           rondeKaart.className =
             "space-y-3 rounded-lg border border-slate-200 bg-slate-50 p-3 shadow-sm";
 
-          const rondeTitel = document.createElement("h4");
+          const rondeTitel =
+            document.createElement("h4");
 
           rondeTitel.className =
             "text-sm font-semibold uppercase tracking-wide text-slate-700";
 
-          rondeTitel.textContent = `Ronde ${ronde.nummer}`;
+          rondeTitel.textContent =
+            `Ronde ${ronde.nummer}`;
 
           rondeKaart.appendChild(rondeTitel);
 
-          const lijst = document.createElement("ul");
+          const lijst =
+            document.createElement("ul");
 
-          lijst.className = "space-y-2";
+          lijst.className =
+            "space-y-2";
 
-          ronde.wedstrijden.forEach((wedstrijd) => {
-            const item = document.createElement("li");
+          ronde.wedstrijden.forEach(
+            (wedstrijd) => {
+              const item =
+                document.createElement("li");
 
-            item.className =
-              "flex items-center justify-between gap-3 rounded-md border border-white bg-white px-3 py-2 shadow-sm grid md:grid-cols-1 xl:grid-cols-3"; //grid md:grid-cols-1 xl:grid-cols-3
+              item.className =
+                "flex items-center justify-between gap-3 rounded-md border border-white bg-white px-3 py-2 shadow-sm grid md:grid-cols-1 xl:grid-cols-3";
 
-            const spelersLabel1 = document.createElement("span");
+              const spelersLabel1 =
+                document.createElement("span");
 
-            spelersLabel1.className = "text-sm text-center font-medium text-gray-900";
+              spelersLabel1.className =
+                "text-sm text-center font-medium text-gray-900";
 
-            spelersLabel1.textContent = `${wedstrijd.speler1.naam}`;
+              spelersLabel1.textContent =
+                wedstrijd.speler1.naam;
 
-            item.appendChild(spelersLabel1);
+              item.appendChild(
+                spelersLabel1,
+              );
 
-            const spelersLabel2 = document.createElement("span");
+              const spelersLabel2 =
+                document.createElement("span");
 
-            spelersLabel2.className = "text-sm text-center font-medium text-gray-900";
+              spelersLabel2.className =
+                "text-sm text-center font-medium text-gray-900";
 
-            spelersLabel2.textContent = `vs`;
+              spelersLabel2.textContent =
+                "vs";
 
-            item.appendChild(spelersLabel2);
+              item.appendChild(
+                spelersLabel2,
+              );
 
-            const spelersLabel3 = document.createElement("span");
+              const spelersLabel3 =
+                document.createElement("span");
 
-            spelersLabel3.className = "text-sm text-center font-medium text-gray-900";
+              spelersLabel3.className =
+                "text-sm text-center font-medium text-gray-900";
 
-            spelersLabel3.textContent = `${wedstrijd.speler2.naam}`;
+              spelersLabel3.textContent =
+                wedstrijd.speler2.naam;
 
-            item.appendChild(spelersLabel3);
+              item.appendChild(
+                spelersLabel3,
+              );
 
-            // const tag = document.createElement("span");
-
-            // tag.className =
-            //   "text-xs font-semibold uppercase tracking-wide text-slate-400";
-
-            // tag.textContent = "Round Robin";
-
-            // item.appendChild(tag);
-
-            lijst.appendChild(item);
-          });
+              lijst.appendChild(item);
+            },
+          );
 
           rondeKaart.appendChild(lijst);
 
-          rondesGrid.appendChild(rondeKaart);
+          rondesGrid.appendChild(
+            rondeKaart,
+          );
         });
 
         kaart.appendChild(rondesGrid);
@@ -1546,28 +1636,63 @@ function toonToernooiGroepen(spelers, kalender = []) {
     });
   };
 
+  /*
+   * ------------------------------------------------------------
+   * CHECKBOXEN
+   * ------------------------------------------------------------
+   */
+
   const checkboxElementen = () =>
-    Array.from(deelnemersContainer.querySelectorAll('input[type="checkbox"]'));
+    Array.from(
+      deelnemersContainer.querySelectorAll(
+        'input[type="checkbox"]',
+      ),
+    );
+
+  /*
+   * ------------------------------------------------------------
+   * GROEPEN BIJWERKEN
+   * ------------------------------------------------------------
+   */
 
   const updateGroepen = () => {
-    const geselecteerdeSpelers = checkboxElementen()
-      .filter((checkbox) => checkbox.checked)
-
-      .map(
-        (checkbox) =>
-          gesorteerdeSpelers[parseInt(checkbox.dataset.index || "0", 10)],
-      )
-
-      .filter(Boolean);
+    const geselecteerdeSpelers =
+      checkboxElementen()
+        .filter(
+          (checkbox) =>
+            checkbox.checked,
+        )
+        .map(
+          (checkbox) =>
+            gesorteerdeSpelers[
+              parseInt(
+                checkbox.dataset.index || "0",
+                10,
+              )
+            ],
+        )
+        .filter(Boolean);
 
     resetCsvFeedback();
 
-    const groepOpties = haalGroepOpties();
+    const groepOpties =
+      haalGroepOpties();
 
-    if (geselecteerdeSpelers.length === 0) {
-      const legeGroepen = verdeelSpelersInGroepen([], groepOpties);
+    /*
+     * Geen spelers geselecteerd.
+     */
+    if (
+      geselecteerdeSpelers.length === 0
+    ) {
+      const legeGroepen =
+        verdeelSpelersInGroepen(
+          [],
+          groepOpties,
+        );
 
-      renderGroepen(legeGroepen);
+      renderGroepen(
+        legeGroepen,
+      );
 
       renderWedstrijden([]);
 
@@ -1583,10 +1708,21 @@ function toonToernooiGroepen(spelers, kalender = []) {
       return;
     }
 
-    if (geselecteerdeSpelers.length < 4) {
-      const legeGroepen = verdeelSpelersInGroepen([], groepOpties);
+    /*
+     * Minder dan vier spelers.
+     */
+    if (
+      geselecteerdeSpelers.length < 4
+    ) {
+      const legeGroepen =
+        verdeelSpelersInGroepen(
+          [],
+          groepOpties,
+        );
 
-      renderGroepen(legeGroepen);
+      renderGroepen(
+        legeGroepen,
+      );
 
       renderWedstrijden([]);
 
@@ -1602,7 +1738,14 @@ function toonToernooiGroepen(spelers, kalender = []) {
       return;
     }
 
-    const groepen = verdeelSpelersInGroepen(geselecteerdeSpelers, groepOpties);
+    /*
+     * Genoeg spelers.
+     */
+    const groepen =
+      verdeelSpelersInGroepen(
+        geselecteerdeSpelers,
+        groepOpties,
+      );
 
     renderGroepen(groepen);
 
@@ -1613,139 +1756,433 @@ function toonToernooiGroepen(spelers, kalender = []) {
 
     exportKnop.disabled = false;
 
-    const datum = datumInput?.value || toernooiDatum || "";
+    const datum =
+      datumInput?.value ||
+      toernooiDatum ||
+      "";
 
-    const roundRobinData = maakWedstrijdenVoorGroepen(groepen, datum);
+    const roundRobinData =
+      maakWedstrijdenVoorGroepen(
+        groepen,
+        datum,
+      );
 
-    renderWedstrijden(roundRobinData.schema);
+    renderWedstrijden(
+      roundRobinData.schema,
+    );
 
-    laatsteWedstrijden = roundRobinData.wedstrijden;
+    laatsteWedstrijden =
+      roundRobinData.wedstrijden;
 
     if (csvFeedback) {
-      const aantalWedstrijden = roundRobinData.wedstrijden.length;
+      const aantalWedstrijden =
+        roundRobinData.wedstrijden.length;
 
-      csvFeedback.textContent = `Het CSV-bestand bevat ${aantalWedstrijden} wedstrijd${aantalWedstrijden === 1 ? "" : "en"} tussen spelers binnen dezelfde groep.`;
+      csvFeedback.textContent =
+        `Het CSV-bestand bevat ${aantalWedstrijden} wedstrijd${
+          aantalWedstrijden === 1
+            ? ""
+            : "en"
+        } tussen spelers binnen dezelfde groep.`;
 
-      csvFeedback.classList.remove("text-green-600", "text-red-600");
+      csvFeedback.classList.remove(
+        "text-green-600",
+        "text-red-600",
+      );
 
-      csvFeedback.classList.add("text-gray-500");
+      csvFeedback.classList.add(
+        "text-gray-500",
+      );
     }
   };
 
-  gesorteerdeSpelers.forEach((speler, index) => {
-    const label = document.createElement("label");
+  /*
+   * ------------------------------------------------------------
+   * SPELER RENDEREN
+   * ------------------------------------------------------------
+   *
+   * Door dit in een aparte functie te zetten kunnen we later
+   * nieuwe spelers toevoegen zonder de volledige lijst opnieuw
+   * te moeten tekenen.
+   */
+
+  const renderSpeler = (speler, index) => {
+    const label =
+      document.createElement("label");
 
     label.className =
       "flex items-center justify-between gap-3 rounded-lg border border-gray-200 bg-white px-3 py-2 shadow-sm hover:border-[#76A936] transition-colors";
 
-    const linkerdeel = document.createElement("div");
+    const linkerdeel =
+      document.createElement("div");
 
-    linkerdeel.className = "flex items-center gap-3";
+    linkerdeel.className =
+      "flex items-center gap-3";
 
-    const checkbox = document.createElement("input");
+    const checkbox =
+      document.createElement("input");
 
     checkbox.type = "checkbox";
 
-    checkbox.value = speler.naam;
+    checkbox.value =
+      speler.naam;
 
-    checkbox.dataset.index = index.toString();
+    checkbox.dataset.index =
+      index.toString();
 
     checkbox.className =
       "h-4 w-4 text-[#76A936] border-gray-300 rounded focus:ring-[#76A936]";
 
-    checkbox.addEventListener("change", updateGroepen);
+    checkbox.addEventListener(
+      "change",
+      updateGroepen,
+    );
 
-    const naamSpan = document.createElement("span");
+    const naamSpan =
+      document.createElement("span");
 
-    naamSpan.className = "font-medium text-gray-900";
+    naamSpan.className =
+      "font-medium text-gray-900";
 
-    naamSpan.textContent = speler.naam;
+    naamSpan.textContent =
+      speler.naam;
 
-    linkerdeel.appendChild(checkbox);
+    linkerdeel.appendChild(
+      checkbox,
+    );
 
-    linkerdeel.appendChild(naamSpan);
+    linkerdeel.appendChild(
+      naamSpan,
+    );
 
-    const details = document.createElement("div");
+    const details =
+      document.createElement("div");
 
-    details.className = "flex flex-col items-end";
+    details.className =
+      "flex flex-col items-end";
 
-    const rangSpan = document.createElement("span");
+    const rangSpan =
+      document.createElement("span");
 
-    rangSpan.className = "text-xs text-gray-500";
+    rangSpan.className =
+      "text-xs text-gray-500";
 
-    rangSpan.textContent = `#${index + 1}`;
+    rangSpan.textContent =
+      `#${index + 1}`;
 
-    const puntenSpan = document.createElement("span");
+    const puntenSpan =
+      document.createElement("span");
 
-    puntenSpan.className = "text-xs font-semibold text-gray-700";
+    puntenSpan.className =
+      "text-xs font-semibold text-gray-700";
 
-    puntenSpan.textContent = `${speler.punten ?? 0} ptn`;
+    puntenSpan.textContent =
+      `${speler.punten ?? 0} ptn`;
 
-    details.appendChild(rangSpan);
+    details.appendChild(
+      rangSpan,
+    );
 
-    details.appendChild(puntenSpan);
+    details.appendChild(
+      puntenSpan,
+    );
 
-    label.appendChild(linkerdeel);
+    label.appendChild(
+      linkerdeel,
+    );
 
-    label.appendChild(details);
+    label.appendChild(
+      details,
+    );
 
-    deelnemersContainer.appendChild(label);
-  });
+    deelnemersContainer.appendChild(
+      label,
+    );
+  };
+
+  /*
+   * ------------------------------------------------------------
+   * BESTAANDE SPELERS TONEN
+   * ------------------------------------------------------------
+   */
+
+  gesorteerdeSpelers.forEach(
+    (speler, index) => {
+      renderSpeler(
+        speler,
+        index,
+      );
+    },
+  );
+
+  /*
+   * ------------------------------------------------------------
+   * NIEUWE SPELER TOEVOEGEN
+   * ------------------------------------------------------------
+   */
+
+  const normaliseerSpelerNaam = (naam) => {
+    return naam
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .replace(/\b\p{L}/gu, (letter) => letter.toUpperCase());
+  };
+
+  const voegNieuweSpelerToe = () => {
+    const naam = normaliseerSpelerNaam(
+      nieuweSpelerNaamInput?.value || "",
+    );
+
+    /*
+     * Geen naam ingevuld.
+     */
+    if (!naam) {
+      if (nieuweSpelerFeedback) {
+        nieuweSpelerFeedback.textContent =
+          "Geef eerst de naam van de nieuwe speler in.";
+
+        nieuweSpelerFeedback.className =
+          "mt-2 text-sm text-red-600";
+      }
+
+      nieuweSpelerNaamInput?.focus();
+
+      return;
+    }
+
+    /*
+     * Controleren of de speler al bestaat.
+     * Hoofdletters/kleine letters worden genegeerd.
+     */
+    const bestaatAl =
+      gesorteerdeSpelers.some(
+        (speler) =>
+          (speler.naam || "")
+            .trim()
+            .toLowerCase() ===
+          naam.toLowerCase(),
+      );
+
+    if (bestaatAl) {
+      if (nieuweSpelerFeedback) {
+        nieuweSpelerFeedback.textContent =
+          `${naam} staat al in de deelnemerslijst.`;
+
+        nieuweSpelerFeedback.className =
+          "mt-2 text-sm text-red-600";
+      }
+
+      nieuweSpelerNaamInput?.select();
+
+      return;
+    }
+
+    /*
+     * Nieuwe speler.
+     *
+     * Omdat we push() gebruiken wordt deze speler
+     * bewust achteraan geplaatst.
+     */
+    const nieuweSpeler = {
+      naam: naam,
+      punten: 0,
+      legsPlus: 0,
+      legsMin: 0,
+      gewonnen: 0,
+    };
+
+    gesorteerdeSpelers.push(
+      nieuweSpeler,
+    );
+
+    /*
+     * Index van de nieuwe speler.
+     */
+    const nieuweIndex =
+      gesorteerdeSpelers.length - 1;
+
+    /*
+     * Rangnummer bewaren.
+     */
+    rangIndex.set(
+      nieuweSpeler.naam,
+      nieuweIndex + 1,
+    );
+
+    /*
+     * Nieuwe speler meteen zichtbaar maken.
+     */
+    renderSpeler(
+      nieuweSpeler,
+      nieuweIndex,
+    );
+
+    /*
+     * Invoerveld leegmaken.
+     */
+    if (nieuweSpelerNaamInput) {
+      nieuweSpelerNaamInput.value = "";
+      nieuweSpelerNaamInput.focus();
+    }
+
+    /*
+     * Feedback tonen.
+     */
+    if (nieuweSpelerFeedback) {
+      nieuweSpelerFeedback.textContent =
+        `${naam} is toegevoegd als nieuwe speler met 0 punten.`;
+
+      nieuweSpelerFeedback.className =
+        "mt-2 text-sm text-green-600";
+    }
+  };
+
+  voegSpelerToeKnop?.addEventListener(
+    "click",
+    voegNieuweSpelerToe,
+  );
+
+  /*
+   * Enter in het naamveld = speler toevoegen.
+   */
+  nieuweSpelerNaamInput?.addEventListener(
+    "keydown",
+    (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        voegNieuweSpelerToe();
+      }
+    },
+  );
+
+  /*
+   * ------------------------------------------------------------
+   * ALLE SPELERS SELECTEREN / DESELECTEREN
+   * ------------------------------------------------------------
+   */
 
   const zetSelectie = (waarde) => {
-    checkboxElementen().forEach((checkbox) => {
-      checkbox.checked = waarde;
-    });
+    checkboxElementen().forEach(
+      (checkbox) => {
+        checkbox.checked = waarde;
+      },
+    );
 
     updateGroepen();
   };
 
-  selecteerAlleKnop?.addEventListener("click", () => zetSelectie(true));
+  selecteerAlleKnop?.addEventListener(
+    "click",
+    () => zetSelectie(true),
+  );
 
-  deselecteerAlleKnop?.addEventListener("click", () => zetSelectie(false));
+  deselecteerAlleKnop?.addEventListener(
+    "click",
+    () => zetSelectie(false),
+  );
 
-  gebruikGroepVierToggle?.addEventListener("change", () => {
-    updateGroepen();
-  });
-  reverseVerdelingToggle?.addEventListener("change", () => {
-    updateGroepen();
-  });
+  /*
+   * ------------------------------------------------------------
+   * GROEP INSTELLINGEN
+   * ------------------------------------------------------------
+   */
 
-  datumInput?.addEventListener("change", () => {
-    if (!exportKnop.disabled) {
+  gebruikGroepVierToggle?.addEventListener(
+    "change",
+    () => {
       updateGroepen();
-    }
-  });
+    },
+  );
 
-  exportKnop.addEventListener("click", () => {
-    if (exportKnop.disabled) return;
+  reverseVerdelingToggle?.addEventListener(
+    "change",
+    () => {
+      updateGroepen();
+    },
+  );
 
-    const csvInhoud = exporteerGroepenNaarCSV(laatsteWedstrijden);
+  /*
+   * ------------------------------------------------------------
+   * DATUM
+   * ------------------------------------------------------------
+   */
 
-    const datum = datumInput?.value || toernooiDatum || "";
-
-    const bestandsNaam = downloadCSVBestand(csvInhoud, datum);
-
-    if (csvFeedback) {
-      csvFeedback.textContent = `CSV geëxporteerd als ${bestandsNaam}.`;
-
-      csvFeedback.classList.remove("text-gray-500", "text-red-600");
-
-      csvFeedback.classList.add("text-green-600");
-
-      if (csvResetTimeout) {
-        clearTimeout(csvResetTimeout);
+  datumInput?.addEventListener(
+    "change",
+    () => {
+      if (!exportKnop.disabled) {
+        updateGroepen();
       }
+    },
+  );
 
-      csvResetTimeout = setTimeout(() => {
-        resetCsvFeedback();
-      }, 4000);
-    }
-  });
+  /*
+   * ------------------------------------------------------------
+   * CSV EXPORT
+   * ------------------------------------------------------------
+   */
 
-  // Initial rendering
+  exportKnop.addEventListener(
+    "click",
+    () => {
+      if (exportKnop.disabled) return;
 
-  renderGroepen(verdeelSpelersInGroepen([], haalGroepOpties()));
+      const csvInhoud =
+        exporteerGroepenNaarCSV(
+          laatsteWedstrijden,
+        );
+
+      const datum =
+        datumInput?.value ||
+        toernooiDatum ||
+        "";
+
+      const bestandsNaam =
+        downloadCSVBestand(
+          csvInhoud,
+          datum,
+        );
+
+      if (csvFeedback) {
+        csvFeedback.textContent =
+          `CSV geëxporteerd als ${bestandsNaam}.`;
+
+        csvFeedback.classList.remove(
+          "text-gray-500",
+          "text-red-600",
+        );
+
+        csvFeedback.classList.add(
+          "text-green-600",
+        );
+
+        if (csvResetTimeout) {
+          clearTimeout(
+            csvResetTimeout,
+          );
+        }
+
+        csvResetTimeout =
+          setTimeout(() => {
+            resetCsvFeedback();
+          }, 4000);
+      }
+    },
+  );
+
+  /*
+   * ------------------------------------------------------------
+   * INITIËLE WEERGAVE
+   * ------------------------------------------------------------
+   */
+
+  renderGroepen(
+    verdeelSpelersInGroepen(
+      [],
+      haalGroepOpties(),
+    ),
+  );
 
   renderWedstrijden([]);
 
