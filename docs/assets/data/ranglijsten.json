@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "datum": "2026-09-18",
+    "klassement": [
+      {
+        "naam": "Dante",
+        "positie": 1,
+        "punten": 8
+      },
+      {
+        "naam": "Kurt",
+        "positie": 2,
+        "punten": 8
+      },
+      {
+        "naam": "Kenji",
+        "positie": 3,
+        "punten": 8
+      },
+      {
+        "naam": "Chris",
+        "positie": 4,
+        "punten": 7
+      },
+      {
+        "naam": "Hannek",
+        "positie": 5,
+        "punten": 7
+      },
+      {
+        "naam": "Digo",
+        "positie": 6,
+        "punten": 6
+      },
+      {
+        "naam": "Diego",
+        "positie": 7,
+        "punten": 5
+      },
+      {
+        "naam": "Philippe",
+        "positie": 8,
+        "punten": 4
+      },
+      {
+        "naam": "Ewoud",
+        "positie": 9,
+        "punten": 4
+      },
+      {
+        "naam": "Kristof M",
+        "positie": 10,
+        "punten": 3
+      },
+      {
+        "naam": "Nico D",
+        "positie": 11,
+        "punten": 3
+      },
+      {
+        "naam": "Michiel",
+        "positie": 12,
+        "punten": 2
+      },
+      {
+        "naam": "Milan",
+        "positie": 13,
+        "punten": 1
+      },
+      {
+        "naam": "Kristof T",
+        "positie": 14,
+        "punten": 1
+      },
+      {
+        "naam": "Dave",
+        "positie": 15,
+        "punten": 0
+      }
+    ]
+  }
+]
